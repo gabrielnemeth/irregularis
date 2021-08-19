@@ -1,5 +1,44 @@
-<ng-container *ngIf='verbs$ | async as verbs'>
-    <div *ngFor='let verb of verbs'>
-        <h3>{{ verb.translation }}</h3>
-    </div>
+<ng-container *ngIf="verbs$ | async as verb">
+    <!-- ToDo: temp solution till verbs get translated. -->
+    <h3>{{ verb.translation ? verb.translation : verb.base }}</h3>
+
+    <form (ngSubmit)="onFormSubmit(verb.base)" [formGroup]="quizForm">
+        <div class="form-group">
+            <label for="base">Base form</label>
+            <input
+                type="text"
+                class="form-control"
+                id="base"
+                formControlName="base"
+            />
+        </div>
+
+        <div class="form-group">
+            <label for="pastSimple">Past Simple</label>
+            <input
+                type="text"
+                class="form-control"
+                id="pastSimple"
+                formControlName="pastSimple"
+            />
+        </div>
+
+        <div class="form-group">
+            <label for="pastParticiple">Past Participle</label>
+            <input
+                type="text"
+                class="form-control"
+                id="pastParticiple"
+                formControlName="pastParticiple"
+            />
+        </div>
+
+        <button
+            type="submit"
+            class="btn btn-success"
+            [disabled]="!quizForm.valid"
+        >
+            Submit
+        </button>
+    </form>
 </ng-container>
