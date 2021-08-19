@@ -38,477 +38,456 @@
     "base": "become",
     "pastSimple": "became",
     "pastParticiple": "become",
-    "translation": "",
-    "level": ""
+    "translation": "stať sa",
+    "level": "a2"
   },
   {
     "base": "begin",
     "pastSimple": "began",
     "pastParticiple": "begun",
-    "translation": "",
-    "level": ""
+    "translation": "začať",
+    "level": "a2"
   },
   {
     "base": "bend",
     "pastSimple": "bent",
     "pastParticiple": "bent",
-    "translation": "",
-    "level": ""
+    "translation": "ohnúť/zohnúť/skrčiť",
+    "level": "b2"
   },
   {
     "base": "bet",
     "pastSimple": "bet",
     "pastParticiple": "bet",
-    "translation": "",
-    "level": ""
-  },
-  {
-    "base": "bid",
-    "pastSimple": "bid",
-    "pastParticiple": "bid",
-    "translation": "",
-    "level": ""
+    "translation": "podať/staviť sa",
+    "level": "c1"
   },
   {
     "base": "bind",
     "pastSimple": "bound",
     "pastParticiple": "bound",
-    "translation": "",
-    "level": ""
+    "translation": "viazať/spútať/spájať",
+    "level": "c2"
   },
   {
     "base": "bite",
     "pastSimple": "bit",
     "pastParticiple": "bitten",
-    "translation": "",
-    "level": ""
+    "translation": "hrýzť/poštípať/popáliť",
+    "level": "b1"
   },
   {
     "base": "bleed",
     "pastSimple": "bled",
     "pastParticiple": "bled",
-    "translation": "",
-    "level": ""
+    "translation": "krvácať",
+    "level": "b1"
   },
   {
     "base": "blow",
     "pastSimple": "blew",
     "pastParticiple": "blown",
-    "translation": "",
-    "level": ""
+    "translation": "fúkať",
+    "level": "b1"
   },
   {
     "base": "break",
     "pastSimple": "broke",
     "pastParticiple": "broken",
-    "translation": "",
-    "level": ""
+    "translation": "rozbiť /zlomiť/ porušiť",
+    "level": "a2"
   },
   {
     "base": "breed",
     "pastSimple": "bred",
     "pastParticiple": "bred",
-    "translation": "",
-    "level": ""
+    "translation": "množiť/chovať",
+    "level": "b2"
   },
   {
     "base": "bring",
     "pastSimple": "brought",
     "pastParticiple": "brought",
-    "translation": "",
-    "level": ""
+    "translation": "priniesť",
+    "level": "a2"
   },
   {
     "base": "build",
     "pastSimple": "built",
     "pastParticiple": "built",
-    "translation": "",
-    "level": ""
+    "translation": "stavať /budovať",
+    "level": "a2"
   },
   {
     "base": "burn",
     "pastSimple": "burnt",
     "pastParticiple": "burnt",
-    "translation": "",
-    "level": ""
-  },
-  {
-    "base": "burst",
-    "pastSimple": "burst",
-    "pastParticiple": "burst",
-    "translation": "",
-    "level": ""
+    "translation": "zhorieť/pripáliť/popáliť/spáliť",
+    "level": "b1"
   },
   {
     "base": "buy",
     "pastSimple": "bought",
     "pastParticiple": "bought",
-    "translation": "",
-    "level": ""
+    "translation": "kúpiť",
+    "level": "a2"
   },
   {
     "base": "cast",
     "pastSimple": "cast",
     "pastParticiple": "cast",
-    "translation": "",
-    "level": ""
+    "translation": "vrhať/zhodiť",
+    "level": "b2"
   },
   {
     "base": "catch",
     "pastSimple": "caught",
     "pastParticiple": "caught",
-    "translation": "",
-    "level": ""
+    "translation": "chytiť /upútať /stihnúť",
+    "level": "a2"
   },
   {
     "base": "choose",
     "pastSimple": "chose",
     "pastParticiple": "chosen",
-    "translation": "",
-    "level": ""
+    "translation": "vybrať/zvoliť",
+    "level": "a2"
   },
   {
     "base": "cling",
     "pastSimple": "clung",
     "pastParticiple": "clung",
-    "translation": "",
-    "level": ""
+    "translation": "lipnúť/držať sa/vysieť",
+    "level": "c2"
   },
   {
     "base": "come",
     "pastSimple": "came",
     "pastParticiple": "come",
-    "translation": "",
-    "level": ""
+    "translation": "prísť",
+    "level": "a2"
   },
   {
     "base": "cost",
     "pastSimple": "cost",
     "pastParticiple": "cost",
-    "translation": "",
-    "level": ""
+    "translation": "stáť",
+    "level": "a2"
   },
   {
     "base": "creep",
     "pastSimple": "crept",
     "pastParticiple": "crept",
-    "translation": "",
-    "level": ""
+    "translation": "plaziť/ťahať/uchmatnúť",
+    "level": "c2"
   },
   {
     "base": "cut",
     "pastSimple": "cut",
     "pastParticiple": "cut",
-    "translation": "",
-    "level": ""
+    "translation": "rezať/krájať/strihať",
+    "level": "a2"
   },
   {
     "base": "deal",
     "pastSimple": "dealt",
     "pastParticiple": "dealt",
-    "translation": "",
-    "level": ""
+    "translation": "rozdať/pojednávať/jednať",
+    "level": "b2"
   },
   {
     "base": "dig",
     "pastSimple": "dug",
     "pastParticiple": "dug",
-    "translation": "",
-    "level": ""
+    "translation": "ryť/kopať",
+    "level": "b1"
   },
   {
     "base": "do",
     "pastSimple": "did",
     "pastParticiple": "done",
-    "translation": "",
-    "level": ""
+    "translation": "urobiť/robiť",
+    "level": "a2"
   },
   {
     "base": "draw",
     "pastSimple": "drew",
     "pastParticiple": "drawn",
-    "translation": "",
-    "level": ""
+    "translation": "kresliť/rysovať/remízovať/prilákať",
+    "level": "a2"
   },
   {
     "base": "dream",
     "pastSimple": "dreamt",
     "pastParticiple": "dreamt",
-    "translation": "",
-    "level": ""
+    "translation": "snívať",
+    "level": "a2"
   },
   {
     "base": "drink",
     "pastSimple": "drank",
     "pastParticiple": "drunk",
-    "translation": "",
-    "level": ""
+    "translation": "piť/pripiť",
+    "level": "a2"
   },
   {
     "base": "drive",
     "pastSimple": "drove",
     "pastParticiple": "driven",
-    "translation": "",
-    "level": ""
+    "translation": "jazdiť/šoférovať/zviezť/priviezť",
+    "level": "a2"
   },
   {
     "base": "eat",
     "pastSimple": "ate",
     "pastParticiple": "eaten",
-    "translation": "",
-    "level": ""
+    "translation": "jesť",
+    "level": "a2"
   },
   {
     "base": "fall",
     "pastSimple": "fell",
     "pastParticiple": "fallen",
-    "translation": "",
-    "level": ""
+    "translation": "spadnúť/klesnúť",
+    "level": "a2"
   },
   {
     "base": "feed",
     "pastSimple": "fed",
     "pastParticiple": "fed",
-    "translation": "",
-    "level": ""
+    "translation": "kŕmiť/živiť",
+    "level": "b1"
   },
   {
     "base": "feel",
     "pastSimple": "felt",
     "pastParticiple": "felt",
-    "translation": "",
-    "level": ""
+    "translation": "cítiť",
+    "level": "a2"
   },
   {
     "base": "fight",
     "pastSimple": "fought",
     "pastParticiple": "fought",
-    "translation": "",
-    "level": ""
+    "translation": "bojovať/zápasiť/biť sa",
+    "level": "b1"
   },
   {
     "base": "find",
     "pastSimple": "found",
     "pastParticiple": "found",
-    "translation": "",
-    "level": ""
+    "translation": "nájsť/zistiť",
+    "level": "a2"
   },
   {
     "base": "flee",
     "pastSimple": "fled",
     "pastParticiple": "fled",
-    "translation": "",
-    "level": ""
+    "translation": "utiecť/uniknúť",
+    "level": "c1"
   },
   {
     "base": "fly",
     "pastSimple": "flew",
     "pastParticiple": "flown",
-    "translation": "",
-    "level": ""
+    "translation": "letieť",
+    "level": "a2"
   },
   {
     "base": "forbid",
     "pastSimple": "forbade",
     "pastParticiple": "forbidden",
-    "translation": "",
-    "level": ""
+    "translation": "zakázať/nedovoliť",
+    "level": "b2"
   },
   {
     "base": "forget",
     "pastSimple": "forgot",
     "pastParticiple": "forgotten",
-    "translation": "",
-    "level": ""
+    "translation": "zabudnúť",
+    "level": "b1"
   },
   {
     "base": "forgive",
     "pastSimple": "forgave",
     "pastParticiple": "forgiven",
-    "translation": "",
-    "level": ""
+    "translation": "odpustiť/prepáčiť",
+    "level": "b1"
   },
   {
     "base": "freeze",
     "pastSimple": "froze",
     "pastParticiple": "frozen",
-    "translation": "",
-    "level": ""
+    "translation": "zamrznúť/zmraziť/vymrznúť",
+    "level": "b1"
   },
   {
     "base": "get",
     "pastSimple": "got",
     "pastParticiple": "got",
-    "translation": "",
-    "level": ""
+    "translation": "dostať/získať",
+    "level": "a2"
   },
   {
     "base": "give",
     "pastSimple": "gave",
     "pastParticiple": "given",
-    "translation": "",
-    "level": ""
+    "translation": "dať/poskytovať",
+    "level": "a2"
   },
   {
     "base": "go",
     "pastSimple": "went",
     "pastParticiple": "gone",
-    "translation": "",
-    "level": ""
+    "translation": "ísť/odísť",
+    "level": "a2"
   },
   {
     "base": "grind",
     "pastSimple": "ground",
     "pastParticiple": "ground",
-    "translation": "",
-    "level": ""
+    "translation": "mlieť/brúsiť/škrípať",
+    "level": "c2"
   },
   {
     "base": "grow",
     "pastSimple": "grew",
     "pastParticiple": "grown",
-    "translation": "",
-    "level": ""
+    "translation": "rásť/pestovať",
+    "level": "a2"
   },
   {
     "base": "hang",
     "pastSimple": "hung",
     "pastParticiple": "hung",
-    "translation": "",
-    "level": ""
+    "translation": "zavesiť/visieť",
+    "level": "b1"
   },
   {
     "base": "have",
     "pastSimple": "had",
     "pastParticiple": "had",
-    "translation": "",
-    "level": ""
+    "translation": "mať/vlastniť",
+    "level": "a2"
   },
   {
     "base": "hear",
     "pastSimple": "heard",
     "pastParticiple": "heard",
-    "translation": "",
-    "level": ""
+    "translation": "počuť",
+    "level": "a2"
   },
   {
     "base": "hide",
     "pastSimple": "hid",
     "pastParticiple": "hidden",
-    "translation": "",
-    "level": ""
+    "translation": "skrývať/ukrývať",
+    "level": "b1"
   },
   {
     "base": "hit",
     "pastSimple": "hit",
     "pastParticiple": "hit",
-    "translation": "",
-    "level": ""
+    "translation": "udrieť/zasiahnuť",
+    "level": "a2"
   },
   {
     "base": "hold",
     "pastSimple": "held",
     "pastParticiple": "held",
-    "translation": "",
-    "level": ""
+    "translation": "držať/podržať",
+    "level": "a2"
   },
   {
     "base": "hurt",
     "pastSimple": "hurt",
     "pastParticiple": "hurt",
-    "translation": "",
-    "level": ""
+    "translation": "raniť/poraniť/bolieť/ublížiť",
+    "level": "a2"
   },
   {
     "base": "keep",
     "pastSimple": "kept",
     "pastParticiple": "kept",
-    "translation": "",
-    "level": ""
+    "translation": "zachovať/držať/ponechať",
+    "level": "a2"
   },
   {
     "base": "kneel",
     "pastSimple": "knelt",
     "pastParticiple": "knelt",
-    "translation": "",
-    "level": ""
+    "translation": "kľačať",
+    "level": "b2"
   },
   {
     "base": "know",
     "pastSimple": "knew",
     "pastParticiple": "known",
-    "translation": "",
-    "level": ""
+    "translation": "poznať/vedieť/ovládať",
+    "level": "a2"
   },
   {
     "base": "lay",
     "pastSimple": "laid",
     "pastParticiple": "laid",
-    "translation": "",
-    "level": ""
+    "translation": "položiť/uložiť/klásť",
+    "level": "c1"
   },
   {
     "base": "lead",
     "pastSimple": "led",
     "pastParticiple": "led",
-    "translation": "",
-    "level": ""
-  },
-  {
-    "base": "lean",
-    "pastSimple": "leant",
-    "pastParticiple": "leant",
-    "translation": "",
-    "level": ""
+    "translation": "viesť/sprevádzať/smerovať",
+    "level": "b2"
   },
   {
     "base": "leap",
     "pastSimple": "leapt",
     "pastParticiple": "leapt",
-    "translation": "",
-    "level": ""
+    "translation": "skočiť/vyskočiť",
+    "level": "c2"
   },
   {
     "base": "learn",
     "pastSimple": "learnt",
     "pastParticiple": "learnt",
-    "translation": "",
-    "level": ""
+    "translation": "učiť/naučiť",
+    "level": "a2"
   },
   {
     "base": "leave",
     "pastSimple": "left",
     "pastParticiple": "left",
-    "translation": "",
-    "level": ""
+    "translation": "odísť/opustiť/nechať",
+    "level": "a2"
   },
   {
     "base": "lend",
     "pastSimple": "lent",
     "pastParticiple": "lent",
-    "translation": "",
-    "level": ""
+    "translation": "požičať/poskytnúť",
+    "level": "a2"
   },
   {
     "base": "let",
     "pastSimple": "let",
     "pastParticiple": "let",
-    "translation": "",
-    "level": ""
+    "translation": "nechať/dovoliť",
+    "level": "b1"
   },
   {
     "base": "lie",
     "pastSimple": "lay",
     "pastParticiple": "lain",
-    "translation": "",
-    "level": ""
+    "translation": "ležať/odpočívať",
+    "level": "b1"
   },
   {
     "base": "light",
     "pastSimple": "lit",
     "pastParticiple": "lit",
-    "translation": "",
-    "level": ""
+    "translation": "rozsvietiť/zosvetliť/rozžiariť/zapáliť",
+    "level": "b1"
   },
   {
     "base": "lose",
@@ -521,504 +500,406 @@
     "base": "make",
     "pastSimple": "made",
     "pastParticiple": "made",
-    "translation": "",
-    "level": ""
+    "translation": "stratiť/prísť o",
+    "level": "a2"
   },
   {
     "base": "mean",
     "pastSimple": "meant",
     "pastParticiple": "meant",
-    "translation": "",
-    "level": ""
+    "translation": "myslieť/znamenať",
+    "level": "a2"
   },
   {
     "base": "meet",
     "pastSimple": "met",
     "pastParticiple": "met",
-    "translation": "",
-    "level": ""
-  },
-  {
-    "base": "overcome",
-    "pastSimple": "overcame",
-    "pastParticiple": "overcome",
-    "translation": "",
-    "level": ""
+    "translation": "stretnúť/poznať sa",
+    "level": "a2"
   },
   {
     "base": "pay",
     "pastSimple": "paid",
     "pastParticiple": "paid",
-    "translation": "",
-    "level": ""
+    "translation": "platiť/uhradiť/vyplatiť",
+    "level": "a2"
   },
   {
     "base": "put",
     "pastSimple": "put",
     "pastParticiple": "put",
-    "translation": "",
-    "level": ""
+    "translation": "položiť/dať",
+    "level": "a2"
   },
   {
     "base": "read",
     "pastSimple": "read",
     "pastParticiple": "read",
-    "translation": "",
-    "level": ""
+    "translation": "čítať",
+    "level": "a2"
   },
   {
     "base": "ride",
     "pastSimple": "rode",
     "pastParticiple": "ridden",
-    "translation": "",
-    "level": ""
+    "translation": "jazdiť/viezť/ísť",
+    "level": "a2"
   },
   {
     "base": "ring",
     "pastSimple": "rang",
     "pastParticiple": "rung",
-    "translation": "",
-    "level": ""
+    "translation": "zvoniť/zavolať/štrngať",
+    "level": "a2"
   },
   {
     "base": "rise",
     "pastSimple": "rose",
     "pastParticiple": "risen",
-    "translation": "",
-    "level": ""
+    "translation": "stúpať/vychádzať/vzrásť",
+    "level": "b1"
   },
   {
     "base": "run",
     "pastSimple": "ran",
     "pastParticiple": "run",
-    "translation": "",
-    "level": ""
+    "translation": "utekať/bežať",
+    "level": "a2"
   },
   {
     "base": "saw",
     "pastSimple": "sawed",
     "pastParticiple": "sawn",
-    "translation": "",
-    "level": ""
+    "translation": "píliť/prepíliť/rezať/prerezať/odrezať",
+    "level": "c2"
   },
   {
     "base": "say",
     "pastSimple": "said",
     "pastParticiple": "said",
-    "translation": "",
-    "level": ""
+    "translation": "povedať/hovoriť",
+    "level": "a2"
   },
   {
     "base": "see",
     "pastSimple": "saw",
     "pastParticiple": "seen",
-    "translation": "",
-    "level": ""
+    "translation": "vidieť/uvidieť/pozrieť",
+    "level": "a2"
   },
   {
     "base": "seek",
     "pastSimple": "sought",
     "pastParticiple": "sought",
-    "translation": "",
-    "level": ""
+    "translation": "usiľovať/hľadať/vyhľadávať",
+    "level": "b2"
   },
   {
     "base": "sell",
     "pastSimple": "sold",
     "pastParticiple": "sold",
-    "translation": "",
-    "level": ""
+    "translation": "predať",
+    "level": "a2"
   },
   {
     "base": "send",
     "pastSimple": "sent",
     "pastParticiple": "sent",
-    "translation": "",
-    "level": ""
+    "translation": "poslať/odoslať/vyslať",
+    "level": "a2"
   },
   {
     "base": "set",
     "pastSimple": "set",
     "pastParticiple": "set",
-    "translation": "",
-    "level": ""
-  },
-  {
-    "base": "sew",
-    "pastSimple": "sewed",
-    "pastParticiple": "sewn",
-    "translation": "",
-    "level": ""
+    "translation": "nastaviť",
+    "level": "b2"
   },
   {
     "base": "shake",
     "pastSimple": "shook",
     "pastParticiple": "shaken",
-    "translation": "",
-    "level": ""
-  },
-  {
-    "base": "shear",
-    "pastSimple": "sheared",
-    "pastParticiple": "shorn",
-    "translation": "",
-    "level": ""
+    "translation": "triasť/trepať/zatriasť",
+    "level": "b1"
   },
   {
     "base": "shine",
     "pastSimple": "shone",
     "pastParticiple": "shone",
-    "translation": "",
-    "level": ""
+    "translation": "svietiť/žiariť",
+    "level": "b1"
   },
   {
     "base": "shoot",
     "pastSimple": "shot",
     "pastParticiple": "shot",
-    "translation": "",
-    "level": ""
+    "translation": "strielať",
+    "level": "b1"
   },
   {
     "base": "show",
     "pastSimple": "showed",
     "pastParticiple": "shown",
-    "translation": "",
-    "level": ""
+    "translation": "ukázať/zobraziť/prejaviť",
+    "level": "a2"
   },
   {
     "base": "shrink",
     "pastSimple": "shrank",
     "pastParticiple": "shrunk",
-    "translation": "",
-    "level": ""
+    "translation": "scvrknúť/zmenšiť/zbehnúť",
+    "level": "b2"
   },
   {
     "base": "shut",
     "pastSimple": "shut",
     "pastParticiple": "shut",
-    "translation": "",
-    "level": ""
+    "translation": "zavrieť/uzavrieť",
+    "level": "a2"
   },
   {
     "base": "sing",
     "pastSimple": "sang",
     "pastParticiple": "sung",
-    "translation": "",
-    "level": ""
+    "translation": "spievať",
+    "level": "a2"
   },
   {
     "base": "sink",
     "pastSimple": "sank",
     "pastParticiple": "sunk",
-    "translation": "",
-    "level": ""
+    "translation": "ponárať/potopiť",
+    "level": "b1"
   },
   {
     "base": "sit",
     "pastSimple": "sat",
     "pastParticiple": "sat",
-    "translation": "",
-    "level": ""
+    "translation": "sedieť/posadiť sa",
+    "level": "a2"
   },
   {
     "base": "sleep",
     "pastSimple": "slept",
     "pastParticiple": "slept",
-    "translation": "",
-    "level": ""
+    "translation": "spať/driemať",
+    "level": "a2"
   },
   {
     "base": "slide",
     "pastSimple": "slid",
     "pastParticiple": "slid",
-    "translation": "",
-    "level": ""
-  },
-  {
-    "base": "smell",
-    "pastSimple": "smelt",
-    "pastParticiple": "smelt",
-    "translation": "",
-    "level": ""
-  },
-  {
-    "base": "sow",
-    "pastSimple": "sowed",
-    "pastParticiple": "sown",
-    "translation": "",
-    "level": ""
+    "translation": "kĺzať/šmýkať",
+    "level": "b2"
   },
   {
     "base": "speak",
     "pastSimple": "spoke",
     "pastParticiple": "spoken",
-    "translation": "",
-    "level": ""
-  },
-  {
-    "base": "speed",
-    "pastSimple": "sped",
-    "pastParticiple": "sped",
-    "translation": "",
-    "level": ""
-  },
-  {
-    "base": "spell",
-    "pastSimple": "spelt",
-    "pastParticiple": "spelt",
-    "translation": "",
-    "level": ""
+    "translation": "hovoriť/rozprávať/recitovať",
+    "level": "a2"
   },
   {
     "base": "spend",
     "pastSimple": "spent",
     "pastParticiple": "spent",
-    "translation": "",
-    "level": ""
-  },
-  {
-    "base": "spill",
-    "pastSimple": "spilt",
-    "pastParticiple": "spilt",
-    "translation": "",
-    "level": ""
-  },
-  {
-    "base": "spit",
-    "pastSimple": "spat",
-    "pastParticiple": "spat",
-    "translation": "",
-    "level": ""
+    "translation": "minúť/stráviť/plytvať",
+    "level": "a2"
   },
   {
     "base": "split",
     "pastSimple": "split",
     "pastParticiple": "split",
-    "translation": "",
-    "level": ""
-  },
-  {
-    "base": "spoil",
-    "pastSimple": "spoilt",
-    "pastParticiple": "spoilt",
-    "translation": "",
-    "level": ""
+    "translation": "rozdeliť/rozkrojiť",
+    "level": "b2"
   },
   {
     "base": "spread",
     "pastSimple": "spread",
     "pastParticiple": "spread",
-    "translation": "",
-    "level": ""
+    "translation": "šíriť/rozniesť/rozložiť",
+    "level": "b2"
   },
   {
     "base": "stand",
     "pastSimple": "stood",
     "pastParticiple": "stood",
-    "translation": "",
-    "level": ""
+    "translation": "stáť/postaviť",
+    "level": "a2"
   },
   {
     "base": "steal",
     "pastSimple": "stole",
     "pastParticiple": "stolen",
-    "translation": "",
-    "level": ""
+    "translation": "ukradnúť/vykradnúť",
+    "level": "a2"
   },
   {
     "base": "stick",
     "pastSimple": "stuck",
     "pastParticiple": "stuck",
-    "translation": "",
-    "level": ""
+    "translation": "zapichnúť/pichnúť/pripnúť",
+    "level": "b1"
   },
   {
     "base": "sting",
     "pastSimple": "stung",
     "pastParticiple": "stung",
-    "translation": "",
-    "level": ""
+    "translation": "bodnúť/uštipnúť/pichnúť/popáliť",
+    "level": "c2"
   },
   {
     "base": "stink",
     "pastSimple": "stank",
     "pastParticiple": "stunk",
-    "translation": "",
-    "level": ""
+    "translation": "smrdieť/zapáchať",
+    "level": "c1"
   },
   {
     "base": "strike",
     "pastSimple": "struck",
     "pastParticiple": "struck",
-    "translation": "",
-    "level": ""
+    "translation": "naraziť/odbiť/udrieť/bodať",
+    "level": "b1"
   },
   {
     "base": "strive",
     "pastSimple": "strove",
     "pastParticiple": "striven",
-    "translation": "",
-    "level": ""
+    "translation": "usilovať/snažiť sa/bojovať",
+    "level": "c2"
   },
   {
     "base": "swear",
     "pastSimple": "swore",
     "pastParticiple": "sworn",
-    "translation": "",
-    "level": ""
+    "translation": "nadávať/prisahať",
+    "level": "b2"
   },
   {
     "base": "sweep",
     "pastSimple": "swept",
     "pastParticiple": "swept",
-    "translation": "",
-    "level": ""
+    "translation": "zamiesť/vymiesť",
+    "level": "b2"
   },
   {
     "base": "swim",
     "pastSimple": "swam",
     "pastParticiple": "swum",
-    "translation": "",
-    "level": ""
+    "translation": "plávať/preplávať",
+    "level": "a2"
   },
   {
     "base": "swing",
     "pastSimple": "swung",
     "pastParticiple": "swung",
-    "translation": "",
-    "level": ""
+    "translation": "hojdať/kývať/mávať",
+    "level": "b2"
   },
   {
     "base": "take",
     "pastSimple": "took",
     "pastParticiple": "taken",
-    "translation": "",
-    "level": ""
+    "translation": "vziať/zobrať/trvať/užiť",
+    "level": "a2"
   },
   {
     "base": "teach",
     "pastSimple": "taught",
     "pastParticiple": "taught",
-    "translation": "",
-    "level": ""
+    "translation": "učiť/vyučovať",
+    "level": "a2"
   },
   {
     "base": "tear",
     "pastSimple": "tore",
     "pastParticiple": "torn",
-    "translation": "",
-    "level": ""
+    "translation": "trhať/roztrhnúť",
+    "level": "b1"
   },
   {
     "base": "tell",
     "pastSimple": "told",
     "pastParticiple": "told",
-    "translation": "",
-    "level": ""
+    "translation": "povedať/hovoriť/oznámiť",
+    "level": "a2"
   },
   {
     "base": "think",
     "pastSimple": "thought",
     "pastParticiple": "thought",
-    "translation": "",
-    "level": ""
+    "translation": "myslieť/premýšľať/vymyslieť",
+    "level": "a2"
   },
   {
     "base": "throw",
     "pastSimple": "threw",
     "pastParticiple": "thrown",
-    "translation": "",
-    "level": ""
+    "translation": "hodiť/zahodiť",
+    "level": "a2"
   },
   {
     "base": "tread",
     "pastSimple": "trod",
     "pastParticiple": "trodden",
-    "translation": "",
-    "level": ""
-  },
-  {
-    "base": "undergo",
-    "pastSimple": "underwent",
-    "pastParticiple": "undergone",
-    "translation": "",
-    "level": ""
+    "translation": "šliapať/stúpať",
+    "level": "c2"
   },
   {
     "base": "understand",
     "pastSimple": "understood",
     "pastParticiple": "understood",
-    "translation": "",
-    "level": ""
-  },
-  {
-    "base": "upset",
-    "pastSimple": "upset",
-    "pastParticiple": "upset",
-    "translation": "",
-    "level": ""
+    "translation": "rozumieť/chápať",
+    "level": "a2"
   },
   {
     "base": "wake",
     "pastSimple": "woke",
     "pastParticiple": "woken",
-    "translation": "",
-    "level": ""
+    "translation": "prebudiť/zobudiť",
+    "level": "a2"
   },
   {
     "base": "wear",
     "pastSimple": "wore",
     "pastParticiple": "worn",
-    "translation": "",
-    "level": ""
-  },
-  {
-    "base": "weave",
-    "pastSimple": "wove",
-    "pastParticiple": "woven",
-    "translation": "",
-    "level": ""
+    "translation": "nosiť/mať oblečené",
+    "level": "a2"
   },
   {
     "base": "weep",
     "pastSimple": "wept",
     "pastParticiple": "wept",
-    "translation": "",
-    "level": ""
+    "translation": "oplakávať/plakať/slziť/mokvať",
+    "level": "c2"
   },
   {
     "base": "win",
     "pastSimple": "won",
     "pastParticiple": "won",
-    "translation": "",
-    "level": ""
+    "translation": "vyhrať",
+    "level": "a2"
   },
   {
     "base": "wind",
     "pastSimple": "wound",
     "pastParticiple": "wound",
-    "translation": "",
-    "level": ""
-  },
-  {
-    "base": "withdraw",
-    "pastSimple": "withdrew",
-    "pastParticiple": "withdrawn",
-    "translation": "",
-    "level": ""
+    "translation": "nakrútiť/stočiť/natiahnuť",
+    "level": "c2"
   },
   {
     "base": "wring",
     "pastSimple": "wrung",
     "pastParticiple": "wrung",
-    "translation": "",
-    "level": ""
+    "translation": "vyžmýkať/vykrútiť",
+    "level": "c2"
   },
   {
     "base": "write",
     "pastSimple": "wrote",
     "pastParticiple": "written",
-    "translation": "",
-    "level": ""
+    "translation": "písať/zapísať",
+    "level": "a2"
   }
 ]
