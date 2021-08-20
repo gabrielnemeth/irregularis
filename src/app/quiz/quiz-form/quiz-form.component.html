@@ -1,0 +1,47 @@
+<form (ngSubmit)="onFormSubmit(verb.base, formDirective)" [formGroup]="quizForm" #formDirective="ngForm">
+    <div class='form-inputs'>
+        <div class="form-group">
+            <mat-form-field appearance="fill">
+                <mat-label>Base Form</mat-label>
+                <input
+                    autofocus
+                    #firstFormInput
+                    matInput
+                    type="text"
+                    formControlName="base"
+                />
+            </mat-form-field>
+        </div>
+
+        <div class="form-group">
+            <mat-form-field appearance="fill">
+                <mat-label>Past Simple</mat-label>
+                <input
+                    matInput
+                    type="text"
+                    formControlName="pastSimple"
+                />
+            </mat-form-field>
+        </div>
+
+        <div class="form-group">
+            <mat-form-field appearance="fill">
+                <mat-label>Past Participle</mat-label>
+                <input
+                    matInput
+                    type="text"
+                    formControlName="pastParticiple"
+                />
+            </mat-form-field>
+        </div>
+    </div>
+
+    <button
+        mat-flat-button
+        type="submit"
+        class="btn btn-success"
+        [disabled]="!quizForm.valid"
+    >
+        Submit
+    </button>
+</form>

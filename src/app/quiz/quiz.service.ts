@@ -38,6 +38,7 @@ export class QuizService {
     public saveAnswer(answer: Answer): void {
         if (this.currentQuestion <= this.numberOfQuestions) {
             this.answers.push(answer);
+            this.generateNewQuestion();
         }
 
         if (this.currentQuestion === this.numberOfQuestions) {

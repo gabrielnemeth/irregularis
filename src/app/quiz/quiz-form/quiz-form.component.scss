@@ -1,0 +1,15 @@
+form {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+
+.form-group:nth-child(2) {
+    margin: 0 6px;
+}
+
+.form-inputs {
+    display: flex;
+    justify-content: space-between;
+}

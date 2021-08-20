@@ -6,16 +6,24 @@ import {HttpClientModule} from '@angular/common/http';
 import {QuizComponent} from './quiz/quiz.component';
 import {ReactiveFormsModule} from '@angular/forms';
 import {SummaryComponent} from './summary/summary.component';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
+import {AppMaterialModule} from './app-material.module';
+import {QuizFormComponent} from './quiz/quiz-form/quiz-form.component';
 
 @NgModule({
-    declarations: [AppComponent, QuizComponent, SummaryComponent],
+    declarations: [
+        AppComponent,
+        QuizComponent,
+        QuizFormComponent,
+        SummaryComponent,
+    ],
     imports: [
         BrowserModule,
         HttpClientModule,
         AppRoutingModule,
         ReactiveFormsModule,
         BrowserAnimationsModule,
+        AppMaterialModule,
     ],
     providers: [],
     bootstrap: [AppComponent],
