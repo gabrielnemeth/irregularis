@@ -6,6 +6,7 @@ import {HttpClientModule} from '@angular/common/http';
 import {QuizComponent} from './quiz/quiz.component';
 import {ReactiveFormsModule} from '@angular/forms';
 import {SummaryComponent} from './summary/summary.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
     declarations: [AppComponent, QuizComponent, SummaryComponent],
@@ -14,6 +15,7 @@ import {SummaryComponent} from './summary/summary.component';
         HttpClientModule,
         AppRoutingModule,
         ReactiveFormsModule,
+        BrowserAnimationsModule,
     ],
     providers: [],
     bootstrap: [AppComponent],
