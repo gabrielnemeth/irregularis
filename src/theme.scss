@@ -1,6 +1,8 @@
 @use '~@angular/material' as mat;
 @include mat.core();
 
+@import "../node_modules/@angular/material/prebuilt-themes/deeppurple-amber.css";
+
 // Define a dark theme
 $dark-primary: mat.define-palette(mat.$pink-palette);
 $dark-accent: mat.define-palette(mat.$blue-gray-palette);
