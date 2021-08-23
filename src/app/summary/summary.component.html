@@ -1,1 +1,73 @@
-<p>summary works!</p>
+<ng-container *ngIf="viewData$ | async as viewData">
+    <div class="summary-item" *ngFor="let data of viewData">
+        <h2>{{ data.verb.translation }}</h2>
+        <div class="answers-wrapper">
+            <div class="answers">
+                <div class="answer">
+                    <span
+                        [ngClass]="{
+                            'answer--incorrect': !data.answer.base.correct
+                        }"
+                        >{{ data.answer.base.verb }}</span
+                    >
+                    <mat-icon
+                        *ngIf="data.answer.base.correct"
+                        aria-hidden="false"
+                        >check
+                    </mat-icon>
+                    <mat-icon
+                        *ngIf="!data.answer.base.correct"
+                        aria-hidden="false"
+                        >close
+                    </mat-icon>
+                    <div *ngIf="!data.answer.base.correct">
+                        {{ data.verb.base }}
+                    </div>
+                </div>
+                <div class="answer">
+                    <span
+                        [ngClass]="{
+                            'answer--incorrect': !data.answer.pastSimple.correct
+                        }"
+                        >{{ data.answer.pastSimple.verb }}</span
+                    >
+                    <mat-icon
+                        *ngIf="data.answer.pastSimple.correct"
+                        aria-hidden="false"
+                        >check
+                    </mat-icon>
+                    <mat-icon
+                        *ngIf="!data.answer.pastSimple.correct"
+                        aria-hidden="false"
+                        >close
+                    </mat-icon>
+                    <div *ngIf="!data.answer.pastSimple.correct">
+                        {{ data.verb.pastSimple }}
+                    </div>
+                </div>
+                <div class="answer">
+                    <span
+                        [ngClass]="{
+                            'answer--incorrect':
+                                !data.answer.pastParticiple.correct
+                        }"
+                        >{{ data.answer.pastParticiple.verb }}</span
+                    >
+                    <mat-icon
+                        *ngIf="data.answer.pastParticiple.correct"
+                        aria-hidden="false"
+                        >check
+                    </mat-icon>
+                    <mat-icon
+                        *ngIf="!data.answer.pastParticiple.correct"
+                        aria-hidden="false"
+                        >close
+                    </mat-icon>
+                    <div *ngIf="!data.answer.pastParticiple.correct">
+                        {{ data.verb.pastParticiple }}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</ng-container>

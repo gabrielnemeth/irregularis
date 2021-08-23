@@ -10,9 +10,12 @@ import {Router} from '@angular/router';
     providedIn: 'root',
 })
 export class QuizService {
-    private readonly numberOfQuestions: number = 5;
+    private readonly numberOfQuestions: number = 2;
     private currentQuestion: number = 1;
-    private answers: Answer[] = [];
+    private _answers: Answer[] = [];
+    public get answers(): Answer[] {
+        return this._answers;
+    }
 
     private verbsSubject$: Subject<Verb> = new Subject();
     public verbs$: Observable<Verb> = this.verbsSubject$.asObservable();
@@ -37,7 +40,7 @@ export class QuizService {
 
     public saveAnswer(answer: Answer): void {
         if (this.currentQuestion <= this.numberOfQuestions) {
-            this.answers.push(answer);
+            this._answers.push(answer);
             this.generateNewQuestion();
         }
 
@@ -45,6 +48,5 @@ export class QuizService {
             this.router.navigate(['/summary']);
         }
         this.currentQuestion++;
-        console.log(this.answers);
     }
 }

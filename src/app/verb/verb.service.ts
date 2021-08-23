@@ -2,7 +2,7 @@ import {Injectable} from '@angular/core';
 import {HttpClient} from '@angular/common/http';
 import {Verb} from './verb';
 import {Observable} from 'rxjs';
-import {share} from 'rxjs/operators';
+import {map, share} from 'rxjs/operators';
 
 @Injectable({
     providedIn: 'root',
@@ -14,5 +14,17 @@ export class VerbService {
         return this.httpClient
             .get<Verb[]>('./assets/data/verbs.json')
             .pipe(share());
+    }
+
+    public getVerb(base: string): Observable<Verb> {
+        return this.getVerbs().pipe(
+            map(verbs => {
+                const verb = verbs.find(verb => verb.base === base);
+                if (verb === undefined) {
+                    throw new TypeError("Verb can't be undefined");
+                }
+                return verb;
+            })
+        );
     }
 }
