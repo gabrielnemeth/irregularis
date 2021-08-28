@@ -10,11 +10,12 @@ import {Answer} from './answer';
     styleUrls: ['./quiz.component.scss'],
 })
 export class QuizComponent implements OnInit {
-    public verbs$: Observable<Verb> = this.quizService.verbs$;
+    public verbs$: Observable<Verb | undefined> = this.quizService.verbs$;
 
     public constructor(private quizService: QuizService) {}
 
     public ngOnInit(): void {
+        this.quizService.resetState();
         this.quizService.generateNewQuestion();
     }
 

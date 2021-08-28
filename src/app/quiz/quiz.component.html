@@ -1,5 +1,4 @@
 <ng-container *ngIf="verbs$ | async as verb">
-    <!-- ToDo: temp solution till verbs get translated. -->
-    <h3>{{ verb.translation ? verb.translation : verb.base }}</h3>
+    <h3>{{ verb.translation }}</h3>
     <app-quiz-form [verb]='verb' (formSubmit)='onFormSubmit($event)'></app-quiz-form>
 </ng-container>
