@@ -9,6 +9,8 @@ import {SummaryComponent} from './summary/summary.component';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {AppMaterialModule} from './app-material.module';
 import {QuizFormComponent} from './quiz/quiz-form/quiz-form.component';
+import { SettingsComponent } from './settings/settings.component';
+import { TopBarComponent } from './top-bar/top-bar.component';
 
 @NgModule({
     declarations: [
@@ -16,6 +18,8 @@ import {QuizFormComponent} from './quiz/quiz-form/quiz-form.component';
         QuizComponent,
         QuizFormComponent,
         SummaryComponent,
+        SettingsComponent,
+        TopBarComponent,
     ],
     imports: [
         BrowserModule,
