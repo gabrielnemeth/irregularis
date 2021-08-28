@@ -27,4 +27,11 @@ export class VerbService {
             })
         );
     }
+
+    public getLevels(): Observable<string[]> {
+        return this.getVerbs().pipe(
+            map(verbs => [...new Set(verbs.map(verb => verb.level))]),
+            map(verbs => verbs.sort((a, b) => a.localeCompare(b)))
+        );
+    }
 }
