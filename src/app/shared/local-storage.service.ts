@@ -20,11 +20,16 @@ export class LocalStorageService {
         }
     }
 
-    public getLevels(): string[] {
+    public getLevels(): string[] | undefined {
         const levelString = localStorage.getItem('levels');
-        if (levelString == null || levelString.length === 0) {
+        if (levelString != null && levelString.length === 0) {
             return [];
         }
-        return JSON.parse(levelString);
+
+        if (levelString != null && levelString.length > 0) {
+            return JSON.parse(levelString);
+        }
+
+        return undefined;
     }
 }

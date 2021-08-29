@@ -1,9 +1,9 @@
 import {Injectable} from '@angular/core';
 import {Answer} from './answer';
 import {VerbService} from '../verb/verb.service';
-import {BehaviorSubject, Observable, Subject} from 'rxjs';
+import {BehaviorSubject, Observable} from 'rxjs';
 import {Verb} from '../verb/verb';
-import {map, share, shareReplay, take} from 'rxjs/operators';
+import {map} from 'rxjs/operators';
 import {Router} from '@angular/router';
 import {LocalStorageService} from '../shared/local-storage.service';
 
@@ -41,7 +41,7 @@ export class QuizService {
                 .getVerbs()
                 .pipe(
                     map(verbs => {
-                        if (levels.length === 0) {
+                        if (levels == null || levels.length === 0) {
                             return verbs;
                         }
                         return verbs.filter(verb =>

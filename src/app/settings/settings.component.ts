@@ -15,7 +15,10 @@ export class SettingsComponent {
             map(levels => {
                 const selectedLevels = this.localStorageService.getLevels();
                 return levels.map(level => {
-                    if (selectedLevels.includes(level)) {
+                    if (
+                        selectedLevels != null &&
+                        selectedLevels.includes(level)
+                    ) {
                         return {value: level, selected: true};
                     }
                     return {value: level, selected: false};
