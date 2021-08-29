@@ -11,6 +11,7 @@ import {AppMaterialModule} from './app-material.module';
 import {QuizFormComponent} from './quiz/quiz-form/quiz-form.component';
 import { SettingsComponent } from './settings/settings.component';
 import { TopBarComponent } from './top-bar/top-bar.component';
+import { LogoComponent } from './top-bar/logo/logo.component';
 
 @NgModule({
     declarations: [
@@ -20,6 +21,7 @@ import { TopBarComponent } from './top-bar/top-bar.component';
         SummaryComponent,
         SettingsComponent,
         TopBarComponent,
+        LogoComponent,
     ],
     imports: [
         BrowserModule,
