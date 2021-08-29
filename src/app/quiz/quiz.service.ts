@@ -11,7 +11,8 @@ import {LocalStorageService} from '../shared/local-storage.service';
     providedIn: 'root',
 })
 export class QuizService {
-    private readonly numberOfQuestions: number = 2;
+    private readonly numberOfQuestions: number | undefined =
+        this.localstorageService.getQuestionCount();
     private currentQuestion: number = 1;
     private _answers: Answer[] = [];
     public get answers(): Answer[] {
@@ -36,7 +37,10 @@ export class QuizService {
 
     public generateNewQuestion(): void {
         const levels = this.localstorageService.getLevels();
-        if (this.currentQuestion <= this.numberOfQuestions) {
+        if (
+            this.numberOfQuestions != null &&
+            this.currentQuestion <= this.numberOfQuestions
+        ) {
             this.verbService
                 .getVerbs()
                 .pipe(
@@ -58,7 +62,10 @@ export class QuizService {
     }
 
     public saveAnswer(answer: Answer): void {
-        if (this.currentQuestion <= this.numberOfQuestions) {
+        if (
+            this.numberOfQuestions != null &&
+            this.currentQuestion <= this.numberOfQuestions
+        ) {
             this._answers.push(answer);
             this.generateNewQuestion();
         }

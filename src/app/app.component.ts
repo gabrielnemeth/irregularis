@@ -16,6 +16,7 @@ export class AppComponent implements OnInit {
 
     public ngOnInit(): void {
         this.initializeLevelSettings();
+        this.initializeQuestionCountSettings();
     }
 
     private initializeLevelSettings(): void {
@@ -29,6 +30,14 @@ export class AppComponent implements OnInit {
                         this.localStorageService.setLevels(level)
                     )
                 );
+        }
+    }
+
+    private initializeQuestionCountSettings(): void {
+        const questionCount = this.localStorageService.getQuestionCount();
+        if (questionCount == null) {
+            // Set the default question count.
+            this.localStorageService.setQuestionCount(5);
         }
     }
 }

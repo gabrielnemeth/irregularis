@@ -3,6 +3,7 @@ import {VerbService} from '../verb/verb.service';
 import {Observable} from 'rxjs';
 import {LocalStorageService} from '../shared/local-storage.service';
 import {map} from 'rxjs/operators';
+import {FormBuilder, Validators} from '@angular/forms';
 
 @Component({
     selector: 'app-settings',
@@ -26,12 +27,25 @@ export class SettingsComponent {
             })
         );
 
+    private questionCount: string | undefined = this.localStorageService
+        .getQuestionCount()
+        ?.toString();
+
     public constructor(
         private verbService: VerbService,
-        private localStorageService: LocalStorageService
+        private localStorageService: LocalStorageService,
+        private formBuilder: FormBuilder
     ) {}
+
+    public questionCountForm = this.formBuilder.group({
+        count: [this.questionCount, Validators.required],
+    });
 
     public onLevelChange(level: string): void {
         this.localStorageService.setLevels(level);
+    }
+
+    public onFormSubmit(count: string): void {
+        this.localStorageService.setQuestionCount(Number(count));
     }
 }

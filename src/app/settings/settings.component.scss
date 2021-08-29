@@ -9,3 +9,13 @@ mat-list {
 .level-list {
     padding-top: 0;
 }
+
+.question-count-form {
+    display: flex;
+    justify-content: space-between;
+}
+
+.question-count__save-btn {
+    display: flex;
+    align-self: center;
+}

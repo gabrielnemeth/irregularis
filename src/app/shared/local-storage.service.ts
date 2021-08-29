@@ -4,6 +4,18 @@ import {Injectable} from '@angular/core';
     providedIn: 'root',
 })
 export class LocalStorageService {
+    public setQuestionCount(count: number): void {
+        localStorage.setItem('questionCount', count.toString());
+    }
+
+    public getQuestionCount(): number | undefined {
+        const countString = localStorage.getItem('questionCount');
+        if (countString != null) {
+            return JSON.parse(countString);
+        }
+        return undefined;
+    }
+
     public setLevels(level: string): void {
         const levelString = localStorage.getItem('levels');
         if (levelString == null || levelString.length === 0) {
