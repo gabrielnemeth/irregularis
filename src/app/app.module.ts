@@ -12,6 +12,7 @@ import {QuizFormComponent} from './quiz/quiz-form/quiz-form.component';
 import { SettingsComponent } from './settings/settings.component';
 import { TopBarComponent } from './top-bar/top-bar.component';
 import { LogoComponent } from './top-bar/logo/logo.component';
+import { StoreModule } from '@ngrx/store';
 
 @NgModule({
     declarations: [
@@ -30,6 +31,7 @@ import { LogoComponent } from './top-bar/logo/logo.component';
         ReactiveFormsModule,
         BrowserAnimationsModule,
         AppMaterialModule,
+        StoreModule.forRoot({}, {}),
     ],
     providers: [],
     bootstrap: [AppComponent],
