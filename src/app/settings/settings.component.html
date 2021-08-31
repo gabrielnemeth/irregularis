@@ -1,48 +1,57 @@
-<mat-card class='example-card'>
+<mat-card class="example-card">
     <mat-card-header>
         <mat-card-title>Settings</mat-card-title>
     </mat-card-header>
     <mat-card-content>
         <mat-list>
             <div mat-subheader>Question count</div>
-            <div class='content'>
+            <div class="content">
                 <p>
                     You can define how many questions do you want to answer at
                     once.
                 </p>
-                <form
-                    class='question-count-form'
-                    (ngSubmit)='onFormSubmit(questionCountInput.value)'
-                    [formGroup]='questionCountForm'
-                >
-                    <mat-form-field appearance='fill'>
+                <form class="question-count-form">
+                    <mat-form-field appearance="fill">
                         <mat-label>Count</mat-label>
                         <input
+                            required
                             matInput
-                            type='number'
-                            formControlName='count'
+                            name='questionCountInput'
+                            #questionCountInputModel="ngModel"
+                            [ngModel]='questionCountString$ | async'
+                            type="number"
                             #questionCountInput
                         />
                     </mat-form-field>
-                    <button class='question-count__save-btn' mat-button [disabled]='!questionCountForm.valid'>Save</button>
+                    <button
+                        class="question-count__save-btn"
+                        mat-button
+                        [disabled]="questionCountInputModel.invalid"
+                        (click)="
+                            onQuestionCountSubmit(questionCountInput.value)
+                        "
+                    >
+                        Save
+                    </button>
                 </form>
             </div>
             <mat-divider></mat-divider>
             <div mat-subheader>Levels</div>
-            <div class='content'>
+            <div class="content">
                 <p>Select the English language levels for the verbs.</p>
             </div>
-            <mat-selection-list class='level-list'>
+            <mat-selection-list class="level-list">
                 <mat-list-option
-                    *ngFor='let level of levels$ | async'
-                    (click)='onLevelChange(level.value)'
-                    [value]='level.value'
-                    [selected]='level.selected'
+                    *ngFor="let level of levelsViewData$ | async"
+                    (click)="onLevelChange(level.value)"
+                    [value]="level.value"
+                    [selected]="level.selected"
+                    [disabled]='level.disabled'
                 >
                     {{ level.value }}
                 </mat-list-option>
             </mat-selection-list>
         </mat-list>
     </mat-card-content>
-    <mat-card-actions align='end'></mat-card-actions>
+    <mat-card-actions align="end"></mat-card-actions>
 </mat-card>

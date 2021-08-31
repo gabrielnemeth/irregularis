@@ -1,8 +1,11 @@
 import {Component, OnInit} from '@angular/core';
 import {Observable} from 'rxjs';
 import {Verb} from '../verb/verb';
-import {QuizService} from './quiz.service';
 import {Answer} from './answer';
+import {Store} from '@ngrx/store';
+import {AppState} from '../app.state';
+import {answerSubmit, componentInit} from './quiz.component.actions';
+import {selectVerbQuestion} from './quiz.reducer';
 
 @Component({
     selector: 'app-quiz',
@@ -10,16 +13,16 @@ import {Answer} from './answer';
     styleUrls: ['./quiz.component.scss'],
 })
 export class QuizComponent implements OnInit {
-    public verbs$: Observable<Verb | undefined> = this.quizService.verbs$;
+    public verbs$: Observable<Verb | undefined> =
+        this.store.select(selectVerbQuestion);
 
-    public constructor(private quizService: QuizService) {}
+    public constructor(private store: Store<AppState>) {}
 
     public ngOnInit(): void {
-        this.quizService.resetState();
-        this.quizService.generateNewQuestion();
+        this.store.dispatch(componentInit());
     }
 
     public onFormSubmit(answer: Answer): void {
-        this.quizService.saveAnswer(answer);
+        this.store.dispatch(answerSubmit({answer}));
     }
 }

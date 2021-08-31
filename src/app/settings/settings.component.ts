@@ -1,9 +1,11 @@
 import {Component} from '@angular/core';
-import {VerbService} from '../verb/verb.service';
-import {Observable} from 'rxjs';
-import {LocalStorageService} from '../shared/local-storage.service';
+import {combineLatest, Observable} from 'rxjs';
 import {map} from 'rxjs/operators';
-import {FormBuilder, Validators} from '@angular/forms';
+import {AppState} from '../app.state';
+import {Store} from '@ngrx/store';
+import {selectAllLevels} from '../verb/verb.reducer';
+import {selectActiveLevels, selectQuestionCount} from './settings.reducer';
+import {levelSet, questionCountSet} from './settings.component.actions';
 
 @Component({
     selector: 'app-settings',
@@ -11,41 +13,52 @@ import {FormBuilder, Validators} from '@angular/forms';
     styleUrls: ['./settings.component.scss'],
 })
 export class SettingsComponent {
-    public levels$: Observable<{value: string; selected: boolean}[]> =
-        this.verbService.getLevels().pipe(
-            map(levels => {
-                const selectedLevels = this.localStorageService.getLevels();
-                return levels.map(level => {
-                    if (
-                        selectedLevels != null &&
-                        selectedLevels.includes(level)
-                    ) {
-                        return {value: level, selected: true};
+    private levels$ = this.store.select(selectAllLevels);
+    private activeLevels$ = this.store.select(selectActiveLevels);
+    private questionCount$ = this.store.select(selectQuestionCount);
+    public questionCountString$ = this.questionCount$.pipe(
+        map(count => count.toString())
+    );
+
+    public levelsViewData$: Observable<
+        {value: string; selected: boolean; disabled?: boolean}[]
+    > = combineLatest([this.levels$, this.activeLevels$]).pipe(
+        map(([levels, activeLevels]) => {
+            return levels.map(level => {
+                if (activeLevels != null && activeLevels.includes(level)) {
+                    return {value: level, selected: true};
+                }
+                return {value: level, selected: false};
+            });
+        }),
+        map(data => {
+            const selectedCount = data.reduce((acc, curr) => {
+                if (curr.selected) {
+                    return acc + 1;
+                }
+                return acc;
+            }, 0);
+            if (selectedCount === 1) {
+                // We doesn't want to allow to unselect all levels, so
+                // we disable the last selected item.
+                return data.map(d => {
+                    if (d.selected) {
+                        return {...d, disabled: true};
                     }
-                    return {value: level, selected: false};
+                    return d;
                 });
-            })
-        );
+            }
+            return data;
+        })
+    );
 
-    private questionCount: string | undefined = this.localStorageService
-        .getQuestionCount()
-        ?.toString();
-
-    public constructor(
-        private verbService: VerbService,
-        private localStorageService: LocalStorageService,
-        private formBuilder: FormBuilder
-    ) {}
-
-    public questionCountForm = this.formBuilder.group({
-        count: [this.questionCount, Validators.required],
-    });
+    public constructor(private store: Store<AppState>) {}
 
     public onLevelChange(level: string): void {
-        this.localStorageService.setLevels(level);
+        this.store.dispatch(levelSet({level}));
     }
 
-    public onFormSubmit(count: string): void {
-        this.localStorageService.setQuestionCount(Number(count));
+    public onQuestionCountSubmit(count: string): void {
+        this.store.dispatch(questionCountSet({questionCount: Number(count)}));
     }
 }
