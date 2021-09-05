@@ -19,3 +19,27 @@ mat-list {
     display: flex;
     align-self: center;
 }
+
+.level-accordion {
+
+    mat-panel-description {
+        justify-content: end;
+
+    }
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding-left: 12px;
+
+        li {
+            margin: 6px 0;
+        }
+    }
+
+}
+
+::ng-deep .level-accordion .mat-content {
+    // Show overflow, otherwise the checkbox ripple will be clipped.
+    overflow: visible;
+}

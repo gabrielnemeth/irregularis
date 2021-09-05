@@ -16,9 +16,9 @@
                         <input
                             required
                             matInput
-                            name='questionCountInput'
+                            name="questionCountInput"
                             #questionCountInputModel="ngModel"
-                            [ngModel]='questionCountString$ | async'
+                            [ngModel]="questionCountString$ | async"
                             type="number"
                             #questionCountInput
                         />
@@ -40,17 +40,33 @@
             <div class="content">
                 <p>Select the English language levels for the verbs.</p>
             </div>
-            <mat-selection-list class="level-list">
-                <mat-list-option
-                    *ngFor="let level of levelsViewData$ | async"
-                    (click)="onLevelChange(level.value)"
-                    [value]="level.value"
-                    [selected]="level.selected"
-                    [disabled]='level.disabled'
-                >
-                    {{ level.value }}
-                </mat-list-option>
-            </mat-selection-list>
+
+            <mat-accordion class="level-accordion" displayMode="flat">
+                <mat-expansion-panel class="mat-elevation-z0" *ngFor="let data of viewData$ | async; trackBy:trackByLevelId">
+                    <mat-expansion-panel-header>
+                        <mat-panel-title>
+                            {{ data.level }}
+                        </mat-panel-title>
+                        <mat-panel-description>
+                            <mat-checkbox (click)="onLevelChange($event, data)"
+                                          (keydown)="onLevelChange($event, data)"
+                                          [checked]="data.active"
+                                          [indeterminate]="data.indeterminate"
+                            ></mat-checkbox>
+                        </mat-panel-description>
+                    </mat-expansion-panel-header>
+
+                    <ul>
+                        <li *ngFor="let verb of data.verbs; trackBy:trackByVerbId">
+                            <mat-checkbox [checked]="verb.active" (click)="onVerbChange(verb)"
+                                          (keydown)="onVerbChange(verb)">
+                                {{ verb.base }}
+                            </mat-checkbox>
+                        </li>
+                    </ul>
+                </mat-expansion-panel>
+            </mat-accordion>
+
         </mat-list>
     </mat-card-content>
     <mat-card-actions align="end"></mat-card-actions>

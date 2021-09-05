@@ -26,12 +26,12 @@ export const selectAllVerbs = createSelector(
     state => state.verbs
 );
 
-export const selectVerbsForActiveLevels = createSelector(
-    selectSettingsState,
+export const selectActiveVerbs = createSelector(
     selectVerbsState,
-    (settingsState, verbState) =>
-        verbState.verbs.filter(verb =>
-            settingsState.activeLevels.includes(verb.level)
+    selectSettingsState,
+    (verbsState, settingsState) =>
+        verbsState.verbs.filter(verb =>
+            settingsState.activeVerbs.includes(verb.base)
         )
 );
 
@@ -43,6 +43,11 @@ export const selectVerb = (base: string) =>
         }
         return verb;
     });
+
+export const selectVerbsForLevel = (level: string) =>
+    createSelector(selectVerbsState, state =>
+        state.verbs.filter(verb => verb.level === level)
+    );
 
 export const verbReducer = createReducer(
     initialState,

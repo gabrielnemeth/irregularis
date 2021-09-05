@@ -7,5 +7,10 @@ export const questionCountSet = createAction(
 
 export const levelSet = createAction(
     '[SettingsComponent] Level set',
-    props<{level: string}>()
+    props<{level: string; active: boolean}>()
+);
+
+export const verbSet = createAction(
+    '[SettingsComponent] Verb set',
+    props<{verb: string; active: boolean}>()
 );

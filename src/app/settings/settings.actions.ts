@@ -1,16 +1,22 @@
 import {createAction, props} from '@ngrx/store';
+import {VerbWithStatus} from '../verb/verb-with-status';
 
 export const questionCountLoad = createAction(
     '[SettingsEffects] QuestionCount loaded',
     props<{questionCount: number | null}>()
 );
 
-export const activeLevelsLoad = createAction(
-    '[SettingsEffects] Active levels loaded',
-    props<{activeLevels: string[]}>()
+export const activeVerbsLoad = createAction(
+    '[SettingsEffects] Active verbs load',
+    props<{activeVerbs: string[]}>()
 );
 
-export const activeLevelsSet = createAction(
-    '[SettingsEffects] Active levels set',
-    props<{activeLevels: string[]}>()
+export const activeVerbsSet = createAction(
+    '[SettingsEffects] Active verbs set',
+    props<{activeVerbs: VerbWithStatus[]}>()
+);
+
+export const activeVerbsCreate = createAction(
+    '[SettingsEffects] Active verbs created',
+    props<{activeVerbs: string[]}>()
 );

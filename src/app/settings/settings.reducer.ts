@@ -1,7 +1,8 @@
 import {createReducer, createSelector, on} from '@ngrx/store';
 import {
-    activeLevelsLoad,
-    activeLevelsSet,
+    activeVerbsCreate,
+    activeVerbsLoad,
+    activeVerbsSet,
     questionCountLoad,
 } from './settings.actions';
 import {AppState} from '../app.state';
@@ -9,12 +10,12 @@ import {questionCountSet} from './settings.component.actions';
 
 export interface SettingsState {
     questionCount: number;
-    activeLevels: string[];
+    activeVerbs: string[];
 }
 
 export const initialState: SettingsState = {
     questionCount: 5,
-    activeLevels: [],
+    activeVerbs: [],
 };
 
 export const selectSettings = (state: AppState) => state.settings;
@@ -24,9 +25,9 @@ export const selectQuestionCount = createSelector(
     state => state.questionCount
 );
 
-export const selectActiveLevels = createSelector(
+export const selectActiveVerbs = createSelector(
     selectSettings,
-    state => state.activeLevels
+    state => state.activeVerbs
 );
 
 export const settingsReducer = createReducer(
@@ -47,6 +48,12 @@ export const settingsReducer = createReducer(
         ...state,
         questionCount,
     })),
-    on(activeLevelsLoad, (state, {activeLevels}) => ({...state, activeLevels})),
-    on(activeLevelsSet, (state, {activeLevels}) => ({...state, activeLevels}))
+    on(activeVerbsLoad, activeVerbsCreate, (state, {activeVerbs}) => ({
+        ...state,
+        activeVerbs,
+    })),
+    on(activeVerbsSet, (state, {activeVerbs}) => ({
+        ...state,
+        verbs: activeVerbs,
+    }))
 );

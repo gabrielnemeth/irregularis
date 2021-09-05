@@ -16,10 +16,6 @@ export class LocalStorageService {
         return null;
     }
 
-    public setLevels(levels: string[]): void {
-        localStorage.setItem('levels', JSON.stringify(levels));
-    }
-
     public getLevels(): string[] | null {
         const levelString = localStorage.getItem('levels');
         if (levelString != null && levelString.length === 0) {
@@ -28,6 +24,23 @@ export class LocalStorageService {
 
         if (levelString != null && levelString.length > 0) {
             return JSON.parse(levelString);
+        }
+
+        return null;
+    }
+
+    public setVerbs(activeVerbs: string[]): void {
+        localStorage.setItem('verbs', JSON.stringify(activeVerbs));
+    }
+
+    public getVerbs(): string[] | null {
+        const verbsString = localStorage.getItem('verbs');
+        if (verbsString != null && verbsString.length === 0) {
+            return [];
+        }
+
+        if (verbsString != null && verbsString.length > 0) {
+            return JSON.parse(verbsString);
         }
 
         return null;

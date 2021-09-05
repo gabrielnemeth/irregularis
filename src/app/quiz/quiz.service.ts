@@ -4,15 +4,13 @@ import {Verb} from '../verb/verb';
 import {map} from 'rxjs/operators';
 import {Store} from '@ngrx/store';
 import {AppState} from '../app.state';
-import {selectVerbsForActiveLevels} from '../verb/verb.reducer';
+import {selectActiveVerbs} from '../verb/verb.reducer';
 
 @Injectable({
     providedIn: 'root',
 })
 export class QuizService {
-    private verbsForActiveLevels$ = this.store.select(
-        selectVerbsForActiveLevels
-    );
+    private verbsForActiveLevels$ = this.store.select(selectActiveVerbs);
 
     public constructor(private store: Store<AppState>) {}
 

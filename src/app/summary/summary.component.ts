@@ -4,7 +4,7 @@ import {Verb} from '../verb/verb';
 import {combineLatest, Observable} from 'rxjs';
 import {Store} from '@ngrx/store';
 import {AppState} from '../app.state';
-import {selectVerbsForActiveLevels} from '../verb/verb.reducer';
+import {selectActiveVerbs} from '../verb/verb.reducer';
 import {selectAnswers} from '../quiz/quiz.reducer';
 import {map} from 'rxjs/operators';
 import {Answer} from '../quiz/answer';
@@ -34,13 +34,11 @@ interface ViewData {
 })
 export class SummaryComponent {
     private answers$ = this.store.select(selectAnswers);
-    private verbsForActiveLevels$ = this.store.select(
-        selectVerbsForActiveLevels
-    );
+    private activeVerbs$ = this.store.select(selectActiveVerbs);
 
     public viewData$: Observable<ViewData[]> = combineLatest([
         this.answers$,
-        this.verbsForActiveLevels$,
+        this.activeVerbs$,
     ]).pipe(
         map(([answers, verbs]) => {
             return answers.map(answer => {

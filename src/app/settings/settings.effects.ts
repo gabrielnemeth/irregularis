@@ -10,16 +10,20 @@ import {Action, createAction, Store} from '@ngrx/store';
 import {LocalStorageService} from '../local-storage/local-storage.service';
 import {map} from 'rxjs/operators';
 import {
-    activeLevelsLoad,
-    activeLevelsSet,
+    activeVerbsCreate,
+    activeVerbsLoad,
     questionCountLoad,
 } from './settings.actions';
 import {VerbService} from '../verb/verb.service';
-import {selectAllLevels} from '../verb/verb.reducer';
+import {selectVerbsForLevel} from '../verb/verb.reducer';
 import {AppState} from '../app.state';
 import {verbsLoad} from '../verb/verb.actions';
-import {levelSet, questionCountSet} from './settings.component.actions';
-import {selectActiveLevels} from './settings.reducer';
+import {
+    levelSet,
+    questionCountSet,
+    verbSet,
+} from './settings.component.actions';
+import {selectActiveVerbs} from './settings.reducer';
 
 const init = createAction('[SettingsEffects] Init');
 
@@ -56,50 +60,88 @@ export class SettingsEffects implements OnInitEffects {
         {dispatch: false}
     );
 
-    public loadLevels$ = createEffect(() => {
+    public generateActiveVerbs$ = createEffect(() => {
         return this.actions$.pipe(
-            // We have to wait till the verbs load, since we are getting
-            // the default levels from verbs.
             ofType(verbsLoad),
-            concatLatestFrom(() => this.store.select(selectAllLevels)),
-            map(([, allLevels]) => {
-                const lsLevels = this.localStorageService.getLevels();
-                if (lsLevels === null) {
-                    return allLevels;
+            map(({verbs}) => {
+                const lsVerbs = this.localStorageService.getVerbs();
+                if (lsVerbs === null) {
+                    return verbs.map(verb => verb.base);
                 }
-                return lsLevels;
+                return lsVerbs;
             }),
-            map(activeLevels => activeLevelsLoad({activeLevels}))
+            map(activeVerbs => activeVerbsLoad({activeVerbs}))
         );
     });
 
-    public setLevels$ = createEffect(() => {
-        return this.actions$.pipe(
-            ofType(levelSet),
-            concatLatestFrom(() => this.store.select(selectActiveLevels)),
-            map(([{level}, activeLevels]) => {
-                const clonedActiveLevels = [...activeLevels];
-                if (clonedActiveLevels.includes(level)) {
-                    const index = clonedActiveLevels.indexOf(level);
-                    clonedActiveLevels.splice(index, 1);
-                } else {
-                    clonedActiveLevels.push(level);
-                }
-                return clonedActiveLevels;
-            }),
-            map(activeLevels => activeLevelsSet({activeLevels}))
-        );
-    });
-
-    public saveActiveLevels$ = createEffect(
+    public saveActiveVerbs$ = createEffect(
         () => {
             return this.actions$.pipe(
-                ofType(activeLevelsSet),
-                map(({activeLevels}) =>
-                    this.localStorageService.setLevels(activeLevels)
+                ofType(activeVerbsCreate),
+                map(({activeVerbs}) =>
+                    this.localStorageService.setVerbs(activeVerbs)
                 )
             );
         },
         {dispatch: false}
     );
+
+    public createActiveVerbs$ = createEffect(() => {
+        return this.actions$.pipe(
+            ofType(verbSet),
+            concatLatestFrom(() => this.store.select(selectActiveVerbs)),
+            map(([{verb, active}, verbs]) => {
+                const activeVerbs = [...verbs];
+
+                if (active) {
+                    console.assert(
+                        !activeVerbs.includes(verb),
+                        'Verb is already active'
+                    );
+                    activeVerbs.push(verb);
+                } else {
+                    console.assert(
+                        activeVerbs.includes(verb),
+                        'Verb is already in-active'
+                    );
+                    const indexToRemove = activeVerbs.indexOf(verb);
+                    activeVerbs.splice(indexToRemove, 1);
+                }
+
+                return activeVerbs;
+            }),
+            map(activeVerbs => activeVerbsCreate({activeVerbs}))
+        );
+    });
+
+    public setActiveLevels$ = createEffect(() => {
+        return this.actions$.pipe(
+            ofType(levelSet),
+            concatLatestFrom(({level}) => [
+                this.store.select(selectVerbsForLevel(level)),
+                this.store.select(selectActiveVerbs),
+            ]),
+            map(([{level, active}, verbsForLevel, activeVerbs]) => {
+                const verbs = verbsForLevel.map(verb => verb.base);
+                const clonedActiveVerbs = [...activeVerbs];
+                if (active) {
+                    verbs.forEach(verb => {
+                        if (!clonedActiveVerbs.includes(verb)) {
+                            clonedActiveVerbs.push(verb);
+                        }
+                    });
+                } else {
+                    verbs.forEach(verb => {
+                        if (clonedActiveVerbs.includes(verb)) {
+                            const indexToRemove =
+                                clonedActiveVerbs.indexOf(verb);
+                            clonedActiveVerbs.splice(indexToRemove, 1);
+                        }
+                    });
+                }
+                return clonedActiveVerbs;
+            }),
+            map(activeVerbs => activeVerbsCreate({activeVerbs}))
+        );
+    });
 }
