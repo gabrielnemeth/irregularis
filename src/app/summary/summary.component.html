@@ -1,6 +1,6 @@
 <ng-container *ngIf="viewData$ | async as viewData">
-    <div class="summary-item" *ngFor="let data of viewData">
-        <h2>{{ data.verb.translation }}</h2>
+    <mat-card class="summary-item" *ngFor="let data of viewData">
+        <mat-card-title>{{ data.verb.translation }}</mat-card-title>
         <div class="answers-wrapper">
             <div class="answers">
                 <div class="answer">
@@ -8,17 +8,17 @@
                         [ngClass]="{
                             'answer--incorrect': !data.answer.base.correct
                         }"
-                        >{{ data.answer.base.verb }}</span
+                    >{{ data.answer.base.verb }}</span
                     >
                     <mat-icon
                         *ngIf="data.answer.base.correct"
                         aria-hidden="false"
-                        >check
+                    >check
                     </mat-icon>
                     <mat-icon
                         *ngIf="!data.answer.base.correct"
                         aria-hidden="false"
-                        >close
+                    >close
                     </mat-icon>
                     <div *ngIf="!data.answer.base.correct">
                         {{ data.verb.base }}
@@ -29,17 +29,17 @@
                         [ngClass]="{
                             'answer--incorrect': !data.answer.pastSimple.correct
                         }"
-                        >{{ data.answer.pastSimple.verb }}</span
+                    >{{ data.answer.pastSimple.verb }}</span
                     >
                     <mat-icon
                         *ngIf="data.answer.pastSimple.correct"
                         aria-hidden="false"
-                        >check
+                    >check
                     </mat-icon>
                     <mat-icon
                         *ngIf="!data.answer.pastSimple.correct"
                         aria-hidden="false"
-                        >close
+                    >close
                     </mat-icon>
                     <div *ngIf="!data.answer.pastSimple.correct">
                         {{ data.verb.pastSimple }}
@@ -51,17 +51,17 @@
                             'answer--incorrect':
                                 !data.answer.pastParticiple.correct
                         }"
-                        >{{ data.answer.pastParticiple.verb }}</span
+                    >{{ data.answer.pastParticiple.verb }}</span
                     >
                     <mat-icon
                         *ngIf="data.answer.pastParticiple.correct"
                         aria-hidden="false"
-                        >check
+                    >check
                     </mat-icon>
                     <mat-icon
                         *ngIf="!data.answer.pastParticiple.correct"
                         aria-hidden="false"
-                        >close
+                    >close
                     </mat-icon>
                     <div *ngIf="!data.answer.pastParticiple.correct">
                         {{ data.verb.pastParticiple }}
@@ -69,5 +69,5 @@
                 </div>
             </div>
         </div>
-    </div>
+    </mat-card>
 </ng-container>
