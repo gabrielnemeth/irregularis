@@ -5,10 +5,10 @@
 }
 
 .app-content {
-    max-width: 700px;
-    margin: auto;
     display: flex;
     flex-direction: column;
     flex: 1;
     justify-content: center;
+    align-items: center;
+    position: relative;
 }

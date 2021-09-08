@@ -1,4 +1,4 @@
-<div *ngIf="viewData$ | async as viewData" [@enterAnimation]="viewData.length">
+<div *ngIf="viewData$ | async as viewData">
     <mat-card class="summary-item" *ngFor="let data of viewData">
         <mat-card-title>{{ data.verb.translation }}</mat-card-title>
         <div class="answers-wrapper">

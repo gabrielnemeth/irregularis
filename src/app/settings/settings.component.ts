@@ -1,4 +1,4 @@
-import {Component} from '@angular/core';
+import {AfterViewInit, Component} from '@angular/core';
 import {Observable} from 'rxjs';
 import {map, switchMap} from 'rxjs/operators';
 import {AppState} from '../app.state';
@@ -34,7 +34,7 @@ interface ViewData {
         },
     ],
 })
-export class SettingsComponent {
+export class SettingsComponent implements AfterViewInit {
     private levels$ = this.store.select(selectAllLevels);
     private verbs$ = this.store.select(selectAllVerbs);
     private activeVerbs$ = this.store.select(selectActiveVerbs);
@@ -42,6 +42,7 @@ export class SettingsComponent {
     public questionCountString$ = this.questionCount$.pipe(
         map(count => count.toString())
     );
+    public animationDisabled: boolean = true;
 
     private verbsWithStatus$ = this.verbs$.pipe(
         switchMap(verbs =>
@@ -105,6 +106,10 @@ export class SettingsComponent {
     );
 
     public constructor(private store: Store<AppState>) {}
+
+    public ngAfterViewInit(): void {
+        setTimeout(() => (this.animationDisabled = false), 0);
+    }
 
     public trackByLevelId(id: number, _level: ViewData): string {
         return id.toString();

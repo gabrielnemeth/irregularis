@@ -8,14 +8,6 @@ import {selectActiveVerbs} from '../verb/verb.reducer';
 import {selectAnswers} from '../quiz/quiz.reducer';
 import {map} from 'rxjs/operators';
 import {Answer} from '../quiz/answer';
-import {
-    animate,
-    query,
-    stagger,
-    style,
-    transition,
-    trigger,
-} from '@angular/animations';
 
 interface ViewData {
     answer: {
@@ -39,25 +31,6 @@ interface ViewData {
     selector: 'app-summary',
     templateUrl: './summary.component.html',
     styleUrls: ['./summary.component.scss'],
-    animations: [
-        trigger('enterAnimation', [
-            transition('* => *', [
-                query(
-                    ':enter',
-                    [
-                        style({opacity: 0, position: 'relative', top: '30px'}),
-                        stagger(200, [
-                            animate(
-                                '400ms ease-out',
-                                style({opacity: 1, top: 0})
-                            ),
-                        ]),
-                    ],
-                    {optional: true}
-                ),
-            ]),
-        ]),
-    ],
 })
 export class SummaryComponent {
     private answers$ = this.store.select(selectAnswers);
