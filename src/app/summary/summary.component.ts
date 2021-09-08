@@ -6,8 +6,9 @@ import {Store} from '@ngrx/store';
 import {AppState} from '../app.state';
 import {selectActiveVerbs} from '../verb/verb.reducer';
 import {selectAnswers} from '../quiz/quiz.reducer';
-import {map} from 'rxjs/operators';
+import {map, tap} from 'rxjs/operators';
 import {Answer} from '../quiz/answer';
+import {Router} from '@angular/router';
 
 interface ViewData {
     answer: {
@@ -48,12 +49,20 @@ export class SummaryComponent {
                 }
                 return this.createViewData(answer, verb);
             });
+        }),
+        tap(data => {
+            if (data.length === 0) {
+                // Redirect to the homepage if the user get here directly,
+                // or refreshed the page.
+                this.router.navigate(['/']);
+            }
         })
     );
 
     public constructor(
         private quizService: QuizService,
-        private store: Store<AppState>
+        private store: Store<AppState>,
+        private router: Router
     ) {}
 
     private createViewData(answer: Answer, verb: Verb): ViewData {
