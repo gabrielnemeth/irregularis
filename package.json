@@ -1,59 +1,76 @@
 {
-  "name": "irregularis",
-  "version": "0.0.0",
-  "main": "app/main.js",
-  "scripts": {
-    "ng": "ng",
-    "start": "ng serve",
-    "build": "ng build",
-    "watch": "ng build --watch --configuration development",
-    "test": "ng test",
-    "lint": "ng lint",
-    "start:electron": "ng build --base-href ./ && electron ."
-  },
-  "private": true,
-  "dependencies": {
-    "@angular/animations": "~12.2.5",
-    "@angular/cdk": "^12.2.4",
-    "@angular/common": "~12.2.5",
-    "@angular/compiler": "~12.2.5",
-    "@angular/core": "~12.2.5",
-    "@angular/forms": "~12.2.5",
-    "@angular/material": "^12.2.4",
-    "@angular/platform-browser": "~12.2.5",
-    "@angular/platform-browser-dynamic": "~12.2.5",
-    "@angular/router": "~12.2.5",
-    "@ngrx/effects": "^12.4.0",
-    "@ngrx/store": "^12.4.0",
-    "@ngrx/store-devtools": "^12.4.0",
-    "rxjs": "~6.6.0",
-    "tslib": "^2.3.0",
-    "zone.js": "~0.11.4"
-  },
-  "devDependencies": {
-    "@angular-devkit/build-angular": "~12.2.4",
-    "@angular-eslint/builder": "12.3.1",
-    "@angular-eslint/eslint-plugin": "12.3.1",
-    "@angular-eslint/eslint-plugin-template": "12.3.1",
-    "@angular-eslint/schematics": "12.3.1",
-    "@angular-eslint/template-parser": "12.3.1",
-    "@angular/cli": "~12.2.4",
-    "@angular/compiler-cli": "~12.2.5",
-    "@ngrx/schematics": "^12.4.0",
-    "@types/jasmine": "~3.8.0",
-    "@types/node": "^12.11.1",
-    "@typescript-eslint/eslint-plugin": "4.28.2",
-    "@typescript-eslint/parser": "4.28.2",
-    "electron": "^13.2.1",
-    "eslint": "^7.26.0",
-    "eslint-plugin-ngrx": "^1.32.0",
-    "jasmine-core": "~3.8.0",
-    "karma": "~6.3.0",
-    "karma-chrome-launcher": "~3.1.0",
-    "karma-coverage": "~2.0.3",
-    "karma-jasmine": "~4.0.0",
-    "karma-jasmine-html-reporter": "~1.7.0",
-    "prettier": "^2.3.2",
-    "typescript": "~4.3.5"
-  }
+    "name": "irregularis",
+    "version": "0.0.1",
+    "description": "English irregular verbs learning tool.",
+    "author": "Gabriel Nemeth",
+    "main": "app/main.js",
+    "scripts": {
+        "ng": "ng",
+        "start": "ng serve",
+        "build": "ng build",
+        "watch": "ng build --watch --configuration development",
+        "test": "ng test",
+        "lint": "ng lint",
+        "start:electron": "ng build --base-href ./ && electron .",
+        "dist": "electron-builder"
+    },
+    "private": true,
+    "dependencies": {
+        "@angular/animations": "~12.2.5",
+        "@angular/cdk": "^12.2.4",
+        "@angular/common": "~12.2.5",
+        "@angular/compiler": "~12.2.5",
+        "@angular/core": "~12.2.5",
+        "@angular/forms": "~12.2.5",
+        "@angular/material": "^12.2.4",
+        "@angular/platform-browser": "~12.2.5",
+        "@angular/platform-browser-dynamic": "~12.2.5",
+        "@angular/router": "~12.2.5",
+        "@ngrx/effects": "^12.4.0",
+        "@ngrx/store": "^12.4.0",
+        "@ngrx/store-devtools": "^12.4.0",
+        "rxjs": "~6.6.0",
+        "tslib": "^2.3.0",
+        "zone.js": "~0.11.4"
+    },
+    "devDependencies": {
+        "@angular-devkit/build-angular": "~12.2.4",
+        "@angular-eslint/builder": "12.3.1",
+        "@angular-eslint/eslint-plugin": "12.3.1",
+        "@angular-eslint/eslint-plugin-template": "12.3.1",
+        "@angular-eslint/schematics": "12.3.1",
+        "@angular-eslint/template-parser": "12.3.1",
+        "@angular/cli": "~12.2.4",
+        "@angular/compiler-cli": "~12.2.5",
+        "@ngrx/schematics": "^12.4.0",
+        "@types/jasmine": "~3.8.0",
+        "@types/node": "^12.11.1",
+        "@typescript-eslint/eslint-plugin": "4.28.2",
+        "@typescript-eslint/parser": "4.28.2",
+        "electron": "^13.2.1",
+        "electron-builder": "^22.11.7",
+        "eslint": "^7.26.0",
+        "eslint-plugin-ngrx": "^1.32.0",
+        "jasmine-core": "~3.8.0",
+        "karma": "~6.3.0",
+        "karma-chrome-launcher": "~3.1.0",
+        "karma-coverage": "~2.0.3",
+        "karma-jasmine": "~4.0.0",
+        "karma-jasmine-html-reporter": "~1.7.0",
+        "prettier": "^2.3.2",
+        "typescript": "~4.3.5"
+    },
+    "build": {
+        "appId": "com.electron.irregularis",
+        "directories": {
+            "output": "release"
+        },
+        "linux": {
+            "target": "AppImage"
+        },
+        "win": {
+            "target": "portable"
+        }
+    }
+
 }
