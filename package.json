@@ -3,6 +3,7 @@
     "version": "0.0.1",
     "description": "English irregular verbs learning tool.",
     "author": "Gabriel Nemeth",
+    "packageManager": "npm",
     "main": "app/main.js",
     "scripts": {
         "ng": "ng",
@@ -12,7 +13,8 @@
         "test": "ng test",
         "lint": "ng lint",
         "start:electron": "ng build --base-href ./ && electron .",
-        "dist": "electron-builder"
+        "dist:linux": "rm -r ./dist/ && rm -r ./release && ng build && electron-builder -l",
+        "dist:windows": "electron-builder -w --x64"
     },
     "private": true,
     "dependencies": {
@@ -72,5 +74,4 @@
             "target": "portable"
         }
     }
-
 }
