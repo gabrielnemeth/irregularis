@@ -1,29 +1,16 @@
 import {Injectable} from '@angular/core';
-import {
-    Actions,
-    concatLatestFrom,
-    createEffect,
-    ofType,
-    OnInitEffects,
-} from '@ngrx/effects';
+import {Actions, concatLatestFrom, createEffect, ofType, OnInitEffects,} from '@ngrx/effects';
 import {Action, createAction, Store} from '@ngrx/store';
 import {LocalStorageService} from '../local-storage/local-storage.service';
-import {map} from 'rxjs/operators';
-import {
-    activeVerbsCreate,
-    activeVerbsLoad,
-    questionCountLoad,
-} from './settings.actions';
+import {map, tap} from 'rxjs/operators';
+import {activeVerbsCreate, activeVerbsLoad, questionCountLoad,} from './settings.actions';
 import {VerbService} from '../verb/verb.service';
 import {selectVerbsForLevel} from '../verb/verb.reducer';
 import {AppState} from '../app.state';
 import {verbsLoad} from '../verb/verb.actions';
-import {
-    levelSet,
-    questionCountSet,
-    verbSet,
-} from './settings.component.actions';
+import {levelSet, questionCountSet, verbSet,} from './settings.component.actions';
 import {selectActiveVerbs} from './settings.reducer';
+import {MatSnackBar} from '@angular/material/snack-bar';
 
 const init = createAction('[SettingsEffects] Init');
 
@@ -33,8 +20,10 @@ export class SettingsEffects implements OnInitEffects {
         private actions$: Actions,
         private store: Store<AppState>,
         private verbService: VerbService,
-        private localStorageService: LocalStorageService
-    ) {}
+        private localStorageService: LocalStorageService,
+        private snackBar: MatSnackBar
+    ) {
+    }
 
     public ngrxOnInitEffects(): Action {
         return init();
@@ -59,6 +48,10 @@ export class SettingsEffects implements OnInitEffects {
         },
         {dispatch: false}
     );
+
+    public showNotificationAfterQuestionCountSet$ = createEffect(() => {
+        return this.actions$.pipe(ofType(questionCountSet), tap(() => this.snackBar.open('Settings saved')));
+    }, {dispatch: false});
 
     public generateActiveVerbs$ = createEffect(() => {
         return this.actions$.pipe(

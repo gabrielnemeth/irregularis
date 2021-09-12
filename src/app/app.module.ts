@@ -20,6 +20,7 @@ import {EffectsModule} from '@ngrx/effects';
 import {SettingsEffects} from './settings/settings.effects';
 import {VerbEffects} from './verb/verb.effects';
 import {QuizEffects} from './quiz/quiz.effects';
+import {MAT_SNACK_BAR_DEFAULT_OPTIONS} from '@angular/material/snack-bar';
 
 @NgModule({
     declarations: [
@@ -46,7 +47,11 @@ import {QuizEffects} from './quiz/quiz.effects';
         EffectsModule.forRoot([SettingsEffects, VerbEffects, QuizEffects]),
         FormsModule,
     ],
-    providers: [],
+    providers: [{
+        provide: MAT_SNACK_BAR_DEFAULT_OPTIONS,
+        useValue: {duration: 2500, horizontalPosition: 'right', verticalPosition: 'top', panelClass: 'snackbar'}
+    }],
     bootstrap: [AppComponent],
 })
-export class AppModule {}
+export class AppModule {
+}
