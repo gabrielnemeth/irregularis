@@ -1,13 +1,4 @@
-import {
-    AfterViewInit,
-    Component,
-    ElementRef,
-    EventEmitter,
-    Input,
-    OnInit,
-    Output,
-    ViewChild,
-} from '@angular/core';
+import {Component, ElementRef, EventEmitter, Input, Output, ViewChild,} from '@angular/core';
 import {FormBuilder, FormGroupDirective, Validators} from '@angular/forms';
 import {Verb} from '../../verb/verb';
 import {Answer} from '../answer';
@@ -39,7 +30,8 @@ export class QuizFormComponent {
         pastParticiple: ['', Validators.required],
     });
 
-    public constructor(private formBuilder: FormBuilder) {}
+    public constructor(private formBuilder: FormBuilder) {
+    }
 
     public onFormSubmit(
         questionBase: string,

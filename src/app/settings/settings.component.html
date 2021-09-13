@@ -1,6 +1,6 @@
-<mat-card class="example-card" [@.disabled]="animationDisabled">
+<mat-card [@.disabled]="animationDisabled">
     <mat-card-header>
-        <mat-card-title>Settings</mat-card-title>
+        <mat-card-title class="settings-title">Settings</mat-card-title>
     </mat-card-header>
     <mat-card-content>
         <mat-list>
@@ -11,7 +11,7 @@
                     once.
                 </p>
                 <form class="question-count-form">
-                    <mat-form-field appearance="fill">
+                    <mat-form-field appearance="outline">
                         <mat-label>Count</mat-label>
                         <input
                             required
@@ -25,7 +25,8 @@
                     </mat-form-field>
                     <button
                         class="question-count__save-btn"
-                        mat-button
+                        mat-flat-button
+                        color="primary"
                         [disabled]="questionCountInputModel.invalid"
                         (click)="
                             onQuestionCountSubmit(questionCountInput.value)
@@ -42,7 +43,8 @@
             </div>
 
             <mat-accordion class="level-accordion" displayMode="flat">
-                <mat-expansion-panel class="mat-elevation-z0" *ngFor="let data of viewData$ | async; trackBy:trackByLevelId">
+                <mat-expansion-panel class="mat-elevation-z0"
+                                     *ngFor="let data of viewData$ | async; trackBy:trackByLevelId">
                     <mat-expansion-panel-header>
                         <mat-panel-title>
                             {{ data.level }}

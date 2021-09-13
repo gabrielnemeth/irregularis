@@ -10,7 +10,7 @@ import {map, tap} from 'rxjs/operators';
 import {Answer} from '../quiz/answer';
 import {Router} from '@angular/router';
 
-interface ViewData {
+export interface ViewData {
     answer: {
         base: {
             verb: string;
@@ -63,7 +63,8 @@ export class SummaryComponent {
         private quizService: QuizService,
         private store: Store<AppState>,
         private router: Router
-    ) {}
+    ) {
+    }
 
     private createViewData(answer: Answer, verb: Verb): ViewData {
         const answerData = {

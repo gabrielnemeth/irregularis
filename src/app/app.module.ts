@@ -21,6 +21,7 @@ import {SettingsEffects} from './settings/settings.effects';
 import {VerbEffects} from './verb/verb.effects';
 import {QuizEffects} from './quiz/quiz.effects';
 import {MAT_SNACK_BAR_DEFAULT_OPTIONS} from '@angular/material/snack-bar';
+import {SummaryItemClassNamePipe} from './summary/summary-item-classname.pipe';
 
 @NgModule({
     declarations: [
@@ -31,6 +32,7 @@ import {MAT_SNACK_BAR_DEFAULT_OPTIONS} from '@angular/material/snack-bar';
         SettingsComponent,
         TopBarComponent,
         LogoComponent,
+        SummaryItemClassNamePipe
     ],
     imports: [
         BrowserModule,
