@@ -10,6 +10,12 @@ body {
     font-family: Roboto, "Helvetica Neue", sans-serif;
 }
 
+.mat-app-background {
+    background: radial-gradient(ellipse at top left, rgba(82, 89, 255, 0.06) 1%, transparent 35%),
+    radial-gradient(ellipse at bottom right, rgba(221, 123, 255, 0.06) 1%, transparent 35%),
+    #181A20;
+}
+
 app-root {
     display: flex;
     flex-direction: column;
