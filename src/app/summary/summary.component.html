@@ -6,20 +6,23 @@
                 <div class="answer">
                     <mat-icon
                         class="status-icon status-icon--correct"
-                        *ngIf="data.answer.base.correct"
+                        *ngIf="data.answer.base.state === answerState.allCorrect"
                         aria-hidden="false"
                     >check_circle
                     </mat-icon>
                     <mat-icon
                         class="status-icon  status-icon--incorrect"
-                        *ngIf="!data.answer.base.correct"
+                        *ngIf="data.answer.base.state === answerState.allWrong"
                         aria-hidden="false"
                     >cancel
                     </mat-icon>
+                    <mat-icon
+                        class="status-icon  status-icon--mixed"
+                        *ngIf="data.answer.base.state === answerState.mixed"
+                        aria-hidden="false"
+                    >error
+                    </mat-icon>
                     <span
-                        [ngClass]="{
-                            'answer--incorrect': !data.answer.base.correct
-                        }"
                     >{{ data.answer.base.verb }}</span>
                     <span class="dot"></span>
                     <div class="correct-answer">
@@ -29,21 +32,23 @@
                 <div class="answer">
                     <mat-icon
                         class="status-icon  status-icon--correct"
-                        *ngIf="data.answer.pastSimple.correct"
+                        *ngIf="data.answer.pastSimple.state === answerState.allCorrect"
                         aria-hidden="false"
                     >check_circle
                     </mat-icon>
                     <mat-icon
                         class="status-icon  status-icon--incorrect"
-                        *ngIf="!data.answer.pastSimple.correct"
+                        *ngIf="data.answer.pastSimple.state === answerState.allWrong"
                         aria-hidden="false"
                     >cancel
                     </mat-icon>
-                    <span
-                        [ngClass]="{
-                            'answer--incorrect': !data.answer.pastSimple.correct
-                        }"
-                    >{{ data.answer.pastSimple.verb }}</span>
+                    <mat-icon
+                        class="status-icon  status-icon--mixed"
+                        *ngIf="data.answer.pastSimple.state === answerState.mixed"
+                        aria-hidden="false"
+                    >error
+                    </mat-icon>
+                    <span>{{ data.answer.pastSimple.verb }}</span>
                     <span class="dot"></span>
                     <div class="correct-answer">
                         {{ data.verb.pastSimple }}
@@ -52,22 +57,23 @@
                 <div class="answer">
                     <mat-icon
                         class="status-icon  status-icon--correct"
-                        *ngIf="data.answer.pastParticiple.correct"
+                        *ngIf="data.answer.pastParticiple.state === answerState.allCorrect"
                         aria-hidden="false"
                     >check_circle
                     </mat-icon>
                     <mat-icon
                         class="status-icon  status-icon--incorrect"
-                        *ngIf="!data.answer.pastParticiple.correct"
+                        *ngIf="data.answer.pastParticiple.state === answerState.allWrong"
                         aria-hidden="false"
                     >cancel
                     </mat-icon>
-                    <span
-                        [ngClass]="{
-                            'answer--incorrect':
-                                !data.answer.pastParticiple.correct
-                        }"
-                    >{{ data.answer.pastParticiple.verb }}</span>
+                    <mat-icon
+                        class="status-icon  status-icon--mixed"
+                        *ngIf="data.answer.pastParticiple.state === answerState.mixed"
+                        aria-hidden="false"
+                    >error
+                    </mat-icon>
+                    <span>{{ data.answer.pastParticiple.verb }}</span>
                     <span class="dot"></span>
                     <div class="correct-answer">
                         {{ data.verb.pastParticiple }}

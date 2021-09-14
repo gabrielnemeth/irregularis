@@ -14,19 +14,25 @@ export interface ViewData {
     answer: {
         base: {
             verb: string;
-            correct: boolean;
+            state: AnswerState;
         };
         pastSimple: {
             verb: string;
-            correct: boolean;
+            state: AnswerState;
         };
         pastParticiple: {
             verb: string;
-            correct: boolean;
+            state: AnswerState;
         };
     };
     verb: Verb;
 }
+
+export enum AnswerState {
+    allCorrect = 'allCorrect',
+    allWrong = 'allWrong',
+    mixed = 'mixed',
+};
 
 @Component({
     selector: 'app-summary',
@@ -36,6 +42,7 @@ export interface ViewData {
 export class SummaryComponent {
     private answers$ = this.store.select(selectAnswers);
     private activeVerbs$ = this.store.select(selectActiveVerbs);
+    public answerState: typeof AnswerState = AnswerState;
 
     public viewData$: Observable<ViewData[]> = combineLatest([
         this.answers$,
@@ -70,15 +77,15 @@ export class SummaryComponent {
         const answerData = {
             base: {
                 verb: answer.base,
-                correct: answer.base === verb.base,
+                state: this.isAnswerCorrect(verb.base, answer.base),
             },
             pastSimple: {
                 verb: answer.pastSimple,
-                correct: answer.pastSimple === verb.pastSimple,
+                state: this.isAnswerCorrect(verb.pastSimple, answer.pastSimple),
             },
             pastParticiple: {
                 verb: answer.pastParticiple,
-                correct: answer.pastParticiple === verb.pastParticiple,
+                state: this.isAnswerCorrect(verb.pastParticiple, answer.pastParticiple),
             },
         };
 
@@ -86,5 +93,24 @@ export class SummaryComponent {
             answer: answerData,
             verb,
         };
+    }
+
+    private isAnswerCorrect(verb: string, answer: string): AnswerState {
+        // Some verbs are separated by '/' character and with spaces, so we need to split them and trim the spaces.
+        const verbs = verb.split('/').map(v => v.trim());
+        const answers = answer.split(new RegExp('(?:;|,|\\/|$)')).map(v => v.trim());
+        const answerStates = verbs.map(v => answers.includes(v));
+        const allCorrect = !answerStates.includes(false);
+        const allWrong = !answerStates.includes(true);
+
+        if (allCorrect) {
+            return AnswerState.allCorrect;
+        }
+
+        if (allWrong) {
+            return AnswerState.allWrong;
+        }
+
+        return AnswerState.mixed;
     }
 }
