@@ -37,6 +37,19 @@
                 </form>
             </div>
             <mat-divider></mat-divider>
+            <div mat-subheader>Language</div>
+            <div class="content">
+                <p>
+                    You can define the translation of the words.
+                </p>
+                <mat-form-field appearance="outline">
+                    <mat-label>Language</mat-label>
+                    <mat-select [value]="activeLanguage$ | async" (valueChange)="onLanguageChange($event)">
+                        <mat-option *ngFor="let data of languages$ | async"
+                                    [value]="data.id">{{ data.name }}</mat-option>
+                    </mat-select>
+                </mat-form-field>
+            </div>
             <div mat-subheader>Levels</div>
             <div class="content">
                 <p>Select the English language levels for the verbs.</p>

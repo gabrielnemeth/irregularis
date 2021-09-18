@@ -1,905 +1,776 @@
 [
-  {
-    "base": "arise",
-    "pastSimple": "arose",
-    "pastParticiple": "arisen",
-    "translation": "vzniknúť / vyplynúť",
-    "level": "c1"
-  },
-  {
-    "base": "awake",
-    "pastSimple": "awoke",
-    "pastParticiple": "awoken",
-    "translation": "prebudiť / zobudiť sa / bdieť",
-    "level": "b1"
-  },
-  {
-    "base": "bear",
-    "pastSimple": "bore",
-    "pastParticiple": "borne",
-    "translation": "nosiť / znášať / narodiť sa",
-    "level": "b2"
-  },
-  {
-    "base": "be",
-    "pastSimple": "was / were",
-    "pastParticiple": "been",
-    "translation": "byť",
-    "level": "a2"
-  },
-  {
-    "base": "beat",
-    "pastSimple": "beat",
-    "pastParticiple": "beaten",
-    "translation": "poraziť / biť / udrieť",
-    "level": "b1"
-  },
-  {
-    "base": "become",
-    "pastSimple": "became",
-    "pastParticiple": "become",
-    "translation": "stať sa",
-    "level": "a2"
-  },
-  {
-    "base": "begin",
-    "pastSimple": "began",
-    "pastParticiple": "begun",
-    "translation": "začať",
-    "level": "a2"
-  },
-  {
-    "base": "bend",
-    "pastSimple": "bent",
-    "pastParticiple": "bent",
-    "translation": "ohnúť / zohnúť / skrčiť",
-    "level": "b2"
-  },
-  {
-    "base": "bet",
-    "pastSimple": "bet",
-    "pastParticiple": "bet",
-    "translation": "podať / staviť sa",
-    "level": "c1"
-  },
-  {
-    "base": "bind",
-    "pastSimple": "bound",
-    "pastParticiple": "bound",
-    "translation": "viazať / spútať / spájať",
-    "level": "c2"
-  },
-  {
-    "base": "bite",
-    "pastSimple": "bit",
-    "pastParticiple": "bitten",
-    "translation": "hrýzť / poštípať / popáliť",
-    "level": "b1"
-  },
-  {
-    "base": "bleed",
-    "pastSimple": "bled",
-    "pastParticiple": "bled",
-    "translation": "krvácať",
-    "level": "b1"
-  },
-  {
-    "base": "blow",
-    "pastSimple": "blew",
-    "pastParticiple": "blown",
-    "translation": "fúkať",
-    "level": "b1"
-  },
-  {
-    "base": "break",
-    "pastSimple": "broke",
-    "pastParticiple": "broken",
-    "translation": "rozbiť  / zlomiť /  porušiť",
-    "level": "a2"
-  },
-  {
-    "base": "breed",
-    "pastSimple": "bred",
-    "pastParticiple": "bred",
-    "translation": "množiť / chovať",
-    "level": "b2"
-  },
-  {
-    "base": "bring",
-    "pastSimple": "brought",
-    "pastParticiple": "brought",
-    "translation": "priniesť",
-    "level": "a2"
-  },
-  {
-    "base": "build",
-    "pastSimple": "built",
-    "pastParticiple": "built",
-    "translation": "stavať  / budovať",
-    "level": "a2"
-  },
-  {
-    "base": "burn",
-    "pastSimple": "burnt",
-    "pastParticiple": "burnt",
-    "translation": "zhorieť / pripáliť / popáliť / spáliť",
-    "level": "b1"
-  },
-  {
-    "base": "buy",
-    "pastSimple": "bought",
-    "pastParticiple": "bought",
-    "translation": "kúpiť",
-    "level": "a2"
-  },
-  {
-    "base": "cast",
-    "pastSimple": "cast",
-    "pastParticiple": "cast",
-    "translation": "vrhať / zhodiť",
-    "level": "b2"
-  },
-  {
-    "base": "catch",
-    "pastSimple": "caught",
-    "pastParticiple": "caught",
-    "translation": "chytiť  / upútať  / stihnúť",
-    "level": "a2"
-  },
-  {
-    "base": "choose",
-    "pastSimple": "chose",
-    "pastParticiple": "chosen",
-    "translation": "vybrať / zvoliť",
-    "level": "a2"
-  },
-  {
-    "base": "cling",
-    "pastSimple": "clung",
-    "pastParticiple": "clung",
-    "translation": "lipnúť / držať sa / vysieť",
-    "level": "c2"
-  },
-  {
-    "base": "come",
-    "pastSimple": "came",
-    "pastParticiple": "come",
-    "translation": "prísť",
-    "level": "a2"
-  },
-  {
-    "base": "cost",
-    "pastSimple": "cost",
-    "pastParticiple": "cost",
-    "translation": "stáť",
-    "level": "a2"
-  },
-  {
-    "base": "creep",
-    "pastSimple": "crept",
-    "pastParticiple": "crept",
-    "translation": "plaziť / ťahať / uchmatnúť",
-    "level": "c2"
-  },
-  {
-    "base": "cut",
-    "pastSimple": "cut",
-    "pastParticiple": "cut",
-    "translation": "rezať / krájať / strihať",
-    "level": "a2"
-  },
-  {
-    "base": "deal",
-    "pastSimple": "dealt",
-    "pastParticiple": "dealt",
-    "translation": "rozdať / pojednávať / jednať",
-    "level": "b2"
-  },
-  {
-    "base": "dig",
-    "pastSimple": "dug",
-    "pastParticiple": "dug",
-    "translation": "ryť / kopať",
-    "level": "b1"
-  },
-  {
-    "base": "do",
-    "pastSimple": "did",
-    "pastParticiple": "done",
-    "translation": "urobiť / robiť",
-    "level": "a2"
-  },
-  {
-    "base": "draw",
-    "pastSimple": "drew",
-    "pastParticiple": "drawn",
-    "translation": "kresliť / rysovať / remízovať / prilákať",
-    "level": "a2"
-  },
-  {
-    "base": "dream",
-    "pastSimple": "dreamt",
-    "pastParticiple": "dreamt",
-    "translation": "snívať",
-    "level": "a2"
-  },
-  {
-    "base": "drink",
-    "pastSimple": "drank",
-    "pastParticiple": "drunk",
-    "translation": "piť / pripiť",
-    "level": "a2"
-  },
-  {
-    "base": "drive",
-    "pastSimple": "drove",
-    "pastParticiple": "driven",
-    "translation": "jazdiť / šoférovať / zviezť / priviezť",
-    "level": "a2"
-  },
-  {
-    "base": "eat",
-    "pastSimple": "ate",
-    "pastParticiple": "eaten",
-    "translation": "jesť",
-    "level": "a2"
-  },
-  {
-    "base": "fall",
-    "pastSimple": "fell",
-    "pastParticiple": "fallen",
-    "translation": "spadnúť / klesnúť",
-    "level": "a2"
-  },
-  {
-    "base": "feed",
-    "pastSimple": "fed",
-    "pastParticiple": "fed",
-    "translation": "kŕmiť / živiť",
-    "level": "b1"
-  },
-  {
-    "base": "feel",
-    "pastSimple": "felt",
-    "pastParticiple": "felt",
-    "translation": "cítiť",
-    "level": "a2"
-  },
-  {
-    "base": "fight",
-    "pastSimple": "fought",
-    "pastParticiple": "fought",
-    "translation": "bojovať / zápasiť / biť sa",
-    "level": "b1"
-  },
-  {
-    "base": "find",
-    "pastSimple": "found",
-    "pastParticiple": "found",
-    "translation": "nájsť / zistiť",
-    "level": "a2"
-  },
-  {
-    "base": "flee",
-    "pastSimple": "fled",
-    "pastParticiple": "fled",
-    "translation": "utiecť / uniknúť",
-    "level": "c1"
-  },
-  {
-    "base": "fly",
-    "pastSimple": "flew",
-    "pastParticiple": "flown",
-    "translation": "letieť",
-    "level": "a2"
-  },
-  {
-    "base": "forbid",
-    "pastSimple": "forbade",
-    "pastParticiple": "forbidden",
-    "translation": "zakázať / nedovoliť",
-    "level": "b2"
-  },
-  {
-    "base": "forget",
-    "pastSimple": "forgot",
-    "pastParticiple": "forgotten",
-    "translation": "zabudnúť",
-    "level": "b1"
-  },
-  {
-    "base": "forgive",
-    "pastSimple": "forgave",
-    "pastParticiple": "forgiven",
-    "translation": "odpustiť / prepáčiť",
-    "level": "b1"
-  },
-  {
-    "base": "freeze",
-    "pastSimple": "froze",
-    "pastParticiple": "frozen",
-    "translation": "zamrznúť / zmraziť / vymrznúť",
-    "level": "b1"
-  },
-  {
-    "base": "get",
-    "pastSimple": "got",
-    "pastParticiple": "got",
-    "translation": "dostať / získať",
-    "level": "a2"
-  },
-  {
-    "base": "give",
-    "pastSimple": "gave",
-    "pastParticiple": "given",
-    "translation": "dať / poskytovať",
-    "level": "a2"
-  },
-  {
-    "base": "go",
-    "pastSimple": "went",
-    "pastParticiple": "gone",
-    "translation": "ísť / odísť",
-    "level": "a2"
-  },
-  {
-    "base": "grind",
-    "pastSimple": "ground",
-    "pastParticiple": "ground",
-    "translation": "mlieť / brúsiť / škrípať",
-    "level": "c2"
-  },
-  {
-    "base": "grow",
-    "pastSimple": "grew",
-    "pastParticiple": "grown",
-    "translation": "rásť / pestovať",
-    "level": "a2"
-  },
-  {
-    "base": "hang",
-    "pastSimple": "hung",
-    "pastParticiple": "hung",
-    "translation": "zavesiť / visieť",
-    "level": "b1"
-  },
-  {
-    "base": "have",
-    "pastSimple": "had",
-    "pastParticiple": "had",
-    "translation": "mať / vlastniť",
-    "level": "a2"
-  },
-  {
-    "base": "hear",
-    "pastSimple": "heard",
-    "pastParticiple": "heard",
-    "translation": "počuť",
-    "level": "a2"
-  },
-  {
-    "base": "hide",
-    "pastSimple": "hid",
-    "pastParticiple": "hidden",
-    "translation": "skrývať / ukrývať",
-    "level": "b1"
-  },
-  {
-    "base": "hit",
-    "pastSimple": "hit",
-    "pastParticiple": "hit",
-    "translation": "udrieť / zasiahnuť",
-    "level": "a2"
-  },
-  {
-    "base": "hold",
-    "pastSimple": "held",
-    "pastParticiple": "held",
-    "translation": "držať / podržať",
-    "level": "a2"
-  },
-  {
-    "base": "hurt",
-    "pastSimple": "hurt",
-    "pastParticiple": "hurt",
-    "translation": "raniť / poraniť / bolieť / ublížiť",
-    "level": "a2"
-  },
-  {
-    "base": "keep",
-    "pastSimple": "kept",
-    "pastParticiple": "kept",
-    "translation": "zachovať / držať / ponechať",
-    "level": "a2"
-  },
-  {
-    "base": "kneel",
-    "pastSimple": "knelt",
-    "pastParticiple": "knelt",
-    "translation": "kľačať",
-    "level": "b2"
-  },
-  {
-    "base": "know",
-    "pastSimple": "knew",
-    "pastParticiple": "known",
-    "translation": "poznať / vedieť / ovládať",
-    "level": "a2"
-  },
-  {
-    "base": "lay",
-    "pastSimple": "laid",
-    "pastParticiple": "laid",
-    "translation": "položiť / uložiť / klásť",
-    "level": "c1"
-  },
-  {
-    "base": "lead",
-    "pastSimple": "led",
-    "pastParticiple": "led",
-    "translation": "viesť / sprevádzať / smerovať",
-    "level": "b2"
-  },
-  {
-    "base": "leap",
-    "pastSimple": "leapt",
-    "pastParticiple": "leapt",
-    "translation": "skočiť / vyskočiť",
-    "level": "c2"
-  },
-  {
-    "base": "learn",
-    "pastSimple": "learnt",
-    "pastParticiple": "learnt",
-    "translation": "učiť / naučiť",
-    "level": "a2"
-  },
-  {
-    "base": "leave",
-    "pastSimple": "left",
-    "pastParticiple": "left",
-    "translation": "odísť / opustiť / nechať",
-    "level": "a2"
-  },
-  {
-    "base": "lend",
-    "pastSimple": "lent",
-    "pastParticiple": "lent",
-    "translation": "požičať / poskytnúť",
-    "level": "a2"
-  },
-  {
-    "base": "let",
-    "pastSimple": "let",
-    "pastParticiple": "let",
-    "translation": "nechať / dovoliť",
-    "level": "b1"
-  },
-  {
-    "base": "lie",
-    "pastSimple": "lay",
-    "pastParticiple": "lain",
-    "translation": "ležať / odpočívať",
-    "level": "b1"
-  },
-  {
-    "base": "light",
-    "pastSimple": "lit",
-    "pastParticiple": "lit",
-    "translation": "rozsvietiť / zosvetliť / rozžiariť / zapáliť",
-    "level": "b1"
-  },
-  {
-    "base": "lose",
-    "pastSimple": "lost",
-    "pastParticiple": "lost",
-    "translation": "stratiť/prísť o",
-    "level": "a2"
-  },
-  {
-    "base": "make",
-    "pastSimple": "made",
-    "pastParticiple": "made",
-    "translation": "stratiť / prísť o",
-    "level": "a2"
-  },
-  {
-    "base": "mean",
-    "pastSimple": "meant",
-    "pastParticiple": "meant",
-    "translation": "myslieť / znamenať",
-    "level": "a2"
-  },
-  {
-    "base": "meet",
-    "pastSimple": "met",
-    "pastParticiple": "met",
-    "translation": "stretnúť / poznať sa",
-    "level": "a2"
-  },
-  {
-    "base": "pay",
-    "pastSimple": "paid",
-    "pastParticiple": "paid",
-    "translation": "platiť / uhradiť / vyplatiť",
-    "level": "a2"
-  },
-  {
-    "base": "put",
-    "pastSimple": "put",
-    "pastParticiple": "put",
-    "translation": "položiť / dať",
-    "level": "a2"
-  },
-  {
-    "base": "read",
-    "pastSimple": "read",
-    "pastParticiple": "read",
-    "translation": "čítať",
-    "level": "a2"
-  },
-  {
-    "base": "ride",
-    "pastSimple": "rode",
-    "pastParticiple": "ridden",
-    "translation": "jazdiť / viezť / ísť",
-    "level": "a2"
-  },
-  {
-    "base": "ring",
-    "pastSimple": "rang",
-    "pastParticiple": "rung",
-    "translation": "zvoniť / zavolať / štrngať",
-    "level": "a2"
-  },
-  {
-    "base": "rise",
-    "pastSimple": "rose",
-    "pastParticiple": "risen",
-    "translation": "stúpať / vychádzať / vzrásť",
-    "level": "b1"
-  },
-  {
-    "base": "run",
-    "pastSimple": "ran",
-    "pastParticiple": "run",
-    "translation": "utekať / bežať",
-    "level": "a2"
-  },
-  {
-    "base": "saw",
-    "pastSimple": "sawed",
-    "pastParticiple": "sawn",
-    "translation": "píliť / prepíliť / rezať / prerezať / odrezať",
-    "level": "c2"
-  },
-  {
-    "base": "say",
-    "pastSimple": "said",
-    "pastParticiple": "said",
-    "translation": "povedať / hovoriť",
-    "level": "a2"
-  },
-  {
-    "base": "see",
-    "pastSimple": "saw",
-    "pastParticiple": "seen",
-    "translation": "vidieť / uvidieť / pozrieť",
-    "level": "a2"
-  },
-  {
-    "base": "seek",
-    "pastSimple": "sought",
-    "pastParticiple": "sought",
-    "translation": "usiľovať / hľadať / vyhľadávať",
-    "level": "b2"
-  },
-  {
-    "base": "sell",
-    "pastSimple": "sold",
-    "pastParticiple": "sold",
-    "translation": "predať",
-    "level": "a2"
-  },
-  {
-    "base": "send",
-    "pastSimple": "sent",
-    "pastParticiple": "sent",
-    "translation": "poslať / odoslať / vyslať",
-    "level": "a2"
-  },
-  {
-    "base": "set",
-    "pastSimple": "set",
-    "pastParticiple": "set",
-    "translation": "nastaviť",
-    "level": "b2"
-  },
-  {
-    "base": "shake",
-    "pastSimple": "shook",
-    "pastParticiple": "shaken",
-    "translation": "triasť / trepať / zatriasť",
-    "level": "b1"
-  },
-  {
-    "base": "shine",
-    "pastSimple": "shone",
-    "pastParticiple": "shone",
-    "translation": "svietiť / žiariť",
-    "level": "b1"
-  },
-  {
-    "base": "shoot",
-    "pastSimple": "shot",
-    "pastParticiple": "shot",
-    "translation": "strielať",
-    "level": "b1"
-  },
-  {
-    "base": "show",
-    "pastSimple": "showed",
-    "pastParticiple": "shown",
-    "translation": "ukázať / zobraziť / prejaviť",
-    "level": "a2"
-  },
-  {
-    "base": "shrink",
-    "pastSimple": "shrank",
-    "pastParticiple": "shrunk",
-    "translation": "scvrknúť / zmenšiť / zbehnúť",
-    "level": "b2"
-  },
-  {
-    "base": "shut",
-    "pastSimple": "shut",
-    "pastParticiple": "shut",
-    "translation": "zavrieť / uzavrieť",
-    "level": "a2"
-  },
-  {
-    "base": "sing",
-    "pastSimple": "sang",
-    "pastParticiple": "sung",
-    "translation": "spievať",
-    "level": "a2"
-  },
-  {
-    "base": "sink",
-    "pastSimple": "sank",
-    "pastParticiple": "sunk",
-    "translation": "ponárať / potopiť",
-    "level": "b1"
-  },
-  {
-    "base": "sit",
-    "pastSimple": "sat",
-    "pastParticiple": "sat",
-    "translation": "sedieť / posadiť sa",
-    "level": "a2"
-  },
-  {
-    "base": "sleep",
-    "pastSimple": "slept",
-    "pastParticiple": "slept",
-    "translation": "spať / driemať",
-    "level": "a2"
-  },
-  {
-    "base": "slide",
-    "pastSimple": "slid",
-    "pastParticiple": "slid",
-    "translation": "kĺzať / šmýkať",
-    "level": "b2"
-  },
-  {
-    "base": "speak",
-    "pastSimple": "spoke",
-    "pastParticiple": "spoken",
-    "translation": "hovoriť / rozprávať / recitovať",
-    "level": "a2"
-  },
-  {
-    "base": "spend",
-    "pastSimple": "spent",
-    "pastParticiple": "spent",
-    "translation": "minúť / stráviť / plytvať",
-    "level": "a2"
-  },
-  {
-    "base": "split",
-    "pastSimple": "split",
-    "pastParticiple": "split",
-    "translation": "rozdeliť / rozkrojiť",
-    "level": "b2"
-  },
-  {
-    "base": "spread",
-    "pastSimple": "spread",
-    "pastParticiple": "spread",
-    "translation": "šíriť / rozniesť / rozložiť",
-    "level": "b2"
-  },
-  {
-    "base": "stand",
-    "pastSimple": "stood",
-    "pastParticiple": "stood",
-    "translation": "stáť / postaviť",
-    "level": "a2"
-  },
-  {
-    "base": "steal",
-    "pastSimple": "stole",
-    "pastParticiple": "stolen",
-    "translation": "ukradnúť / vykradnúť",
-    "level": "a2"
-  },
-  {
-    "base": "stick",
-    "pastSimple": "stuck",
-    "pastParticiple": "stuck",
-    "translation": "zapichnúť / pichnúť / pripnúť",
-    "level": "b1"
-  },
-  {
-    "base": "sting",
-    "pastSimple": "stung",
-    "pastParticiple": "stung",
-    "translation": "bodnúť / uštipnúť / pichnúť / popáliť",
-    "level": "c2"
-  },
-  {
-    "base": "stink",
-    "pastSimple": "stank",
-    "pastParticiple": "stunk",
-    "translation": "smrdieť / zapáchať",
-    "level": "c1"
-  },
-  {
-    "base": "strike",
-    "pastSimple": "struck",
-    "pastParticiple": "struck",
-    "translation": "naraziť / odbiť / udrieť / bodať",
-    "level": "b1"
-  },
-  {
-    "base": "strive",
-    "pastSimple": "strove",
-    "pastParticiple": "striven",
-    "translation": "usilovať / snažiť sa / bojovať",
-    "level": "c2"
-  },
-  {
-    "base": "swear",
-    "pastSimple": "swore",
-    "pastParticiple": "sworn",
-    "translation": "nadávať / prisahať",
-    "level": "b2"
-  },
-  {
-    "base": "sweep",
-    "pastSimple": "swept",
-    "pastParticiple": "swept",
-    "translation": "zamiesť / vymiesť",
-    "level": "b2"
-  },
-  {
-    "base": "swim",
-    "pastSimple": "swam",
-    "pastParticiple": "swum",
-    "translation": "plávať / preplávať",
-    "level": "a2"
-  },
-  {
-    "base": "swing",
-    "pastSimple": "swung",
-    "pastParticiple": "swung",
-    "translation": "hojdať / kývať / mávať",
-    "level": "b2"
-  },
-  {
-    "base": "take",
-    "pastSimple": "took",
-    "pastParticiple": "taken",
-    "translation": "vziať / zobrať / trvať / užiť",
-    "level": "a2"
-  },
-  {
-    "base": "teach",
-    "pastSimple": "taught",
-    "pastParticiple": "taught",
-    "translation": "učiť / vyučovať",
-    "level": "a2"
-  },
-  {
-    "base": "tear",
-    "pastSimple": "tore",
-    "pastParticiple": "torn",
-    "translation": "trhať / roztrhnúť",
-    "level": "b1"
-  },
-  {
-    "base": "tell",
-    "pastSimple": "told",
-    "pastParticiple": "told",
-    "translation": "povedať / hovoriť / oznámiť",
-    "level": "a2"
-  },
-  {
-    "base": "think",
-    "pastSimple": "thought",
-    "pastParticiple": "thought",
-    "translation": "myslieť / premýšľať / vymyslieť",
-    "level": "a2"
-  },
-  {
-    "base": "throw",
-    "pastSimple": "threw",
-    "pastParticiple": "thrown",
-    "translation": "hodiť / zahodiť",
-    "level": "a2"
-  },
-  {
-    "base": "tread",
-    "pastSimple": "trod",
-    "pastParticiple": "trodden",
-    "translation": "šliapať / stúpať",
-    "level": "c2"
-  },
-  {
-    "base": "understand",
-    "pastSimple": "understood",
-    "pastParticiple": "understood",
-    "translation": "rozumieť / chápať",
-    "level": "a2"
-  },
-  {
-    "base": "wake",
-    "pastSimple": "woke",
-    "pastParticiple": "woken",
-    "translation": "prebudiť / zobudiť",
-    "level": "a2"
-  },
-  {
-    "base": "wear",
-    "pastSimple": "wore",
-    "pastParticiple": "worn",
-    "translation": "nosiť / mať oblečené",
-    "level": "a2"
-  },
-  {
-    "base": "weep",
-    "pastSimple": "wept",
-    "pastParticiple": "wept",
-    "translation": "oplakávať / plakať / slziť / mokvať",
-    "level": "c2"
-  },
-  {
-    "base": "win",
-    "pastSimple": "won",
-    "pastParticiple": "won",
-    "translation": "vyhrať",
-    "level": "a2"
-  },
-  {
-    "base": "wind",
-    "pastSimple": "wound",
-    "pastParticiple": "wound",
-    "translation": "nakrútiť / stočiť / natiahnuť",
-    "level": "c2"
-  },
-  {
-    "base": "wring",
-    "pastSimple": "wrung",
-    "pastParticiple": "wrung",
-    "translation": "vyžmýkať / vykrútiť",
-    "level": "c2"
-  },
-  {
-    "base": "write",
-    "pastSimple": "wrote",
-    "pastParticiple": "written",
-    "translation": "písať / zapísať",
-    "level": "a2"
-  }
+    {
+        "base": "arise",
+        "pastSimple": "arose",
+        "pastParticiple": "arisen",
+        "level": "c1"
+    },
+    {
+        "base": "awake",
+        "pastSimple": "awoke",
+        "pastParticiple": "awoken",
+        "level": "b1"
+    },
+    {
+        "base": "bear",
+        "pastSimple": "bore",
+        "pastParticiple": "borne",
+        "level": "b2"
+    },
+    {
+        "base": "be",
+        "pastSimple": "was / were",
+        "pastParticiple": "been",
+        "level": "a2"
+    },
+    {
+        "base": "beat",
+        "pastSimple": "beat",
+        "pastParticiple": "beaten",
+        "level": "b1"
+    },
+    {
+        "base": "become",
+        "pastSimple": "became",
+        "pastParticiple": "become",
+        "level": "a2"
+    },
+    {
+        "base": "begin",
+        "pastSimple": "began",
+        "pastParticiple": "begun",
+        "level": "a2"
+    },
+    {
+        "base": "bend",
+        "pastSimple": "bent",
+        "pastParticiple": "bent",
+        "level": "b2"
+    },
+    {
+        "base": "bet",
+        "pastSimple": "bet",
+        "pastParticiple": "bet",
+        "level": "c1"
+    },
+    {
+        "base": "bind",
+        "pastSimple": "bound",
+        "pastParticiple": "bound",
+        "level": "c2"
+    },
+    {
+        "base": "bite",
+        "pastSimple": "bit",
+        "pastParticiple": "bitten",
+        "level": "b1"
+    },
+    {
+        "base": "bleed",
+        "pastSimple": "bled",
+        "pastParticiple": "bled",
+        "level": "b1"
+    },
+    {
+        "base": "blow",
+        "pastSimple": "blew",
+        "pastParticiple": "blown",
+        "level": "b1"
+    },
+    {
+        "base": "break",
+        "pastSimple": "broke",
+        "pastParticiple": "broken",
+        "level": "a2"
+    },
+    {
+        "base": "breed",
+        "pastSimple": "bred",
+        "pastParticiple": "bred",
+        "level": "b2"
+    },
+    {
+        "base": "bring",
+        "pastSimple": "brought",
+        "pastParticiple": "brought",
+        "level": "a2"
+    },
+    {
+        "base": "build",
+        "pastSimple": "built",
+        "pastParticiple": "built",
+        "level": "a2"
+    },
+    {
+        "base": "burn",
+        "pastSimple": "burnt",
+        "pastParticiple": "burnt",
+        "level": "b1"
+    },
+    {
+        "base": "buy",
+        "pastSimple": "bought",
+        "pastParticiple": "bought",
+        "level": "a2"
+    },
+    {
+        "base": "cast",
+        "pastSimple": "cast",
+        "pastParticiple": "cast",
+        "level": "b2"
+    },
+    {
+        "base": "catch",
+        "pastSimple": "caught",
+        "pastParticiple": "caught",
+        "level": "a2"
+    },
+    {
+        "base": "choose",
+        "pastSimple": "chose",
+        "pastParticiple": "chosen",
+        "level": "a2"
+    },
+    {
+        "base": "cling",
+        "pastSimple": "clung",
+        "pastParticiple": "clung",
+        "level": "c2"
+    },
+    {
+        "base": "come",
+        "pastSimple": "came",
+        "pastParticiple": "come",
+        "level": "a2"
+    },
+    {
+        "base": "cost",
+        "pastSimple": "cost",
+        "pastParticiple": "cost",
+        "level": "a2"
+    },
+    {
+        "base": "creep",
+        "pastSimple": "crept",
+        "pastParticiple": "crept",
+        "level": "c2"
+    },
+    {
+        "base": "cut",
+        "pastSimple": "cut",
+        "pastParticiple": "cut",
+        "level": "a2"
+    },
+    {
+        "base": "deal",
+        "pastSimple": "dealt",
+        "pastParticiple": "dealt",
+        "level": "b2"
+    },
+    {
+        "base": "dig",
+        "pastSimple": "dug",
+        "pastParticiple": "dug",
+        "level": "b1"
+    },
+    {
+        "base": "do",
+        "pastSimple": "did",
+        "pastParticiple": "done",
+        "level": "a2"
+    },
+    {
+        "base": "draw",
+        "pastSimple": "drew",
+        "pastParticiple": "drawn",
+        "level": "a2"
+    },
+    {
+        "base": "dream",
+        "pastSimple": "dreamt",
+        "pastParticiple": "dreamt",
+        "level": "a2"
+    },
+    {
+        "base": "drink",
+        "pastSimple": "drank",
+        "pastParticiple": "drunk",
+        "level": "a2"
+    },
+    {
+        "base": "drive",
+        "pastSimple": "drove",
+        "pastParticiple": "driven",
+        "level": "a2"
+    },
+    {
+        "base": "eat",
+        "pastSimple": "ate",
+        "pastParticiple": "eaten",
+        "level": "a2"
+    },
+    {
+        "base": "fall",
+        "pastSimple": "fell",
+        "pastParticiple": "fallen",
+        "level": "a2"
+    },
+    {
+        "base": "feed",
+        "pastSimple": "fed",
+        "pastParticiple": "fed",
+        "level": "b1"
+    },
+    {
+        "base": "feel",
+        "pastSimple": "felt",
+        "pastParticiple": "felt",
+        "level": "a2"
+    },
+    {
+        "base": "fight",
+        "pastSimple": "fought",
+        "pastParticiple": "fought",
+        "level": "b1"
+    },
+    {
+        "base": "find",
+        "pastSimple": "found",
+        "pastParticiple": "found",
+        "level": "a2"
+    },
+    {
+        "base": "flee",
+        "pastSimple": "fled",
+        "pastParticiple": "fled",
+        "level": "c1"
+    },
+    {
+        "base": "fly",
+        "pastSimple": "flew",
+        "pastParticiple": "flown",
+        "level": "a2"
+    },
+    {
+        "base": "forbid",
+        "pastSimple": "forbade",
+        "pastParticiple": "forbidden",
+        "level": "b2"
+    },
+    {
+        "base": "forget",
+        "pastSimple": "forgot",
+        "pastParticiple": "forgotten",
+        "level": "b1"
+    },
+    {
+        "base": "forgive",
+        "pastSimple": "forgave",
+        "pastParticiple": "forgiven",
+        "level": "b1"
+    },
+    {
+        "base": "freeze",
+        "pastSimple": "froze",
+        "pastParticiple": "frozen",
+        "level": "b1"
+    },
+    {
+        "base": "get",
+        "pastSimple": "got",
+        "pastParticiple": "got",
+        "level": "a2"
+    },
+    {
+        "base": "give",
+        "pastSimple": "gave",
+        "pastParticiple": "given",
+        "level": "a2"
+    },
+    {
+        "base": "go",
+        "pastSimple": "went",
+        "pastParticiple": "gone",
+        "level": "a2"
+    },
+    {
+        "base": "grind",
+        "pastSimple": "ground",
+        "pastParticiple": "ground",
+        "level": "c2"
+    },
+    {
+        "base": "grow",
+        "pastSimple": "grew",
+        "pastParticiple": "grown",
+        "level": "a2"
+    },
+    {
+        "base": "hang",
+        "pastSimple": "hung",
+        "pastParticiple": "hung",
+        "level": "b1"
+    },
+    {
+        "base": "have",
+        "pastSimple": "had",
+        "pastParticiple": "had",
+        "level": "a2"
+    },
+    {
+        "base": "hear",
+        "pastSimple": "heard",
+        "pastParticiple": "heard",
+        "level": "a2"
+    },
+    {
+        "base": "hide",
+        "pastSimple": "hid",
+        "pastParticiple": "hidden",
+        "level": "b1"
+    },
+    {
+        "base": "hit",
+        "pastSimple": "hit",
+        "pastParticiple": "hit",
+        "level": "a2"
+    },
+    {
+        "base": "hold",
+        "pastSimple": "held",
+        "pastParticiple": "held",
+        "level": "a2"
+    },
+    {
+        "base": "hurt",
+        "pastSimple": "hurt",
+        "pastParticiple": "hurt",
+        "level": "a2"
+    },
+    {
+        "base": "keep",
+        "pastSimple": "kept",
+        "pastParticiple": "kept",
+        "level": "a2"
+    },
+    {
+        "base": "kneel",
+        "pastSimple": "knelt",
+        "pastParticiple": "knelt",
+        "level": "b2"
+    },
+    {
+        "base": "know",
+        "pastSimple": "knew",
+        "pastParticiple": "known",
+        "level": "a2"
+    },
+    {
+        "base": "lay",
+        "pastSimple": "laid",
+        "pastParticiple": "laid",
+        "level": "c1"
+    },
+    {
+        "base": "lead",
+        "pastSimple": "led",
+        "pastParticiple": "led",
+        "level": "b2"
+    },
+    {
+        "base": "leap",
+        "pastSimple": "leapt",
+        "pastParticiple": "leapt",
+        "level": "c2"
+    },
+    {
+        "base": "learn",
+        "pastSimple": "learnt",
+        "pastParticiple": "learnt",
+        "level": "a2"
+    },
+    {
+        "base": "leave",
+        "pastSimple": "left",
+        "pastParticiple": "left",
+        "level": "a2"
+    },
+    {
+        "base": "lend",
+        "pastSimple": "lent",
+        "pastParticiple": "lent",
+        "level": "a2"
+    },
+    {
+        "base": "let",
+        "pastSimple": "let",
+        "pastParticiple": "let",
+        "level": "b1"
+    },
+    {
+        "base": "lie",
+        "pastSimple": "lay",
+        "pastParticiple": "lain",
+        "level": "b1"
+    },
+    {
+        "base": "light",
+        "pastSimple": "lit",
+        "pastParticiple": "lit",
+        "level": "b1"
+    },
+    {
+        "base": "lose",
+        "pastSimple": "lost",
+        "pastParticiple": "lost",
+        "level": "a2"
+    },
+    {
+        "base": "make",
+        "pastSimple": "made",
+        "pastParticiple": "made",
+        "level": "a2"
+    },
+    {
+        "base": "mean",
+        "pastSimple": "meant",
+        "pastParticiple": "meant",
+        "level": "a2"
+    },
+    {
+        "base": "meet",
+        "pastSimple": "met",
+        "pastParticiple": "met",
+        "level": "a2"
+    },
+    {
+        "base": "pay",
+        "pastSimple": "paid",
+        "pastParticiple": "paid",
+        "level": "a2"
+    },
+    {
+        "base": "put",
+        "pastSimple": "put",
+        "pastParticiple": "put",
+        "level": "a2"
+    },
+    {
+        "base": "read",
+        "pastSimple": "read",
+        "pastParticiple": "read",
+        "level": "a2"
+    },
+    {
+        "base": "ride",
+        "pastSimple": "rode",
+        "pastParticiple": "ridden",
+        "level": "a2"
+    },
+    {
+        "base": "ring",
+        "pastSimple": "rang",
+        "pastParticiple": "rung",
+        "level": "a2"
+    },
+    {
+        "base": "rise",
+        "pastSimple": "rose",
+        "pastParticiple": "risen",
+        "level": "b1"
+    },
+    {
+        "base": "run",
+        "pastSimple": "ran",
+        "pastParticiple": "run",
+        "level": "a2"
+    },
+    {
+        "base": "saw",
+        "pastSimple": "sawed",
+        "pastParticiple": "sawn",
+        "level": "c2"
+    },
+    {
+        "base": "say",
+        "pastSimple": "said",
+        "pastParticiple": "said",
+        "level": "a2"
+    },
+    {
+        "base": "see",
+        "pastSimple": "saw",
+        "pastParticiple": "seen",
+        "level": "a2"
+    },
+    {
+        "base": "seek",
+        "pastSimple": "sought",
+        "pastParticiple": "sought",
+        "level": "b2"
+    },
+    {
+        "base": "sell",
+        "pastSimple": "sold",
+        "pastParticiple": "sold",
+        "level": "a2"
+    },
+    {
+        "base": "send",
+        "pastSimple": "sent",
+        "pastParticiple": "sent",
+        "level": "a2"
+    },
+    {
+        "base": "set",
+        "pastSimple": "set",
+        "pastParticiple": "set",
+        "level": "b2"
+    },
+    {
+        "base": "shake",
+        "pastSimple": "shook",
+        "pastParticiple": "shaken",
+        "level": "b1"
+    },
+    {
+        "base": "shine",
+        "pastSimple": "shone",
+        "pastParticiple": "shone",
+        "level": "b1"
+    },
+    {
+        "base": "shoot",
+        "pastSimple": "shot",
+        "pastParticiple": "shot",
+        "level": "b1"
+    },
+    {
+        "base": "show",
+        "pastSimple": "showed",
+        "pastParticiple": "shown",
+        "level": "a2"
+    },
+    {
+        "base": "shrink",
+        "pastSimple": "shrank",
+        "pastParticiple": "shrunk",
+        "level": "b2"
+    },
+    {
+        "base": "shut",
+        "pastSimple": "shut",
+        "pastParticiple": "shut",
+        "level": "a2"
+    },
+    {
+        "base": "sing",
+        "pastSimple": "sang",
+        "pastParticiple": "sung",
+        "level": "a2"
+    },
+    {
+        "base": "sink",
+        "pastSimple": "sank",
+        "pastParticiple": "sunk",
+        "level": "b1"
+    },
+    {
+        "base": "sit",
+        "pastSimple": "sat",
+        "pastParticiple": "sat",
+        "level": "a2"
+    },
+    {
+        "base": "sleep",
+        "pastSimple": "slept",
+        "pastParticiple": "slept",
+        "level": "a2"
+    },
+    {
+        "base": "slide",
+        "pastSimple": "slid",
+        "pastParticiple": "slid",
+        "level": "b2"
+    },
+    {
+        "base": "speak",
+        "pastSimple": "spoke",
+        "pastParticiple": "spoken",
+        "level": "a2"
+    },
+    {
+        "base": "spend",
+        "pastSimple": "spent",
+        "pastParticiple": "spent",
+        "level": "a2"
+    },
+    {
+        "base": "split",
+        "pastSimple": "split",
+        "pastParticiple": "split",
+        "level": "b2"
+    },
+    {
+        "base": "spread",
+        "pastSimple": "spread",
+        "pastParticiple": "spread",
+        "level": "b2"
+    },
+    {
+        "base": "stand",
+        "pastSimple": "stood",
+        "pastParticiple": "stood",
+        "level": "a2"
+    },
+    {
+        "base": "steal",
+        "pastSimple": "stole",
+        "pastParticiple": "stolen",
+        "level": "a2"
+    },
+    {
+        "base": "stick",
+        "pastSimple": "stuck",
+        "pastParticiple": "stuck",
+        "level": "b1"
+    },
+    {
+        "base": "sting",
+        "pastSimple": "stung",
+        "pastParticiple": "stung",
+        "level": "c2"
+    },
+    {
+        "base": "stink",
+        "pastSimple": "stank",
+        "pastParticiple": "stunk",
+        "level": "c1"
+    },
+    {
+        "base": "strike",
+        "pastSimple": "struck",
+        "pastParticiple": "struck",
+        "level": "b1"
+    },
+    {
+        "base": "strive",
+        "pastSimple": "strove",
+        "pastParticiple": "striven",
+        "level": "c2"
+    },
+    {
+        "base": "swear",
+        "pastSimple": "swore",
+        "pastParticiple": "sworn",
+        "level": "b2"
+    },
+    {
+        "base": "sweep",
+        "pastSimple": "swept",
+        "pastParticiple": "swept",
+        "level": "b2"
+    },
+    {
+        "base": "swim",
+        "pastSimple": "swam",
+        "pastParticiple": "swum",
+        "level": "a2"
+    },
+    {
+        "base": "swing",
+        "pastSimple": "swung",
+        "pastParticiple": "swung",
+        "level": "b2"
+    },
+    {
+        "base": "take",
+        "pastSimple": "took",
+        "pastParticiple": "taken",
+        "level": "a2"
+    },
+    {
+        "base": "teach",
+        "pastSimple": "taught",
+        "pastParticiple": "taught",
+        "level": "a2"
+    },
+    {
+        "base": "tear",
+        "pastSimple": "tore",
+        "pastParticiple": "torn",
+        "level": "b1"
+    },
+    {
+        "base": "tell",
+        "pastSimple": "told",
+        "pastParticiple": "told",
+        "level": "a2"
+    },
+    {
+        "base": "think",
+        "pastSimple": "thought",
+        "pastParticiple": "thought",
+        "level": "a2"
+    },
+    {
+        "base": "throw",
+        "pastSimple": "threw",
+        "pastParticiple": "thrown",
+        "level": "a2"
+    },
+    {
+        "base": "tread",
+        "pastSimple": "trod",
+        "pastParticiple": "trodden",
+        "level": "c2"
+    },
+    {
+        "base": "understand",
+        "pastSimple": "understood",
+        "pastParticiple": "understood",
+        "level": "a2"
+    },
+    {
+        "base": "wake",
+        "pastSimple": "woke",
+        "pastParticiple": "woken",
+        "level": "a2"
+    },
+    {
+        "base": "wear",
+        "pastSimple": "wore",
+        "pastParticiple": "worn",
+        "level": "a2"
+    },
+    {
+        "base": "weep",
+        "pastSimple": "wept",
+        "pastParticiple": "wept",
+        "level": "c2"
+    },
+    {
+        "base": "win",
+        "pastSimple": "won",
+        "pastParticiple": "won",
+        "level": "a2"
+    },
+    {
+        "base": "wind",
+        "pastSimple": "wound",
+        "pastParticiple": "wound",
+        "level": "c2"
+    },
+    {
+        "base": "wring",
+        "pastSimple": "wrung",
+        "pastParticiple": "wrung",
+        "level": "c2"
+    },
+    {
+        "base": "write",
+        "pastSimple": "wrote",
+        "pastParticiple": "written",
+        "level": "a2"
+    }
 ]

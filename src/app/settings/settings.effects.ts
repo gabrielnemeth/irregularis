@@ -3,7 +3,13 @@ import {Actions, concatLatestFrom, createEffect, ofType, OnInitEffects,} from '@
 import {Action, createAction, Store} from '@ngrx/store';
 import {LocalStorageService} from '../local-storage/local-storage.service';
 import {map, tap} from 'rxjs/operators';
-import {activeVerbsCreate, activeVerbsLoad, questionCountLoad,} from './settings.actions';
+import {
+    activeLanguageChange,
+    activeLanguageLoad,
+    activeVerbsCreate,
+    activeVerbsLoad,
+    questionCountLoad,
+} from './settings.actions';
 import {VerbService} from '../verb/verb.service';
 import {selectVerbsForLevel} from '../verb/verb.reducer';
 import {AppState} from '../app.state';
@@ -137,4 +143,28 @@ export class SettingsEffects implements OnInitEffects {
             map(activeVerbs => activeVerbsCreate({activeVerbs}))
         );
     });
+
+    public loadActiveLanguage$ = createEffect(() => {
+        return this.actions$.pipe(
+            ofType(init),
+            map(() => this.localStorageService.getLanguage()),
+            map(languageId => activeLanguageLoad({languageId}))
+        );
+    });
+
+    public saveActiveLanguage$ = createEffect(
+        () => {
+            return this.actions$.pipe(
+                ofType(activeLanguageChange),
+                map(({languageId}) =>
+                    this.localStorageService.setLanguage(languageId)
+                )
+            );
+        },
+        {dispatch: false}
+    );
+
+    public showNotificationAfterLanguageSet$ = createEffect(() => {
+        return this.actions$.pipe(ofType(activeLanguageChange), tap(() => this.snackBar.open('Settings saved')));
+    }, {dispatch: false});
 }

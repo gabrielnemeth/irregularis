@@ -1,16 +1,19 @@
 import {createReducer, createSelector, on} from '@ngrx/store';
-import {Verb} from './verb';
-import {verbsLoad} from './verb.actions';
+import {translationLoad, verbsLoad} from './verb.actions';
 import {AppState} from '../app.state';
+import {VerbRaw} from './verb-raw';
+import {Translation} from './translation';
 
 export interface VerbState {
-    verbs: Verb[];
+    verbs: VerbRaw[];
     levels: string[];
+    translation: Translation[];
 }
 
 export const initialState: VerbState = {
     verbs: [],
     levels: [],
+    translation: []
 };
 
 export const selectSettingsState = (state: AppState) => state.settings;
@@ -23,30 +26,44 @@ export const selectAllLevels = createSelector(
 
 export const selectAllVerbs = createSelector(
     selectVerbsState,
-    state => state.verbs
+    state => {
+        return state.verbs.map(verb => {
+            const translation = state.translation.find(translation => translation.base === verb.base);
+
+            if (translation == null) {
+                throw new TypeError(`Translation can't be Nil!`);
+            }
+
+            return {
+                ...verb,
+                translation: translation.translation
+
+            };
+        });
+    }
 );
 
 export const selectActiveVerbs = createSelector(
-    selectVerbsState,
+    selectAllVerbs,
     selectSettingsState,
-    (verbsState, settingsState) =>
-        verbsState.verbs.filter(verb =>
+    (verbs, settingsState) =>
+        verbs.filter(verb =>
             settingsState.activeVerbs.includes(verb.base)
         )
 );
 
 export const selectVerb = (base: string) =>
-    createSelector(selectVerbsState, state => {
-        const verb = state.verbs.find(verb => verb.base === base);
+    createSelector(selectAllVerbs, verbs => {
+        const verb = verbs.find(verb => verb.base === base);
         if (verb === undefined) {
-            throw new TypeError("Verb can't be undefined");
+            throw new TypeError('Verb can\'t be undefined');
         }
         return verb;
     });
 
 export const selectVerbsForLevel = (level: string) =>
-    createSelector(selectVerbsState, state =>
-        state.verbs.filter(verb => verb.level === level)
+    createSelector(selectAllVerbs, verbs =>
+        verbs.filter(verb => verb.level === level)
     );
 
 export const verbReducer = createReducer(
@@ -55,10 +72,14 @@ export const verbReducer = createReducer(
         ...state,
         verbs,
         levels: getLevels(verbs),
+    })),
+    on(translationLoad, (state, {translation}) => ({
+        ...state,
+        translation
     }))
 );
 
-function getLevels(verbs: Verb[]): string[] {
+function getLevels(verbs: VerbRaw[]): string[] {
     const levels = [...new Set(verbs.map(verb => verb.level))];
     return levels.sort((a, b) => a.localeCompare(b));
 }

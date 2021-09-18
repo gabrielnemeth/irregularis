@@ -4,17 +4,13 @@ import {map, switchMap} from 'rxjs/operators';
 import {AppState} from '../app.state';
 import {Store} from '@ngrx/store';
 import {selectAllLevels, selectAllVerbs} from '../verb/verb.reducer';
-import {selectActiveVerbs, selectQuestionCount} from './settings.reducer';
-import {
-    levelSet,
-    questionCountSet,
-    verbSet,
-} from './settings.component.actions';
+import {selectActiveLanguage, selectActiveVerbs, selectQuestionCount} from './settings.reducer';
+import {levelSet, questionCountSet, verbSet,} from './settings.component.actions';
 import {VerbWithStatus} from '../verb/verb-with-status';
-import {
-    MAT_CHECKBOX_DEFAULT_OPTIONS,
-    MatCheckboxDefaultOptions,
-} from '@angular/material/checkbox';
+import {MAT_CHECKBOX_DEFAULT_OPTIONS, MatCheckboxDefaultOptions,} from '@angular/material/checkbox';
+import {selectLanguages} from '../language/language.reducer';
+import {activeLanguageChange} from './settings.actions';
+import {LanguageId} from '../language/language';
 
 interface ViewData {
     level: string;
@@ -37,12 +33,20 @@ interface ViewData {
 export class SettingsComponent implements AfterViewInit {
     private levels$ = this.store.select(selectAllLevels);
     private verbs$ = this.store.select(selectAllVerbs);
+    public languages$ = this.store.select(selectLanguages);
+    public activeLanguage$ = this.store.select(selectActiveLanguage);
     private activeVerbs$ = this.store.select(selectActiveVerbs);
     private questionCount$ = this.store.select(selectQuestionCount);
     public questionCountString$ = this.questionCount$.pipe(
         map(count => count.toString())
     );
     public animationDisabled: boolean = true;
+
+    public languageViewData$ = this.activeLanguage$.pipe(switchMap(activeLanguage => this.languages$.pipe(map(languages => languages.map(language => ({
+        value: language.id,
+        name: language.name,
+        selected: language.id === activeLanguage
+    }))))));
 
     private verbsWithStatus$ = this.verbs$.pipe(
         switchMap(verbs =>
@@ -105,7 +109,8 @@ export class SettingsComponent implements AfterViewInit {
         )
     );
 
-    public constructor(private store: Store<AppState>) {}
+    public constructor(private store: Store<AppState>) {
+    }
 
     public ngAfterViewInit(): void {
         setTimeout(() => (this.animationDisabled = false), 0);
@@ -132,5 +137,9 @@ export class SettingsComponent implements AfterViewInit {
 
     public onQuestionCountSubmit(count: string): void {
         this.store.dispatch(questionCountSet({questionCount: Number(count)}));
+    }
+
+    public onLanguageChange(languageId: LanguageId) {
+        this.store.dispatch(activeLanguageChange({languageId}));
     }
 }

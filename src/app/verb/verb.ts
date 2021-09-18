@@ -1,7 +1,5 @@
-export interface Verb {
-    base: string;
-    pastSimple: string;
-    pastParticiple: string;
+import {VerbRaw} from './verb-raw';
+
+export interface Verb extends VerbRaw {
     translation: string;
-    level: string;
 }

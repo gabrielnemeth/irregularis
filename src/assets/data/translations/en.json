@@ -1,0 +1,518 @@
+[
+    {
+        "base": "arise",
+        "translation": "arise"
+    },
+    {
+        "base": "awake",
+        "translation": "awake"
+    },
+    {
+        "base": "bear",
+        "translation": "bear"
+    },
+    {
+        "base": "be",
+        "translation": "be"
+    },
+    {
+        "base": "beat",
+        "translation": "beat"
+    },
+    {
+        "base": "become",
+        "translation": "become"
+    },
+    {
+        "base": "begin",
+        "translation": "begin"
+    },
+    {
+        "base": "bend",
+        "translation": "bend"
+    },
+    {
+        "base": "bet",
+        "translation": "bet"
+    },
+    {
+        "base": "bind",
+        "translation": "bind"
+    },
+    {
+        "base": "bite",
+        "translation": "bite"
+    },
+    {
+        "base": "bleed",
+        "translation": "bleed"
+    },
+    {
+        "base": "blow",
+        "translation": "blow"
+    },
+    {
+        "base": "break",
+        "translation": "break"
+    },
+    {
+        "base": "breed",
+        "translation": "breed"
+    },
+    {
+        "base": "bring",
+        "translation": "bring"
+    },
+    {
+        "base": "build",
+        "translation": "build"
+    },
+    {
+        "base": "burn",
+        "translation": "burn"
+    },
+    {
+        "base": "buy",
+        "translation": "buy"
+    },
+    {
+        "base": "cast",
+        "translation": "cast"
+    },
+    {
+        "base": "catch",
+        "translation": "catch"
+    },
+    {
+        "base": "choose",
+        "translation": "choose"
+    },
+    {
+        "base": "cling",
+        "translation": "cling"
+    },
+    {
+        "base": "come",
+        "translation": "come"
+    },
+    {
+        "base": "cost",
+        "translation": "cost"
+    },
+    {
+        "base": "creep",
+        "translation": "creep"
+    },
+    {
+        "base": "cut",
+        "translation": "cut"
+    },
+    {
+        "base": "deal",
+        "translation": "deal"
+    },
+    {
+        "base": "dig",
+        "translation": "dig"
+    },
+    {
+        "base": "do",
+        "translation": "do"
+    },
+    {
+        "base": "draw",
+        "translation": "draw"
+    },
+    {
+        "base": "dream",
+        "translation": "dream"
+    },
+    {
+        "base": "drink",
+        "translation": "drink"
+    },
+    {
+        "base": "drive",
+        "translation": "drive"
+    },
+    {
+        "base": "eat",
+        "translation": "eat"
+    },
+    {
+        "base": "fall",
+        "translation": "fall"
+    },
+    {
+        "base": "feed",
+        "translation": "feed"
+    },
+    {
+        "base": "feel",
+        "translation": "feel"
+    },
+    {
+        "base": "fight",
+        "translation": "fight"
+    },
+    {
+        "base": "find",
+        "translation": "find"
+    },
+    {
+        "base": "flee",
+        "translation": "flee"
+    },
+    {
+        "base": "fly",
+        "translation": "fly"
+    },
+    {
+        "base": "forbid",
+        "translation": "forbid"
+    },
+    {
+        "base": "forget",
+        "translation": "forget"
+    },
+    {
+        "base": "forgive",
+        "translation": "forgive"
+    },
+    {
+        "base": "freeze",
+        "translation": "freeze"
+    },
+    {
+        "base": "get",
+        "translation": "get"
+    },
+    {
+        "base": "give",
+        "translation": "give"
+    },
+    {
+        "base": "go",
+        "translation": "go"
+    },
+    {
+        "base": "grind",
+        "translation": "grind"
+    },
+    {
+        "base": "grow",
+        "translation": "grow"
+    },
+    {
+        "base": "hang",
+        "translation": "hang"
+    },
+    {
+        "base": "have",
+        "translation": "have"
+    },
+    {
+        "base": "hear",
+        "translation": "hear"
+    },
+    {
+        "base": "hide",
+        "translation": "hide"
+    },
+    {
+        "base": "hit",
+        "translation": "hit"
+    },
+    {
+        "base": "hold",
+        "translation": "hold"
+    },
+    {
+        "base": "hurt",
+        "translation": "hurt"
+    },
+    {
+        "base": "keep",
+        "translation": "keep"
+    },
+    {
+        "base": "kneel",
+        "translation": "kneel"
+    },
+    {
+        "base": "know",
+        "translation": "know"
+    },
+    {
+        "base": "lay",
+        "translation": "lay"
+    },
+    {
+        "base": "lead",
+        "translation": "lead"
+    },
+    {
+        "base": "leap",
+        "translation": "leap"
+    },
+    {
+        "base": "learn",
+        "translation": "learn"
+    },
+    {
+        "base": "leave",
+        "translation": "leave"
+    },
+    {
+        "base": "lend",
+        "translation": "lend"
+    },
+    {
+        "base": "let",
+        "translation": "let"
+    },
+    {
+        "base": "lie",
+        "translation": "lie"
+    },
+    {
+        "base": "light",
+        "translation": "light"
+    },
+    {
+        "base": "lose",
+        "translation": "lose"
+    },
+    {
+        "base": "make",
+        "translation": "make"
+    },
+    {
+        "base": "mean",
+        "translation": "mean"
+    },
+    {
+        "base": "meet",
+        "translation": "meet"
+    },
+    {
+        "base": "pay",
+        "translation": "pay"
+    },
+    {
+        "base": "put",
+        "translation": "put"
+    },
+    {
+        "base": "read",
+        "translation": "read"
+    },
+    {
+        "base": "ride",
+        "translation": "ride"
+    },
+    {
+        "base": "ring",
+        "translation": "ring"
+    },
+    {
+        "base": "rise",
+        "translation": "rise"
+    },
+    {
+        "base": "run",
+        "translation": "run"
+    },
+    {
+        "base": "saw",
+        "translation": "saw"
+    },
+    {
+        "base": "say",
+        "translation": "say"
+    },
+    {
+        "base": "see",
+        "translation": "see"
+    },
+    {
+        "base": "seek",
+        "translation": "seek"
+    },
+    {
+        "base": "sell",
+        "translation": "sell"
+    },
+    {
+        "base": "send",
+        "translation": "send"
+    },
+    {
+        "base": "set",
+        "translation": "set"
+    },
+    {
+        "base": "shake",
+        "translation": "shake"
+    },
+    {
+        "base": "shine",
+        "translation": "shine"
+    },
+    {
+        "base": "shoot",
+        "translation": "shoot"
+    },
+    {
+        "base": "show",
+        "translation": "show"
+    },
+    {
+        "base": "shrink",
+        "translation": "shrink"
+    },
+    {
+        "base": "shut",
+        "translation": "shut"
+    },
+    {
+        "base": "sing",
+        "translation": "sing"
+    },
+    {
+        "base": "sink",
+        "translation": "sink"
+    },
+    {
+        "base": "sit",
+        "translation": "sit"
+    },
+    {
+        "base": "sleep",
+        "translation": "sleep"
+    },
+    {
+        "base": "slide",
+        "translation": "slide"
+    },
+    {
+        "base": "speak",
+        "translation": "speak"
+    },
+    {
+        "base": "spend",
+        "translation": "spend"
+    },
+    {
+        "base": "split",
+        "translation": "split"
+    },
+    {
+        "base": "spread",
+        "translation": "spread"
+    },
+    {
+        "base": "stand",
+        "translation": "stand"
+    },
+    {
+        "base": "steal",
+        "translation": "steal"
+    },
+    {
+        "base": "stick",
+        "translation": "stick"
+    },
+    {
+        "base": "sting",
+        "translation": "sting"
+    },
+    {
+        "base": "stink",
+        "translation": "stink"
+    },
+    {
+        "base": "strike",
+        "translation": "strike"
+    },
+    {
+        "base": "strive",
+        "translation": "strive"
+    },
+    {
+        "base": "swear",
+        "translation": "swear"
+    },
+    {
+        "base": "sweep",
+        "translation": "sweep"
+    },
+    {
+        "base": "swim",
+        "translation": "swim"
+    },
+    {
+        "base": "swing",
+        "translation": "swing"
+    },
+    {
+        "base": "take",
+        "translation": "take"
+    },
+    {
+        "base": "teach",
+        "translation": "teach"
+    },
+    {
+        "base": "tear",
+        "translation": "tear"
+    },
+    {
+        "base": "tell",
+        "translation": "tell"
+    },
+    {
+        "base": "think",
+        "translation": "think"
+    },
+    {
+        "base": "throw",
+        "translation": "throw"
+    },
+    {
+        "base": "tread",
+        "translation": "tread"
+    },
+    {
+        "base": "understand",
+        "translation": "understand"
+    },
+    {
+        "base": "wake",
+        "translation": "wake"
+    },
+    {
+        "base": "wear",
+        "translation": "wear"
+    },
+    {
+        "base": "weep",
+        "translation": "weep"
+    },
+    {
+        "base": "win",
+        "translation": "win"
+    },
+    {
+        "base": "wind",
+        "translation": "wind"
+    },
+    {
+        "base": "wring",
+        "translation": "wring"
+    },
+    {
+        "base": "write",
+        "translation": "write"
+    }
+]

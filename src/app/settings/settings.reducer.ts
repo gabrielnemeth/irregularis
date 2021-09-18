@@ -1,5 +1,7 @@
 import {createReducer, createSelector, on} from '@ngrx/store';
 import {
+    activeLanguageChange,
+    activeLanguageLoad,
     activeVerbsCreate,
     activeVerbsLoad,
     activeVerbsSet,
@@ -7,13 +9,16 @@ import {
 } from './settings.actions';
 import {AppState} from '../app.state';
 import {questionCountSet} from './settings.component.actions';
+import {LanguageId} from '../language/language';
 
 export interface SettingsState {
+    activeLanguage: LanguageId;
     questionCount: number;
     activeVerbs: string[];
 }
 
 export const initialState: SettingsState = {
+    activeLanguage: 'en',
     questionCount: 5,
     activeVerbs: [],
 };
@@ -28,6 +33,11 @@ export const selectQuestionCount = createSelector(
 export const selectActiveVerbs = createSelector(
     selectSettings,
     state => state.activeVerbs
+);
+
+export const selectActiveLanguage = createSelector(
+    selectSettings,
+    state => state.activeLanguage
 );
 
 export const settingsReducer = createReducer(
@@ -55,5 +65,21 @@ export const settingsReducer = createReducer(
     on(activeVerbsSet, (state, {activeVerbs}) => ({
         ...state,
         verbs: activeVerbs,
+    })),
+    on(activeLanguageLoad, (state, {languageId}) => {
+        // If the language is not set in LocalStorage, do nothing
+        // and use the default value.
+        if (languageId === null || languageId.length === 0) {
+            return {...state};
+        }
+
+        return {
+            ...state,
+            activeLanguage: languageId,
+        };
+    }),
+    on(activeLanguageChange, (state, {languageId}) => ({
+        ...state,
+        activeLanguage: languageId
     }))
 );

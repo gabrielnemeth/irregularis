@@ -1,0 +1,518 @@
+[
+    {
+        "base": "arise",
+        "translation": "vzniknúť / vyplynúť"
+    },
+    {
+        "base": "awake",
+        "translation": "prebudiť / zobudiť sa / bdieť"
+    },
+    {
+        "base": "bear",
+        "translation": "nosiť / znášať / narodiť sa"
+    },
+    {
+        "base": "be",
+        "translation": "byť"
+    },
+    {
+        "base": "beat",
+        "translation": "poraziť / biť / udrieť"
+    },
+    {
+        "base": "become",
+        "translation": "stať sa"
+    },
+    {
+        "base": "begin",
+        "translation": "začať"
+    },
+    {
+        "base": "bend",
+        "translation": "ohnúť / zohnúť / skrčiť"
+    },
+    {
+        "base": "bet",
+        "translation": "podať / staviť sa"
+    },
+    {
+        "base": "bind",
+        "translation": "viazať / spútať / spájať"
+    },
+    {
+        "base": "bite",
+        "translation": "hrýzť / poštípať / popáliť"
+    },
+    {
+        "base": "bleed",
+        "translation": "krvácať"
+    },
+    {
+        "base": "blow",
+        "translation": "fúkať"
+    },
+    {
+        "base": "break",
+        "translation": "rozbiť  / zlomiť /  porušiť"
+    },
+    {
+        "base": "breed",
+        "translation": "množiť / chovať"
+    },
+    {
+        "base": "bring",
+        "translation": "priniesť"
+    },
+    {
+        "base": "build",
+        "translation": "stavať  / budovať"
+    },
+    {
+        "base": "burn",
+        "translation": "zhorieť / pripáliť / popáliť / spáliť"
+    },
+    {
+        "base": "buy",
+        "translation": "kúpiť"
+    },
+    {
+        "base": "cast",
+        "translation": "vrhať / zhodiť"
+    },
+    {
+        "base": "catch",
+        "translation": "chytiť  / upútať  / stihnúť"
+    },
+    {
+        "base": "choose",
+        "translation": "vybrať / zvoliť"
+    },
+    {
+        "base": "cling",
+        "translation": "lipnúť / držať sa / vysieť"
+    },
+    {
+        "base": "come",
+        "translation": "prísť"
+    },
+    {
+        "base": "cost",
+        "translation": "stáť"
+    },
+    {
+        "base": "creep",
+        "translation": "plaziť / ťahať / uchmatnúť"
+    },
+    {
+        "base": "cut",
+        "translation": "rezať / krájať / strihať"
+    },
+    {
+        "base": "deal",
+        "translation": "rozdať / pojednávať / jednať"
+    },
+    {
+        "base": "dig",
+        "translation": "ryť / kopať"
+    },
+    {
+        "base": "do",
+        "translation": "urobiť / robiť"
+    },
+    {
+        "base": "draw",
+        "translation": "kresliť / rysovať / remízovať / prilákať"
+    },
+    {
+        "base": "dream",
+        "translation": "snívať"
+    },
+    {
+        "base": "drink",
+        "translation": "piť / pripiť"
+    },
+    {
+        "base": "drive",
+        "translation": "jazdiť / šoférovať / zviezť / priviezť"
+    },
+    {
+        "base": "eat",
+        "translation": "jesť"
+    },
+    {
+        "base": "fall",
+        "translation": "spadnúť / klesnúť"
+    },
+    {
+        "base": "feed",
+        "translation": "kŕmiť / živiť"
+    },
+    {
+        "base": "feel",
+        "translation": "cítiť"
+    },
+    {
+        "base": "fight",
+        "translation": "bojovať / zápasiť / biť sa"
+    },
+    {
+        "base": "find",
+        "translation": "nájsť / zistiť"
+    },
+    {
+        "base": "flee",
+        "translation": "utiecť / uniknúť"
+    },
+    {
+        "base": "fly",
+        "translation": "letieť"
+    },
+    {
+        "base": "forbid",
+        "translation": "zakázať / nedovoliť"
+    },
+    {
+        "base": "forget",
+        "translation": "zabudnúť"
+    },
+    {
+        "base": "forgive",
+        "translation": "odpustiť / prepáčiť"
+    },
+    {
+        "base": "freeze",
+        "translation": "zamrznúť / zmraziť / vymrznúť"
+    },
+    {
+        "base": "get",
+        "translation": "dostať / získať"
+    },
+    {
+        "base": "give",
+        "translation": "dať / poskytovať"
+    },
+    {
+        "base": "go",
+        "translation": "ísť / odísť"
+    },
+    {
+        "base": "grind",
+        "translation": "mlieť / brúsiť / škrípať"
+    },
+    {
+        "base": "grow",
+        "translation": "rásť / pestovať"
+    },
+    {
+        "base": "hang",
+        "translation": "zavesiť / visieť"
+    },
+    {
+        "base": "have",
+        "translation": "mať / vlastniť"
+    },
+    {
+        "base": "hear",
+        "translation": "počuť"
+    },
+    {
+        "base": "hide",
+        "translation": "skrývať / ukrývať"
+    },
+    {
+        "base": "hit",
+        "translation": "udrieť / zasiahnuť"
+    },
+    {
+        "base": "hold",
+        "translation": "držať / podržať"
+    },
+    {
+        "base": "hurt",
+        "translation": "raniť / poraniť / bolieť / ublížiť"
+    },
+    {
+        "base": "keep",
+        "translation": "zachovať / držať / ponechať"
+    },
+    {
+        "base": "kneel",
+        "translation": "kľačať"
+    },
+    {
+        "base": "know",
+        "translation": "poznať / vedieť / ovládať"
+    },
+    {
+        "base": "lay",
+        "translation": "položiť / uložiť / klásť"
+    },
+    {
+        "base": "lead",
+        "translation": "viesť / sprevádzať / smerovať"
+    },
+    {
+        "base": "leap",
+        "translation": "skočiť / vyskočiť"
+    },
+    {
+        "base": "learn",
+        "translation": "učiť / naučiť"
+    },
+    {
+        "base": "leave",
+        "translation": "odísť / opustiť / nechať"
+    },
+    {
+        "base": "lend",
+        "translation": "požičať / poskytnúť"
+    },
+    {
+        "base": "let",
+        "translation": "nechať / dovoliť"
+    },
+    {
+        "base": "lie",
+        "translation": "ležať / odpočívať"
+    },
+    {
+        "base": "light",
+        "translation": "rozsvietiť / zosvetliť / rozžiariť / zapáliť"
+    },
+    {
+        "base": "lose",
+        "translation": "stratiť/prísť o"
+    },
+    {
+        "base": "make",
+        "translation": "stratiť / prísť o"
+    },
+    {
+        "base": "mean",
+        "translation": "myslieť / znamenať"
+    },
+    {
+        "base": "meet",
+        "translation": "stretnúť / poznať sa"
+    },
+    {
+        "base": "pay",
+        "translation": "platiť / uhradiť / vyplatiť"
+    },
+    {
+        "base": "put",
+        "translation": "položiť / dať"
+    },
+    {
+        "base": "read",
+        "translation": "čítať"
+    },
+    {
+        "base": "ride",
+        "translation": "jazdiť / viezť / ísť"
+    },
+    {
+        "base": "ring",
+        "translation": "zvoniť / zavolať / štrngať"
+    },
+    {
+        "base": "rise",
+        "translation": "stúpať / vychádzať / vzrásť"
+    },
+    {
+        "base": "run",
+        "translation": "utekať / bežať"
+    },
+    {
+        "base": "saw",
+        "translation": "píliť / prepíliť / rezať / prerezať / odrezať"
+    },
+    {
+        "base": "say",
+        "translation": "povedať / hovoriť"
+    },
+    {
+        "base": "see",
+        "translation": "vidieť / uvidieť / pozrieť"
+    },
+    {
+        "base": "seek",
+        "translation": "usiľovať / hľadať / vyhľadávať"
+    },
+    {
+        "base": "sell",
+        "translation": "predať"
+    },
+    {
+        "base": "send",
+        "translation": "poslať / odoslať / vyslať"
+    },
+    {
+        "base": "set",
+        "translation": "nastaviť"
+    },
+    {
+        "base": "shake",
+        "translation": "triasť / trepať / zatriasť"
+    },
+    {
+        "base": "shine",
+        "translation": "svietiť / žiariť"
+    },
+    {
+        "base": "shoot",
+        "translation": "strielať"
+    },
+    {
+        "base": "show",
+        "translation": "ukázať / zobraziť / prejaviť"
+    },
+    {
+        "base": "shrink",
+        "translation": "scvrknúť / zmenšiť / zbehnúť"
+    },
+    {
+        "base": "shut",
+        "translation": "zavrieť / uzavrieť"
+    },
+    {
+        "base": "sing",
+        "translation": "spievať"
+    },
+    {
+        "base": "sink",
+        "translation": "ponárať / potopiť"
+    },
+    {
+        "base": "sit",
+        "translation": "sedieť / posadiť sa"
+    },
+    {
+        "base": "sleep",
+        "translation": "spať / driemať"
+    },
+    {
+        "base": "slide",
+        "translation": "kĺzať / šmýkať"
+    },
+    {
+        "base": "speak",
+        "translation": "hovoriť / rozprávať / recitovať"
+    },
+    {
+        "base": "spend",
+        "translation": "minúť / stráviť / plytvať"
+    },
+    {
+        "base": "split",
+        "translation": "rozdeliť / rozkrojiť"
+    },
+    {
+        "base": "spread",
+        "translation": "šíriť / rozniesť / rozložiť"
+    },
+    {
+        "base": "stand",
+        "translation": "stáť / postaviť"
+    },
+    {
+        "base": "steal",
+        "translation": "ukradnúť / vykradnúť"
+    },
+    {
+        "base": "stick",
+        "translation": "zapichnúť / pichnúť / pripnúť"
+    },
+    {
+        "base": "sting",
+        "translation": "bodnúť / uštipnúť / pichnúť / popáliť"
+    },
+    {
+        "base": "stink",
+        "translation": "smrdieť / zapáchať"
+    },
+    {
+        "base": "strike",
+        "translation": "naraziť / odbiť / udrieť / bodať"
+    },
+    {
+        "base": "strive",
+        "translation": "usilovať / snažiť sa / bojovať"
+    },
+    {
+        "base": "swear",
+        "translation": "nadávať / prisahať"
+    },
+    {
+        "base": "sweep",
+        "translation": "zamiesť / vymiesť"
+    },
+    {
+        "base": "swim",
+        "translation": "plávať / preplávať"
+    },
+    {
+        "base": "swing",
+        "translation": "hojdať / kývať / mávať"
+    },
+    {
+        "base": "take",
+        "translation": "vziať / zobrať / trvať / užiť"
+    },
+    {
+        "base": "teach",
+        "translation": "učiť / vyučovať"
+    },
+    {
+        "base": "tear",
+        "translation": "trhať / roztrhnúť"
+    },
+    {
+        "base": "tell",
+        "translation": "povedať / hovoriť / oznámiť"
+    },
+    {
+        "base": "think",
+        "translation": "myslieť / premýšľať / vymyslieť"
+    },
+    {
+        "base": "throw",
+        "translation": "hodiť / zahodiť"
+    },
+    {
+        "base": "tread",
+        "translation": "šliapať / stúpať"
+    },
+    {
+        "base": "understand",
+        "translation": "rozumieť / chápať"
+    },
+    {
+        "base": "wake",
+        "translation": "prebudiť / zobudiť"
+    },
+    {
+        "base": "wear",
+        "translation": "nosiť / mať oblečené"
+    },
+    {
+        "base": "weep",
+        "translation": "oplakávať / plakať / slziť / mokvať"
+    },
+    {
+        "base": "win",
+        "translation": "vyhrať"
+    },
+    {
+        "base": "wind",
+        "translation": "nakrútiť / stočiť / natiahnuť"
+    },
+    {
+        "base": "wring",
+        "translation": "vyžmýkať / vykrútiť"
+    },
+    {
+        "base": "write",
+        "translation": "písať / zapísať"
+    }
+]

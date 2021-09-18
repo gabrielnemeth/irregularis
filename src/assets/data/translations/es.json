@@ -1,0 +1,518 @@
+[
+    {
+        "base": "arise",
+        "translation": "surgir"
+    },
+    {
+        "base": "awake",
+        "translation": "despertar(se)"
+    },
+    {
+        "base": "bear",
+        "translation": "soportar"
+    },
+    {
+        "base": "be",
+        "translation": "sea"
+    },
+    {
+        "base": "beat",
+        "translation": "golpear"
+    },
+    {
+        "base": "become",
+        "translation": "convertirse en"
+    },
+    {
+        "base": "begin",
+        "translation": "empezar"
+    },
+    {
+        "base": "bend",
+        "translation": "doblar(se)"
+    },
+    {
+        "base": "bet",
+        "translation": "apostar"
+    },
+    {
+        "base": "bind",
+        "translation": "encuadernar"
+    },
+    {
+        "base": "bite",
+        "translation": "morder"
+    },
+    {
+        "base": "bleed",
+        "translation": "sangrar"
+    },
+    {
+        "base": "blow",
+        "translation": "soplar"
+    },
+    {
+        "base": "break",
+        "translation": "romper"
+    },
+    {
+        "base": "breed",
+        "translation": "criar"
+    },
+    {
+        "base": "bring",
+        "translation": "traer"
+    },
+    {
+        "base": "build",
+        "translation": "construir"
+    },
+    {
+        "base": "burn",
+        "translation": "quemar(se)"
+    },
+    {
+        "base": "buy",
+        "translation": "comprar"
+    },
+    {
+        "base": "cast",
+        "translation": "tirar"
+    },
+    {
+        "base": "catch",
+        "translation": "coger"
+    },
+    {
+        "base": "choose",
+        "translation": "elegir"
+    },
+    {
+        "base": "cling",
+        "translation": "aferrarse"
+    },
+    {
+        "base": "come",
+        "translation": "venir"
+    },
+    {
+        "base": "cost",
+        "translation": "costar"
+    },
+    {
+        "base": "creep",
+        "translation": "arrastrar"
+    },
+    {
+        "base": "cut",
+        "translation": "cortar"
+    },
+    {
+        "base": "deal",
+        "translation": "tratar"
+    },
+    {
+        "base": "dig",
+        "translation": "cavar"
+    },
+    {
+        "base": "do",
+        "translation": "hacer"
+    },
+    {
+        "base": "draw",
+        "translation": "dibujar"
+    },
+    {
+        "base": "dream",
+        "translation": "soñar"
+    },
+    {
+        "base": "drink",
+        "translation": "beber"
+    },
+    {
+        "base": "drive",
+        "translation": "conducir"
+    },
+    {
+        "base": "eat",
+        "translation": "comer"
+    },
+    {
+        "base": "fall",
+        "translation": "caer(se)"
+    },
+    {
+        "base": "feed",
+        "translation": "alimentar"
+    },
+    {
+        "base": "feel",
+        "translation": "sentirse"
+    },
+    {
+        "base": "fight",
+        "translation": "pelearse"
+    },
+    {
+        "base": "find",
+        "translation": "encontrar"
+    },
+    {
+        "base": "flee",
+        "translation": "huir"
+    },
+    {
+        "base": "fly",
+        "translation": "volar"
+    },
+    {
+        "base": "forbid",
+        "translation": "prohibir"
+    },
+    {
+        "base": "forget",
+        "translation": "olvidar(se)"
+    },
+    {
+        "base": "forgive",
+        "translation": "perdonar"
+    },
+    {
+        "base": "freeze",
+        "translation": "helar(se)"
+    },
+    {
+        "base": "get",
+        "translation": "conseguir"
+    },
+    {
+        "base": "give",
+        "translation": "dar"
+    },
+    {
+        "base": "go",
+        "translation": "irse"
+    },
+    {
+        "base": "grind",
+        "translation": "moler"
+    },
+    {
+        "base": "grow",
+        "translation": "crecer"
+    },
+    {
+        "base": "hang",
+        "translation": "colgar"
+    },
+    {
+        "base": "have",
+        "translation": "haber, tener"
+    },
+    {
+        "base": "hear",
+        "translation": "escuchar"
+    },
+    {
+        "base": "hide",
+        "translation": "esconder(se)"
+    },
+    {
+        "base": "hit",
+        "translation": "golpear"
+    },
+    {
+        "base": "hold",
+        "translation": "agarrar(se)"
+    },
+    {
+        "base": "hurt",
+        "translation": "hacer daño"
+    },
+    {
+        "base": "keep",
+        "translation": "guardar"
+    },
+    {
+        "base": "kneel",
+        "translation": "arrodillarse"
+    },
+    {
+        "base": "know",
+        "translation": "saber, conocer"
+    },
+    {
+        "base": "lay",
+        "translation": "poner"
+    },
+    {
+        "base": "lead",
+        "translation": "llevar"
+    },
+    {
+        "base": "leap",
+        "translation": "brincar"
+    },
+    {
+        "base": "learn",
+        "translation": "aprender"
+    },
+    {
+        "base": "leave",
+        "translation": "dejar"
+    },
+    {
+        "base": "lend",
+        "translation": "prestar"
+    },
+    {
+        "base": "let",
+        "translation": "permitir"
+    },
+    {
+        "base": "lie",
+        "translation": "echarse"
+    },
+    {
+        "base": "light",
+        "translation": "encender(se)"
+    },
+    {
+        "base": "lose",
+        "translation": "perder"
+    },
+    {
+        "base": "make",
+        "translation": "hacer"
+    },
+    {
+        "base": "mean",
+        "translation": "significar"
+    },
+    {
+        "base": "meet",
+        "translation": "encontrar(se)"
+    },
+    {
+        "base": "pay",
+        "translation": "pagar"
+    },
+    {
+        "base": "put",
+        "translation": "poner"
+    },
+    {
+        "base": "read",
+        "translation": "leer"
+    },
+    {
+        "base": "ride",
+        "translation": "montar"
+    },
+    {
+        "base": "ring",
+        "translation": "sonar"
+    },
+    {
+        "base": "rise",
+        "translation": "levantarse"
+    },
+    {
+        "base": "run",
+        "translation": "correr"
+    },
+    {
+        "base": "saw",
+        "translation": "serrar"
+    },
+    {
+        "base": "say",
+        "translation": "decir"
+    },
+    {
+        "base": "see",
+        "translation": "ver"
+    },
+    {
+        "base": "seek",
+        "translation": "buscar"
+    },
+    {
+        "base": "sell",
+        "translation": "vender(se)"
+    },
+    {
+        "base": "send",
+        "translation": "enviar"
+    },
+    {
+        "base": "set",
+        "translation": "poner"
+    },
+    {
+        "base": "shake",
+        "translation": "agitar"
+    },
+    {
+        "base": "shine",
+        "translation": "brillar"
+    },
+    {
+        "base": "shoot",
+        "translation": "disparar"
+    },
+    {
+        "base": "show",
+        "translation": "mostrar"
+    },
+    {
+        "base": "shrink",
+        "translation": "encoger(se)"
+    },
+    {
+        "base": "shut",
+        "translation": "cerrar(se)"
+    },
+    {
+        "base": "sing",
+        "translation": "cantar"
+    },
+    {
+        "base": "sink",
+        "translation": "hundir(se)"
+    },
+    {
+        "base": "sit",
+        "translation": "sentar(se)"
+    },
+    {
+        "base": "sleep",
+        "translation": "dormir"
+    },
+    {
+        "base": "slide",
+        "translation": "resbalar"
+    },
+    {
+        "base": "speak",
+        "translation": "hablar"
+    },
+    {
+        "base": "spend",
+        "translation": "pasar, gastar"
+    },
+    {
+        "base": "split",
+        "translation": "hender"
+    },
+    {
+        "base": "spread",
+        "translation": "extender(se)"
+    },
+    {
+        "base": "stand",
+        "translation": "estar de pie"
+    },
+    {
+        "base": "steal",
+        "translation": "robar"
+    },
+    {
+        "base": "stick",
+        "translation": "pegar(se)"
+    },
+    {
+        "base": "sting",
+        "translation": "picar"
+    },
+    {
+        "base": "stink",
+        "translation": "apestar"
+    },
+    {
+        "base": "strike",
+        "translation": "golpear"
+    },
+    {
+        "base": "strive",
+        "translation": "esforzarse"
+    },
+    {
+        "base": "swear",
+        "translation": "jurar"
+    },
+    {
+        "base": "sweep",
+        "translation": "barrer"
+    },
+    {
+        "base": "swim",
+        "translation": "nadar"
+    },
+    {
+        "base": "swing",
+        "translation": "balancear(se)"
+    },
+    {
+        "base": "take",
+        "translation": "tomar(se)"
+    },
+    {
+        "base": "teach",
+        "translation": "enseñar"
+    },
+    {
+        "base": "tear",
+        "translation": "romper(se)"
+    },
+    {
+        "base": "tell",
+        "translation": "contar, decir"
+    },
+    {
+        "base": "think",
+        "translation": "pensar"
+    },
+    {
+        "base": "throw",
+        "translation": "lanzar"
+    },
+    {
+        "base": "tread",
+        "translation": "pisar"
+    },
+    {
+        "base": "understand",
+        "translation": "entender"
+    },
+    {
+        "base": "wake",
+        "translation": "despertar(se)"
+    },
+    {
+        "base": "wear",
+        "translation": "llevar (puesto)"
+    },
+    {
+        "base": "weep",
+        "translation": "llorar"
+    },
+    {
+        "base": "win",
+        "translation": "ganar"
+    },
+    {
+        "base": "wind",
+        "translation": "enrollar"
+    },
+    {
+        "base": "wring",
+        "translation": "torcer"
+    },
+    {
+        "base": "write",
+        "translation": "escribir"
+    }
+]
