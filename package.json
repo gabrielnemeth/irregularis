@@ -1,8 +1,9 @@
 {
     "name": "irregularis",
+    "productName": "irregularis",
     "version": "0.0.1",
-    "description": "English irregular verbs learning tool.",
-    "author": "Gabriel Nemeth",
+    "description": "Learning tool for english irregular verbs.",
+    "author": "Gabriel Nemeth <irregularis.zywlj@aleeas.com>",
     "packageManager": "npm",
     "main": "app/main.js",
     "scripts": {
@@ -13,10 +14,10 @@
         "test": "ng test",
         "lint": "ng lint",
         "start:electron": "ng build --base-href ./ && electron .",
-        "dist:linux": "rm -r ./dist/ && rm -r ./release && ng build && electron-builder -l",
+        "build:linux": "electron-builder -l",
+        "dist:linux": "rm -rf ./dist/ && rm -rf ./release && ng build && electron-builder -l",
         "dist:windows": "electron-builder -w --x64"
     },
-    "private": true,
     "dependencies": {
         "@angular/animations": "~12.2.5",
         "@angular/cdk": "^12.2.4",
@@ -68,10 +69,19 @@
             "output": "release"
         },
         "linux": {
-            "target": "AppImage"
+            "icon": "app/icons/",
+            "target": [
+                "AppImage"
+            ]
         },
         "win": {
             "target": "portable"
+        },
+        "appImage": {
+            "artifactName": "${productName}-${version}-${arch}.${ext}"
+        },
+        "portable": {
+            "artifactName": "${productName}-${version}-${arch}.${ext}"
         }
     }
 }
