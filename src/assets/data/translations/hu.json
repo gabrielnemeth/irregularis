@@ -1,0 +1,518 @@
+[
+    {
+        "base": "arise",
+        "translation": "felkel, keletkezik, felmerül"
+    },
+    {
+        "base": "awake",
+        "translation": "felébred"
+    },
+    {
+        "base": "bear",
+        "translation": "elvisel, szül"
+    },
+    {
+        "base": "be",
+        "translation": "lenni"
+    },
+    {
+        "base": "beat",
+        "translation": "üt, legyőz, megver"
+    },
+    {
+        "base": "become",
+        "translation": "válik valamivé"
+    },
+    {
+        "base": "begin",
+        "translation": "elkezd, elkezdődik"
+    },
+    {
+        "base": "bend",
+        "translation": "hajlik"
+    },
+    {
+        "base": "bet",
+        "translation": "fogad"
+    },
+    {
+        "base": "bind",
+        "translation": "köt, beköt, összeköt "
+    },
+    {
+        "base": "bite",
+        "translation": "harap, megcsíp"
+    },
+    {
+        "base": "bleed",
+        "translation": "vérzik"
+    },
+    {
+        "base": "blow",
+        "translation": "fúj, kifúj"
+    },
+    {
+        "base": "break",
+        "translation": "eltör, eltörik"
+    },
+    {
+        "base": "breed",
+        "translation": "tenyészt, szül"
+    },
+    {
+        "base": "bring",
+        "translation": "hoz"
+    },
+    {
+        "base": "build",
+        "translation": "épít"
+    },
+    {
+        "base": "burn",
+        "translation": "ég, éget"
+    },
+    {
+        "base": "buy",
+        "translation": "megvesz"
+    },
+    {
+        "base": "cast",
+        "translation": "dob, hajít"
+    },
+    {
+        "base": "catch",
+        "translation": "elkap, elfog"
+    },
+    {
+        "base": "choose",
+        "translation": "választ, kiválaszt"
+    },
+    {
+        "base": "cling",
+        "translation": "ragaszkodik"
+    },
+    {
+        "base": "come",
+        "translation": "jön"
+    },
+    {
+        "base": "cost",
+        "translation": " kerül valamibe"
+    },
+    {
+        "base": "creep",
+        "translation": "mászik, kúszik"
+    },
+    {
+        "base": "cut",
+        "translation": "vág"
+    },
+    {
+        "base": "deal",
+        "translation": "foglalkozik valamivel"
+    },
+    {
+        "base": "dig",
+        "translation": "ás"
+    },
+    {
+        "base": "do",
+        "translation": "csinál"
+    },
+    {
+        "base": "draw",
+        "translation": "rajzol, húz"
+    },
+    {
+        "base": "dream",
+        "translation": "álmodik"
+    },
+    {
+        "base": "drink",
+        "translation": "iszik"
+    },
+    {
+        "base": "drive",
+        "translation": "vezet"
+    },
+    {
+        "base": "eat",
+        "translation": "eszik"
+    },
+    {
+        "base": "fall",
+        "translation": "esik"
+    },
+    {
+        "base": "feed",
+        "translation": "etet"
+    },
+    {
+        "base": "feel",
+        "translation": "érez"
+    },
+    {
+        "base": "fight",
+        "translation": "harcol"
+    },
+    {
+        "base": "find",
+        "translation": "talál"
+    },
+    {
+        "base": "flee",
+        "translation": "menekül"
+    },
+    {
+        "base": "fly",
+        "translation": "repül"
+    },
+    {
+        "base": "forbid",
+        "translation": "megtilt"
+    },
+    {
+        "base": "forget",
+        "translation": "elfelejt"
+    },
+    {
+        "base": "forgive",
+        "translation": "megbocsát"
+    },
+    {
+        "base": "freeze",
+        "translation": "megfagy, befagyaszt"
+    },
+    {
+        "base": "get",
+        "translation": "kap, megszerez"
+    },
+    {
+        "base": "give",
+        "translation": "ad"
+    },
+    {
+        "base": "go",
+        "translation": "megy"
+    },
+    {
+        "base": "grind",
+        "translation": "őröl, darál"
+    },
+    {
+        "base": "grow",
+        "translation": "nő, termel"
+    },
+    {
+        "base": "hang",
+        "translation": "akaszt, lóg, felakaszt"
+    },
+    {
+        "base": "have",
+        "translation": "birtokol"
+    },
+    {
+        "base": "hear",
+        "translation": "hall"
+    },
+    {
+        "base": "hide",
+        "translation": "elrejt, elbújik"
+    },
+    {
+        "base": "hit",
+        "translation": "üt"
+    },
+    {
+        "base": "hold",
+        "translation": "tart, megfog"
+    },
+    {
+        "base": "hurt",
+        "translation": "megsért, bánt"
+    },
+    {
+        "base": "keep",
+        "translation": "tart"
+    },
+    {
+        "base": "kneel",
+        "translation": "letérdel"
+    },
+    {
+        "base": "know",
+        "translation": "tud, ismer"
+    },
+    {
+        "base": "lay",
+        "translation": "lefektet, terít"
+    },
+    {
+        "base": "lead",
+        "translation": "vezet"
+    },
+    {
+        "base": "leap",
+        "translation": "szökken, ugrik"
+    },
+    {
+        "base": "learn",
+        "translation": "megtanul, megtud"
+    },
+    {
+        "base": "leave",
+        "translation": "elmegy, elindul, otthagy"
+    },
+    {
+        "base": "lend",
+        "translation": "kölcsönad"
+    },
+    {
+        "base": "let",
+        "translation": "hagy"
+    },
+    {
+        "base": "lie",
+        "translation": "fekszik"
+    },
+    {
+        "base": "light",
+        "translation": "meggyújt"
+    },
+    {
+        "base": "lose",
+        "translation": "elveszít"
+    },
+    {
+        "base": "make",
+        "translation": "készít"
+    },
+    {
+        "base": "mean",
+        "translation": "jelent valamit, ért valamit valahogyan, szándékozik"
+    },
+    {
+        "base": "meet",
+        "translation": "találkozik"
+    },
+    {
+        "base": "pay",
+        "translation": "fizet"
+    },
+    {
+        "base": "put",
+        "translation": "tesz, rak"
+    },
+    {
+        "base": "read",
+        "translation": "olvas"
+    },
+    {
+        "base": "ride",
+        "translation": "lovagol"
+    },
+    {
+        "base": "ring",
+        "translation": "csöng"
+    },
+    {
+        "base": "rise",
+        "translation": "emelkedik, kel"
+    },
+    {
+        "base": "run",
+        "translation": "fut"
+    },
+    {
+        "base": "saw",
+        "translation": "fűrészel"
+    },
+    {
+        "base": "say",
+        "translation": "mond"
+    },
+    {
+        "base": "see",
+        "translation": "lát"
+    },
+    {
+        "base": "seek",
+        "translation": "keres, kutat"
+    },
+    {
+        "base": "sell",
+        "translation": "elad"
+    },
+    {
+        "base": "send",
+        "translation": "elküld"
+    },
+    {
+        "base": "set",
+        "translation": "beállít, helyez"
+    },
+    {
+        "base": "shake",
+        "translation": "ráz"
+    },
+    {
+        "base": "shine",
+        "translation": "süt, ragyog"
+    },
+    {
+        "base": "shoot",
+        "translation": "lő"
+    },
+    {
+        "base": "show",
+        "translation": "mutat, prezentál"
+    },
+    {
+        "base": "shrink",
+        "translation": "összemegy, zsugorodik"
+    },
+    {
+        "base": "shut",
+        "translation": "bezár"
+    },
+    {
+        "base": "sing",
+        "translation": "énekel"
+    },
+    {
+        "base": "sink",
+        "translation": "elsüllyed"
+    },
+    {
+        "base": "sit",
+        "translation": "leül"
+    },
+    {
+        "base": "sleep",
+        "translation": "alszik"
+    },
+    {
+        "base": "slide",
+        "translation": "megcsúszik"
+    },
+    {
+        "base": "speak",
+        "translation": "beszél"
+    },
+    {
+        "base": "spend",
+        "translation": "költ, tölt"
+    },
+    {
+        "base": "split",
+        "translation": "feloszt, megoszt"
+    },
+    {
+        "base": "spread",
+        "translation": "terjeszt, terjed"
+    },
+    {
+        "base": "stand",
+        "translation": "áll"
+    },
+    {
+        "base": "steal",
+        "translation": "lop"
+    },
+    {
+        "base": "stick",
+        "translation": "ragaszt"
+    },
+    {
+        "base": "sting",
+        "translation": "szúr, csíp"
+    },
+    {
+        "base": "stink",
+        "translation": "bűzlik"
+    },
+    {
+        "base": "strike",
+        "translation": "támad, üt"
+    },
+    {
+        "base": "strive",
+        "translation": "igyekszik"
+    },
+    {
+        "base": "swear",
+        "translation": "megesküszik"
+    },
+    {
+        "base": "sweep",
+        "translation": "söpör"
+    },
+    {
+        "base": "swim",
+        "translation": "úszik"
+    },
+    {
+        "base": "swing",
+        "translation": "himbálózik, hintázik, lendül, lendít"
+    },
+    {
+        "base": "take",
+        "translation": "visz, rak, tesz"
+    },
+    {
+        "base": "teach",
+        "translation": "tanít"
+    },
+    {
+        "base": "tear",
+        "translation": "elszakít"
+    },
+    {
+        "base": "tell",
+        "translation": "megmond, elmesél"
+    },
+    {
+        "base": "think",
+        "translation": "gondol"
+    },
+    {
+        "base": "throw",
+        "translation": "dob"
+    },
+    {
+        "base": "tread",
+        "translation": "tapos"
+    },
+    {
+        "base": "understand",
+        "translation": "megért"
+    },
+    {
+        "base": "wake",
+        "translation": "ébred, ébreszt"
+    },
+    {
+        "base": "wear",
+        "translation": "visel"
+    },
+    {
+        "base": "weep",
+        "translation": "sír"
+    },
+    {
+        "base": "win",
+        "translation": "győz, nyer"
+    },
+    {
+        "base": "wind",
+        "translation": "csavar, felhúz"
+    },
+    {
+        "base": "wring",
+        "translation": "kicsavar"
+    },
+    {
+        "base": "write",
+        "translation": "ír"
+    }
+]

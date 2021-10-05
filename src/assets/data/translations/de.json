@@ -1,0 +1,518 @@
+[
+    {
+        "base": "arise",
+        "translation": "hervorgehen, sich ergeben"
+    },
+    {
+        "base": "awake",
+        "translation": "erwachen"
+    },
+    {
+        "base": "bear",
+        "translation": "ausbringen, ausüben"
+    },
+    {
+        "base": "be",
+        "translation": "sein"
+    },
+    {
+        "base": "beat",
+        "translation": "schlagen, besiegen"
+    },
+    {
+        "base": "become",
+        "translation": "werden"
+    },
+    {
+        "base": "begin",
+        "translation": "beginnen, anfangen"
+    },
+    {
+        "base": "bend",
+        "translation": "abbiegen"
+    },
+    {
+        "base": "bet",
+        "translation": "wetten"
+    },
+    {
+        "base": "bind",
+        "translation": "binden, abbinden"
+    },
+    {
+        "base": "bite",
+        "translation": "beißen"
+    },
+    {
+        "base": "bleed",
+        "translation": "bluten"
+    },
+    {
+        "base": "blow",
+        "translation": "blasen, wehen"
+    },
+    {
+        "base": "break",
+        "translation": "brechen, kaputt machen"
+    },
+    {
+        "base": "breed",
+        "translation": "brüten, züchten"
+    },
+    {
+        "base": "bring",
+        "translation": "bringen"
+    },
+    {
+        "base": "build",
+        "translation": "bauen"
+    },
+    {
+        "base": "burn",
+        "translation": "brennen"
+    },
+    {
+        "base": "buy",
+        "translation": "kaufen"
+    },
+    {
+        "base": "cast",
+        "translation": "arbeiten"
+    },
+    {
+        "base": "catch",
+        "translation": "fangen"
+    },
+    {
+        "base": "choose",
+        "translation": "wählen"
+    },
+    {
+        "base": "cling",
+        "translation": "hängen"
+    },
+    {
+        "base": "come",
+        "translation": "kommen"
+    },
+    {
+        "base": "cost",
+        "translation": "kosten"
+    },
+    {
+        "base": "creep",
+        "translation": "kriechen, schleichen"
+    },
+    {
+        "base": "cut",
+        "translation": "schneiden"
+    },
+    {
+        "base": "deal",
+        "translation": "etw. austeilen"
+    },
+    {
+        "base": "dig",
+        "translation": "graben"
+    },
+    {
+        "base": "do",
+        "translation": "tun"
+    },
+    {
+        "base": "draw",
+        "translation": "zeichnen"
+    },
+    {
+        "base": "dream",
+        "translation": "träumen"
+    },
+    {
+        "base": "drink",
+        "translation": "trinken"
+    },
+    {
+        "base": "drive",
+        "translation": "fahren"
+    },
+    {
+        "base": "eat",
+        "translation": "essen"
+    },
+    {
+        "base": "fall",
+        "translation": "fallen"
+    },
+    {
+        "base": "feed",
+        "translation": "füttern"
+    },
+    {
+        "base": "feel",
+        "translation": "fühlen"
+    },
+    {
+        "base": "fight",
+        "translation": "kämpfen"
+    },
+    {
+        "base": "find",
+        "translation": "finden"
+    },
+    {
+        "base": "flee",
+        "translation": "flüchten"
+    },
+    {
+        "base": "fly",
+        "translation": "fliegen"
+    },
+    {
+        "base": "forbid",
+        "translation": "verbieten"
+    },
+    {
+        "base": "forget",
+        "translation": "vergessen"
+    },
+    {
+        "base": "forgive",
+        "translation": "vergeben"
+    },
+    {
+        "base": "freeze",
+        "translation": "frieren"
+    },
+    {
+        "base": "get",
+        "translation": "bekommen"
+    },
+    {
+        "base": "give",
+        "translation": "geben, schenken"
+    },
+    {
+        "base": "go",
+        "translation": "gehen, fahren"
+    },
+    {
+        "base": "grind",
+        "translation": "abschleifen, glätten"
+    },
+    {
+        "base": "grow",
+        "translation": "wachsen, anbauen"
+    },
+    {
+        "base": "hang",
+        "translation": "hängen"
+    },
+    {
+        "base": "have",
+        "translation": "haben"
+    },
+    {
+        "base": "hear",
+        "translation": "hören"
+    },
+    {
+        "base": "hide",
+        "translation": "verstecken"
+    },
+    {
+        "base": "hit",
+        "translation": "schlagen, treffen"
+    },
+    {
+        "base": "hold",
+        "translation": "halten"
+    },
+    {
+        "base": "hurt",
+        "translation": "verletzen, weh tun"
+    },
+    {
+        "base": "keep",
+        "translation": "halten, einhalten"
+    },
+    {
+        "base": "kneel",
+        "translation": "knien, hinknien"
+    },
+    {
+        "base": "know",
+        "translation": "kennen, wissen, erkennen"
+    },
+    {
+        "base": "lay",
+        "translation": "legen, setzen, stellen"
+    },
+    {
+        "base": "lead",
+        "translation": "führen, leiten"
+    },
+    {
+        "base": "leap",
+        "translation": "springen, hervorspringen"
+    },
+    {
+        "base": "learn",
+        "translation": "lernen"
+    },
+    {
+        "base": "leave",
+        "translation": "weggehen, verlassen"
+    },
+    {
+        "base": "lend",
+        "translation": "leihen"
+    },
+    {
+        "base": "let",
+        "translation": "lassen"
+    },
+    {
+        "base": "lie",
+        "translation": "liegen"
+    },
+    {
+        "base": "light",
+        "translation": "anmachen, anzünden"
+    },
+    {
+        "base": "lose",
+        "translation": "verlieren"
+    },
+    {
+        "base": "make",
+        "translation": "machen"
+    },
+    {
+        "base": "mean",
+        "translation": "meinen, bedeuten"
+    },
+    {
+        "base": "meet",
+        "translation": "treffen, kennenlernen"
+    },
+    {
+        "base": "pay",
+        "translation": "zahlen"
+    },
+    {
+        "base": "put",
+        "translation": "stellen, setzen, legen"
+    },
+    {
+        "base": "read",
+        "translation": "lesen"
+    },
+    {
+        "base": "ride",
+        "translation": "reiten, fahren"
+    },
+    {
+        "base": "ring",
+        "translation": "klingeln"
+    },
+    {
+        "base": "rise",
+        "translation": "steigen"
+    },
+    {
+        "base": "run",
+        "translation": "rennen"
+    },
+    {
+        "base": "saw",
+        "translation": "sägen"
+    },
+    {
+        "base": "say",
+        "translation": "sagen"
+    },
+    {
+        "base": "see",
+        "translation": "sehen"
+    },
+    {
+        "base": "seek",
+        "translation": "suchen, ermitteln"
+    },
+    {
+        "base": "sell",
+        "translation": "verkaufen"
+    },
+    {
+        "base": "send",
+        "translation": "schicken, senden"
+    },
+    {
+        "base": "set",
+        "translation": "stellen, setzen, legen"
+    },
+    {
+        "base": "shake",
+        "translation": "schütteln, zittern"
+    },
+    {
+        "base": "shine",
+        "translation": "scheinen"
+    },
+    {
+        "base": "shoot",
+        "translation": "schießen"
+    },
+    {
+        "base": "show",
+        "translation": "zeigen"
+    },
+    {
+        "base": "shrink",
+        "translation": "schrumpfen, eingehen"
+    },
+    {
+        "base": "shut",
+        "translation": "schließen"
+    },
+    {
+        "base": "sing",
+        "translation": "singen"
+    },
+    {
+        "base": "sink",
+        "translation": "sinken"
+    },
+    {
+        "base": "sit",
+        "translation": "sitzen"
+    },
+    {
+        "base": "sleep",
+        "translation": "schlafen"
+    },
+    {
+        "base": "slide",
+        "translation": "abgleiten, abrutschen"
+    },
+    {
+        "base": "speak",
+        "translation": "sprechen"
+    },
+    {
+        "base": "spend",
+        "translation": "verbringen, ausgeben"
+    },
+    {
+        "base": "split",
+        "translation": " \tteilen, spalten"
+    },
+    {
+        "base": "spread",
+        "translation": "ausbreiten"
+    },
+    {
+        "base": "stand",
+        "translation": "stehen"
+    },
+    {
+        "base": "steal",
+        "translation": "stehlen, klauen"
+    },
+    {
+        "base": "stick",
+        "translation": "anheften, befestigen"
+    },
+    {
+        "base": "sting",
+        "translation": "stechen"
+    },
+    {
+        "base": "stink",
+        "translation": "stinken"
+    },
+    {
+        "base": "strike",
+        "translation": "schlagen, anzünden, streiken"
+    },
+    {
+        "base": "strive",
+        "translation": "sich anstrengen / bemühen"
+    },
+    {
+        "base": "swear",
+        "translation": "schwören"
+    },
+    {
+        "base": "sweep",
+        "translation": "kehren, fegen"
+    },
+    {
+        "base": "swim",
+        "translation": "schwimmen"
+    },
+    {
+        "base": "swing",
+        "translation": "schaukeln, schwingen, sich drehenť"
+    },
+    {
+        "base": "take",
+        "translation": "(mit)nehmen"
+    },
+    {
+        "base": "teach",
+        "translation": "unterrichten, lehren"
+    },
+    {
+        "base": "tear",
+        "translation": "auseinanderreißen, tränen"
+    },
+    {
+        "base": "tell",
+        "translation": "sagen, nennen, erzählen"
+    },
+    {
+        "base": "think",
+        "translation": "meinen, denken"
+    },
+    {
+        "base": "throw",
+        "translation": "werfen"
+    },
+    {
+        "base": "tread",
+        "translation": "betreten, schreiten"
+    },
+    {
+        "base": "understand",
+        "translation": "verstehen, begreifen"
+    },
+    {
+        "base": "wake",
+        "translation": "aufwachen, (auf) wecken"
+    },
+    {
+        "base": "wear",
+        "translation": "(Kleidung) tragen"
+    },
+    {
+        "base": "weep",
+        "translation": " triefen, weinen"
+    },
+    {
+        "base": "win",
+        "translation": "gewinnen"
+    },
+    {
+        "base": "wind",
+        "translation": "ab-, aufspulen"
+    },
+    {
+        "base": "wring",
+        "translation": "abbringen, auspressen"
+    },
+    {
+        "base": "write",
+        "translation": "schreiben"
+    }
+]

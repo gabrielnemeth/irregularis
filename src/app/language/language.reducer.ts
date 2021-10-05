@@ -10,7 +10,9 @@ export const initialState: LanguageState = {
     languages: [
         {id: 'en', name: 'English'},
         {id: 'sk', name: 'Slovak'},
-        {id: 'es', name: 'Spanish'}
+        {id: 'es', name: 'Spanish'},
+        {id: 'hu', name: 'Hungarian'},
+        {id: 'de', name: 'German'},
     ]
 };
 
