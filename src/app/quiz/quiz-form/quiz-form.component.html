@@ -1,10 +1,11 @@
-<form (ngSubmit)="onFormSubmit(verb.base, formDirective)" [formGroup]="quizForm" #formDirective="ngForm">
+<form (ngSubmit)="onFormSubmit(verb.base, formDirective)" [formGroup]="quizForm" #formDirective="ngForm" cdkTrapFocus
+      cdkTrapFocusAutoCapture>
     <div class='form-inputs'>
         <div class="form-group">
             <mat-form-field appearance="outline">
                 <mat-label>Base Form</mat-label>
                 <input
-                    autofocus
+                    cdkFocusInitial
                     #firstFormInput
                     matInput
                     type="text"

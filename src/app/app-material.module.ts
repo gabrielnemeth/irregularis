@@ -9,9 +9,11 @@ import {MatCheckboxModule} from '@angular/material/checkbox';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatSnackBarModule} from '@angular/material/snack-bar';
 import {MatSelectModule} from '@angular/material/select';
+import {A11yModule} from '@angular/cdk/a11y';
 
 @NgModule({
     exports: [
+        A11yModule,
         MatIconModule,
         MatInputModule,
         MatButtonModule,
