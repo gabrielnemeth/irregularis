@@ -10,6 +10,8 @@ import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatSnackBarModule} from '@angular/material/snack-bar';
 import {MatSelectModule} from '@angular/material/select';
 import {A11yModule} from '@angular/cdk/a11y';
+import {MatDialogModule} from '@angular/material/dialog';
+import {MatStepperModule} from '@angular/material/stepper';
 
 @NgModule({
     exports: [
@@ -23,7 +25,9 @@ import {A11yModule} from '@angular/cdk/a11y';
         MatCheckboxModule,
         MatToolbarModule,
         MatSnackBarModule,
-        MatSelectModule
+        MatSelectModule,
+        MatDialogModule,
+        MatStepperModule
     ],
 })
 export class AppMaterialModule {

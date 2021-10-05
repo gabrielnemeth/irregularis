@@ -10,6 +10,10 @@ import {
 import {AppState} from '../app.state';
 import {questionCountSet} from './settings.component.actions';
 import {LanguageId} from '../language/language';
+import {
+    activeLanguageChange as onboardingActiveLanguageChange,
+    questionCountSet as onboardingQuestionCountSet
+} from '../onboarding/onboarding.component.actions';
 
 export interface SettingsState {
     activeLanguage: LanguageId;
@@ -54,7 +58,7 @@ export const settingsReducer = createReducer(
             questionCount,
         };
     }),
-    on(questionCountSet, (state, {questionCount}) => ({
+    on(questionCountSet, onboardingQuestionCountSet, (state, {questionCount}) => ({
         ...state,
         questionCount,
     })),
@@ -78,7 +82,7 @@ export const settingsReducer = createReducer(
             activeLanguage: languageId,
         };
     }),
-    on(activeLanguageChange, (state, {languageId}) => ({
+    on(activeLanguageChange, onboardingActiveLanguageChange, (state, {languageId}) => ({
         ...state,
         activeLanguage: languageId
     }))

@@ -7,6 +7,7 @@ import {translationLoad, verbsLoad} from './verb.actions';
 import {selectActiveLanguage} from '../settings/settings.reducer';
 import {AppState} from '../app.state';
 import {activeLanguageChange} from '../settings/settings.actions';
+import {activeLanguageChange as onboardingActiveLanguageChange} from '../onboarding/onboarding.component.actions';
 
 const init = createAction('[VerbEffects] Init');
 
@@ -25,7 +26,7 @@ export class VerbEffects implements OnInitEffects {
 
     public loadTranslation$ = createEffect(() => {
         return this.actions$.pipe(
-            ofType(init, activeLanguageChange),
+            ofType(init, activeLanguageChange, onboardingActiveLanguageChange),
             concatLatestFrom(() => this.store.select(selectActiveLanguage)),
             switchMap(([_, languageId]) => this.verbService.loadTranslation(languageId)),
             map(translation => translationLoad({translation}))

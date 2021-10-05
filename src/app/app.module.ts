@@ -22,6 +22,8 @@ import {VerbEffects} from './verb/verb.effects';
 import {QuizEffects} from './quiz/quiz.effects';
 import {MAT_SNACK_BAR_DEFAULT_OPTIONS} from '@angular/material/snack-bar';
 import {SummaryItemClassNamePipe} from './summary/summary-item-classname.pipe';
+import {OnboardingComponent} from './onboarding/onboarding.component';
+import {OnboardingEffects} from './onboarding/onboarding.effects';
 
 @NgModule({
     declarations: [
@@ -32,7 +34,8 @@ import {SummaryItemClassNamePipe} from './summary/summary-item-classname.pipe';
         SettingsComponent,
         TopBarComponent,
         LogoComponent,
-        SummaryItemClassNamePipe
+        SummaryItemClassNamePipe,
+        OnboardingComponent
     ],
     imports: [
         BrowserModule,
@@ -46,7 +49,7 @@ import {SummaryItemClassNamePipe} from './summary/summary-item-classname.pipe';
             maxAge: 25,
             logOnly: environment.production,
         }),
-        EffectsModule.forRoot([SettingsEffects, VerbEffects, QuizEffects]),
+        EffectsModule.forRoot([SettingsEffects, VerbEffects, QuizEffects, OnboardingEffects]),
         FormsModule,
     ],
     providers: [{

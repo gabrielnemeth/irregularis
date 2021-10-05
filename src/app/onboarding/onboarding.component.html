@@ -1,0 +1,46 @@
+<mat-stepper>
+    <mat-step>
+        <form>
+            <mat-form-field appearance="outline">
+                <mat-label>Language</mat-label>
+                <mat-select [value]="activeLanguage$ | async" (valueChange)="onLanguageChange($event)">
+                    <mat-option *ngFor="let data of languages$ | async"
+                                [value]="data.id">{{ data.name }}</mat-option>
+                </mat-select>
+            </mat-form-field>
+            <div>
+                <button mat-button matStepperNext>Next</button>
+            </div>
+        </form>
+    </mat-step>
+    <mat-step>
+        <form #countForm="ngForm">
+            <mat-form-field appearance="outline">
+                <mat-label>Count</mat-label>
+                <input
+                    required
+                    matInput
+                    name="questionCountInput"
+                    #questionCountInputModel="ngModel"
+                    [ngModel]="questionCountString$ | async"
+                    type="number"
+                    #questionCountInput
+                />
+            </mat-form-field>
+            <div>
+                <button mat-button matStepperPrevious>Back</button>
+                <button mat-button matStepperNext [disabled]="countForm.invalid" (click)="
+                            onQuestionCountSubmit(questionCountInput.value)
+                        ">Next
+                </button>
+            </div>
+        </form>
+    </mat-step>
+    <mat-step>
+        <p>You are now done.</p>
+        <div>
+            <button mat-button matStepperPrevious>Back</button>
+            <button mat-button (click)="closeDialog()">Finish</button>
+        </div>
+    </mat-step>
+</mat-stepper>

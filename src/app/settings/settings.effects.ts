@@ -10,6 +10,10 @@ import {
     activeVerbsLoad,
     questionCountLoad,
 } from './settings.actions';
+import {
+    activeLanguageChange as onboardingActiveLanguageChange,
+    questionCountSet as onboardingQuestionCountSet
+} from '../onboarding/onboarding.component.actions';
 import {VerbService} from '../verb/verb.service';
 import {selectVerbsForLevel} from '../verb/verb.reducer';
 import {AppState} from '../app.state';
@@ -46,7 +50,7 @@ export class SettingsEffects implements OnInitEffects {
     public setQuestionCount$ = createEffect(
         () => {
             return this.actions$.pipe(
-                ofType(questionCountSet),
+                ofType(questionCountSet, onboardingQuestionCountSet),
                 map(({questionCount}) =>
                     this.localStorageService.setQuestionCount(questionCount)
                 )
@@ -155,7 +159,7 @@ export class SettingsEffects implements OnInitEffects {
     public saveActiveLanguage$ = createEffect(
         () => {
             return this.actions$.pipe(
-                ofType(activeLanguageChange),
+                ofType(activeLanguageChange, onboardingActiveLanguageChange),
                 map(({languageId}) =>
                     this.localStorageService.setLanguage(languageId)
                 )
