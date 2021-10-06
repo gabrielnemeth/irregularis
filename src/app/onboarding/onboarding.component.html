@@ -1,5 +1,9 @@
 <mat-stepper>
     <mat-step>
+        <div class="onboarding-hero">
+            <mat-icon class="onboarding-hero__icon">translate</mat-icon>
+        </div>
+        <h2>Select your language</h2>
         <form>
             <mat-form-field appearance="outline">
                 <mat-label>Language</mat-label>
@@ -8,12 +12,16 @@
                                 [value]="data.id">{{ data.name }}</mat-option>
                 </mat-select>
             </mat-form-field>
-            <div>
-                <button mat-button matStepperNext>Next</button>
+            <div class="onboarding__buttons">
+                <button mat-flat-button color="primary" matStepperNext>Next</button>
             </div>
         </form>
     </mat-step>
     <mat-step>
+        <div class="onboarding-hero">
+            <mat-icon class="onboarding-hero__icon">format_list_numbered</mat-icon>
+        </div>
+        <h2>Set how many questions you want to answer at once</h2>
         <form #countForm="ngForm">
             <mat-form-field appearance="outline">
                 <mat-label>Count</mat-label>
@@ -27,9 +35,9 @@
                     #questionCountInput
                 />
             </mat-form-field>
-            <div>
-                <button mat-button matStepperPrevious>Back</button>
-                <button mat-button matStepperNext [disabled]="countForm.invalid" (click)="
+            <div class="onboarding__buttons">
+                <button mat-button matStepperPrevious class="onboarding-button__back">Back</button>
+                <button mat-flat-button color="primary" matStepperNext [disabled]="countForm.invalid" (click)="
                             onQuestionCountSubmit(questionCountInput.value)
                         ">Next
                 </button>
@@ -37,10 +45,14 @@
         </form>
     </mat-step>
     <mat-step>
-        <p>You are now done.</p>
-        <div>
-            <button mat-button matStepperPrevious>Back</button>
-            <button mat-button (click)="closeDialog()">Finish</button>
+        <div class="onboarding-hero">
+            <mat-icon class="onboarding-hero__icon">task_alt</mat-icon>
+        </div>
+        <h2>Everything set</h2>
+        <p class="onboarding__desc">These settings can be change at any time through the app settings.</p>
+        <div class="onboarding__buttons">
+            <button mat-button matStepperPrevious class="onboarding-button__back">Back</button>
+            <button mat-flat-button color="primary" (click)="closeDialog()">Finish</button>
         </div>
     </mat-step>
 </mat-stepper>

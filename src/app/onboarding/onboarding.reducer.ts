@@ -1,5 +1,7 @@
-import {createReducer, createSelector} from '@ngrx/store';
+import {createReducer, createSelector, on} from '@ngrx/store';
 import {AppState} from '../app.state';
+import {finishButtonClick} from './onboarding.component.actions';
+import {onboardingLoad} from './onboarding.actions';
 
 export interface OnboardingState {
     displayed: boolean;
@@ -17,5 +19,10 @@ export const selectOnboardingDisplayed = createSelector(
 );
 
 export const onboardingReducer = createReducer(
-    initialState
+    initialState,
+    on(finishButtonClick, state => ({...state, displayed: true})),
+    on(onboardingLoad, (state, {displayed}) => {
+        const disp = displayed == null ? false : displayed;
+        return {...state, displayed: disp};
+    })
 );

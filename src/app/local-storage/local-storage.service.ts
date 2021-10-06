@@ -63,4 +63,21 @@ export class LocalStorageService {
 
         return null;
     }
+
+    public setOnboardingDisplayed(): void {
+        localStorage.setItem('onboardingDisplayed', 'true');
+    }
+
+    public getOnboardingDisplayed(): boolean | null {
+        const onboardingDisplayed = localStorage.getItem('onboardingDisplayed');
+        if (onboardingDisplayed != null && onboardingDisplayed.length === 0) {
+            return null;
+        }
+
+        if (onboardingDisplayed != null && onboardingDisplayed.length > 0) {
+            return JSON.parse(onboardingDisplayed);
+        }
+
+        return null;
+    }
 }

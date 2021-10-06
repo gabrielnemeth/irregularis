@@ -5,3 +5,39 @@
 ::ng-deep .mat-horizontal-content-container {
     padding: 0 !important;
 }
+
+::ng-deep .mat-horizontal-stepper-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.onboarding-hero {
+    background-color: #3772FF;
+    width: 320px;
+    height: 250px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+}
+
+.onboarding-hero__icon {
+    font-size: 100px;
+    height: 100px;
+    width: 100px;
+}
+
+.onboarding__desc {
+    margin-bottom: 20px;
+}
+
+.onboarding__buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.onboarding-button__back {
+    margin-right: 10px;
+}
