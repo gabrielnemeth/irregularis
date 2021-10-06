@@ -36,16 +36,8 @@ export const selectAnswers = createSelector(
 
 export const quizReducer = createReducer(
     initialState,
-    on(stateReset, state => ({...state, answers: []})),
+    on(stateReset, state => ({...state, answers: [], currentQuestionCount: 1})),
     on(newQuestionCreate, (state, {verb}) => {
-        if (verb == null) {
-            // Reset the count if the question is empty.
-            return {
-                ...state,
-                questionVerb: verb,
-                currentQuestionCount: 1,
-            };
-        }
         return {
             ...state,
             questionVerb: verb,

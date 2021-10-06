@@ -4,12 +4,13 @@ import {QuizService} from './quiz.service';
 import {answerSubmit, componentInit} from './quiz.component.actions';
 import {map, switchMap} from 'rxjs/operators';
 import {newQuestionCreate, stateReset} from './quiz.actions';
-import {of} from 'rxjs';
 import {Store} from '@ngrx/store';
 import {AppState} from '../app.state';
 import {selectCurrentQuestionCount} from './quiz.reducer';
 import {selectQuestionCount} from '../settings/settings.reducer';
 import {Router} from '@angular/router';
+import {verbsLoad} from '../verb/verb.actions';
+import {of} from 'rxjs';
 
 @Injectable()
 export class QuizEffects {
@@ -18,7 +19,8 @@ export class QuizEffects {
         private quizService: QuizService,
         private store: Store<AppState>,
         private router: Router
-    ) {}
+    ) {
+    }
 
     public resetState$ = createEffect(() => {
         return this.actions$.pipe(
@@ -29,7 +31,7 @@ export class QuizEffects {
 
     public loadInitialQuestion$ = createEffect(() => {
         return this.actions$.pipe(
-            ofType(componentInit),
+            ofType(componentInit, verbsLoad),
             switchMap(() => this.quizService.generateVerbQuestion()),
             map(verb => newQuestionCreate({verb}))
         );

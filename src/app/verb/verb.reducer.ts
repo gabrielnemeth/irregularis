@@ -37,7 +37,6 @@ export const selectAllVerbs = createSelector(
             return {
                 ...verb,
                 translation: translation.translation
-
             };
         });
     }
