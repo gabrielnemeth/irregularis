@@ -9,13 +9,13 @@
     "scripts": {
         "ng": "ng",
         "start": "ng serve",
-        "build": "ng build",
+        "build": "ng build --configuration production",
         "watch": "ng build --watch --configuration development",
         "test": "ng test",
         "lint": "ng lint",
         "start:electron": "ng build --base-href ./ && electron .",
-        "build:linux": "electron-builder -l",
-        "dist:linux": "rm -rf ./dist/ && rm -rf ./release && ng build && electron-builder -l",
+        "dist:all": "rm -rf ./dist/ && rm -rf ./release && ng build && npm run dist:linux && npm run dist:windows",
+        "dist:linux": "electron-builder -l",
         "dist:windows": "electron-builder -w --x64"
     },
     "dependencies": {
