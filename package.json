@@ -1,7 +1,7 @@
 {
     "name": "irregularis",
     "productName": "irregularis",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "Learning tool for english irregular verbs.",
     "author": "Gabriel Nemeth <irregularis.zywlj@aleeas.com>",
     "packageManager": "npm",
