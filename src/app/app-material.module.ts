@@ -12,6 +12,7 @@ import {MatSelectModule} from '@angular/material/select';
 import {A11yModule} from '@angular/cdk/a11y';
 import {MatDialogModule} from '@angular/material/dialog';
 import {MatStepperModule} from '@angular/material/stepper';
+import {MatTooltipModule} from '@angular/material/tooltip';
 
 @NgModule({
     exports: [
@@ -27,7 +28,8 @@ import {MatStepperModule} from '@angular/material/stepper';
         MatSnackBarModule,
         MatSelectModule,
         MatDialogModule,
-        MatStepperModule
+        MatStepperModule,
+        MatTooltipModule
     ],
 })
 export class AppMaterialModule {

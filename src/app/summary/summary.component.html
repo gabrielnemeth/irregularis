@@ -1,3 +1,8 @@
+<button routerLink="/" mat-button aria-label="Start again" matTooltip="Start again" matTooltipPosition="above"
+        class="refresh-btn">
+    <mat-icon>refresh</mat-icon>
+</button>
+
 <div *ngIf="viewData$ | async as viewData">
     <mat-card class="summary-item" *ngFor="let data of viewData" [ngClass]="data | summaryItemClassName">
         <mat-card-title class="question">{{ data.verb.translation }}</mat-card-title>
