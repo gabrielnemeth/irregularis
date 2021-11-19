@@ -3,7 +3,7 @@
         <div class="onboarding-hero">
             <mat-icon class="onboarding-hero__icon">translate</mat-icon>
         </div>
-        <h2>Select your language</h2>
+        <h2 class="onboarding-title">Select your language</h2>
         <form>
             <mat-form-field appearance="outline">
                 <mat-label>Language</mat-label>
@@ -21,7 +21,7 @@
         <div class="onboarding-hero">
             <mat-icon class="onboarding-hero__icon">format_list_numbered</mat-icon>
         </div>
-        <h2>Set how many questions you want to answer at once</h2>
+        <h2 class="onboarding-title">Set how many questions you want to answer at once</h2>
         <form #countForm="ngForm">
             <mat-form-field appearance="outline">
                 <mat-label>Count</mat-label>
@@ -48,8 +48,8 @@
         <div class="onboarding-hero">
             <mat-icon class="onboarding-hero__icon">task_alt</mat-icon>
         </div>
-        <h2>Everything set</h2>
-        <p class="onboarding__desc">These settings can be change at any time through the app settings.</p>
+        <h2 class="onboarding-title">Everything set</h2>
+        <p class="onboarding__desc">These settings can be changed at any time through the app settings.</p>
         <div class="onboarding__buttons">
             <button mat-button matStepperPrevious class="onboarding-button__back">Back</button>
             <button mat-flat-button color="primary" (click)="closeDialog()">Finish</button>

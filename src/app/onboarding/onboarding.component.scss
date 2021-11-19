@@ -29,8 +29,13 @@
     width: 100px;
 }
 
+.onboarding-title {
+    text-align: center;
+}
+
 .onboarding__desc {
     margin-bottom: 20px;
+    text-align: center;
 }
 
 .onboarding__buttons {
@@ -41,3 +46,11 @@
 .onboarding-button__back {
     margin-right: 10px;
 }
+
+@media only screen and (max-width: 655px) {
+    .onboarding-hero {
+        width: 250px;
+        height: 200px;
+    }
+}
+
