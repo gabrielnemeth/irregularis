@@ -89,6 +89,10 @@ export class SettingsEffects implements OnInitEffects {
         {dispatch: false}
     );
 
+    public showNotificationAfterActiveVerbsSave$ = createEffect(() => {
+        return this.actions$.pipe(ofType(activeVerbsCreate), tap(() => this.snackBar.open('Settings saved')));
+    }, {dispatch: false});
+
     public createActiveVerbs$ = createEffect(() => {
         return this.actions$.pipe(
             ofType(verbSet),
