@@ -9,4 +9,19 @@ form {
     display: flex;
     justify-content: space-between;
     gap: 6px;
+
+    ::ng-deep .mat-form-field {
+        width: 100%;
+    }
+}
+
+
+@media only screen and (max-width: 655px) {
+    form {
+        min-width: 270px;
+    }
+
+    .form-inputs {
+        flex-direction: column;
+    }
 }
